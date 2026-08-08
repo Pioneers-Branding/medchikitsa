@@ -1,0 +1,13 @@
+RewriteEngine on 
+
+RewriteCond %{HTTP_HOST} ^www\.medchikitsa\.com$ [NC]
+RewriteRule ^(.*)$ https://medchikitsa.com/$1 [R=301,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $1.php
+
+
+
+Redirect 301 '/index' 'https://medchikitsa.com/'

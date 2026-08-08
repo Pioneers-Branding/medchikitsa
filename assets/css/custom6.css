@@ -1,0 +1,910 @@
+:root {
+            --med-primary: #214a68;
+            --med-secondary: #21b6bc;
+            --med-accent: #b3cd48;
+            --med-light: #f8fafc;
+            --med-gray: #f1f5f9;
+            --med-text-dark: #334155;
+            --med-text-muted: #64748b;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--med-text-dark);
+            background-color: var(--med-light);
+        }
+
+        .faq-section {
+            padding: 4rem 0;
+            background-color: white;
+            position: relative;
+        }
+
+        .faq-section::before {
+            content: '';
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(33, 182, 188, 0.05) 0%, rgba(33, 182, 188, 0) 70%);
+            top: -100px;
+           
+            z-index: 0;
+        }
+
+        .faq-section::after {
+            content: '';
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(179, 205, 72, 0.05) 0%, rgba(179, 205, 72, 0) 70%);
+            bottom: -50px;
+            left: -50px;
+            z-index: 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .section-title {
+            color: var(--med-primary);
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .accent-bar {
+            width: 60px;
+            height: 4px;
+            background-color: var(--med-accent);
+            margin: 1rem auto;
+            border-radius: 2px;
+        }
+
+        .section-subtitle {
+            color: var(--med-text-muted);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .faq-container {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background-color: white;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            position: relative;
+            border-left: 4px solid transparent;
+        }
+
+        .faq-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        .faq-item.active {
+            border-left: 4px solid var(--med-accent);
+        }
+
+        .faq-question {
+            padding: 1.25rem 3.5rem 1.25rem 1.5rem;
+            cursor: pointer;
+            font-weight: 600;
+            color: var(--med-primary);
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .faq-question::after {
+            content: '\f107';
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            position: absolute;
+            right: 1.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--med-secondary);
+            transition: all 0.3s ease;
+        }
+
+        .faq-item.active .faq-question::after {
+            transform: translateY(-50%) rotate(180deg);
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem 1.25rem;
+            color: var(--med-text-muted);
+            line-height: 1.6;
+            display: none;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .faq-footer {
+            text-align: center;
+            margin-top: 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .contact-btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.75rem 1.75rem;
+            background: linear-gradient(to right, var(--med-primary), var(--med-secondary));
+            color: white;
+            font-weight: 600;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 8px 20px rgba(33, 74, 104, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .contact-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(33, 74, 104, 0.3);
+            color: white;
+        }
+
+        .contact-btn i {
+            margin-right: 0.5rem;
+        }
+        
+         .rad-intro-section {
+            padding: 4rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .rad-intro-bg {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(135deg, var(--med-primary) 0%, var(--med-secondary) 100%);
+            clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+            opacity: 0.9;
+            z-index: 0;
+        }
+        
+        .rad-intro-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .rad-intro-tagline {
+            font-size: 1.2rem;
+            color: var(--med-accent);
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+        
+        .rad-intro-heading {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--med-primary);
+            line-height: 1.2;
+        }
+        
+        .rad-intro-heading span {
+            color: var(--med-secondary);
+        }
+        
+        .rad-intro-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--med-text-dark);
+            margin-bottom: 2rem;
+            max-width: 600px;
+        }
+        
+        .rad-intro-highlight {
+            background-color: rgba(179, 205, 72, 0.15);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+        }
+        
+        .rad-intro-feature {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .rad-intro-feature-icon {
+            width: 50px;
+            height: 50px;
+            min-width: 50px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            background-color: white;
+            box-shadow: 0 5px 15px rgba(33, 74, 104, 0.1);
+            color: var(--med-primary);
+            font-size: 1.4rem;
+            transition: all 0.3s ease;
+        }
+        
+        .rad-intro-feature:hover .rad-intro-feature-icon {
+            background-color: var(--med-accent);
+            color: white;
+            transform: translateY(-3px);
+        }
+        
+        .rad-intro-feature-text {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--med-text-dark);
+        }
+        
+        .rad-intro-image {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .rad-intro-image-main {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(33, 74, 104, 0.2);
+            position: relative;
+            z-index: 2;
+        }
+        
+        .rad-intro-image-overlay {
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            width: 80%;
+            height: 80%;
+            background-color: rgba(33, 182, 188, 0.1);
+            border-radius: 15px;
+            z-index: 1;
+        }
+        
+        .rad-intro-image-accent {
+            position: absolute;
+            bottom: -30px;
+            right: -15px;
+            width: 120px;
+            height: 120px;
+            background-color: var(--med-accent);
+            border-radius: 50%;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2.5rem;
+            box-shadow: 0 10px 30px rgba(179, 205, 72, 0.3);
+        }
+        
+        @media (max-width: 992px) {
+            .rad-intro-image {
+                margin-top: 3rem;
+            }
+            .rad-intro-bg {
+                width: 100%;
+                clip-path: polygon(0 70%, 100% 40%, 100% 100%, 0% 100%);
+                height: 50%;
+                top: auto;
+                bottom: 0;
+            }
+        }
+        .rad-services-section {
+            padding: 5rem 0;
+            position: relative;
+        }
+        
+        .rad-services-header {
+            text-align: center;
+            margin-bottom: 4rem;
+            position: relative;
+        }
+        
+        .rad-services-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--med-primary);
+            margin-bottom: 1rem;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .rad-services-title::after {
+            content: "";
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(to right, var(--med-primary), var(--med-secondary));
+            border-radius: 2px;
+        }
+        
+        .rad-services-subtitle {
+            font-size: 1.1rem;
+            color: var(--med-text-muted);
+            max-width: 700px;
+            margin: 0 auto;
+            margin-top: 1.5rem;
+        }
+        
+        .rad-service-card {
+            background-color: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            margin-bottom: 40px;
+            transition: all 0.3s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .rad-service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(33, 74, 104, 0.15);
+        }
+        
+        .rad-service-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom right, var(--med-primary), var(--med-secondary));
+            opacity: 0;
+            z-index: -1;
+            transition: opacity 0.3s ease;
+            border-radius: 15px;
+        }
+        
+        .rad-service-card:hover::before {
+            opacity: 0.03;
+        }
+        
+        .rad-service-image {
+            position: relative;
+            overflow: hidden;
+            height: 200px;
+        }
+        
+        .rad-service-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .rad-service-card:hover .rad-service-image img {
+            transform: scale(1.05);
+        }
+        
+        .rad-service-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            background: linear-gradient(to top, rgba(33, 74, 104, 0.8), transparent);
+            display: flex;
+            align-items: flex-end;
+            padding: 20px;
+        }
+        
+        .rad-service-badge {
+            background-color: var(--med-accent);
+            color: white;
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 0.35rem 0.75rem;
+            border-radius: 30px;
+            display: inline-block;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .rad-service-content {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .rad-service-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--med-primary);
+            margin-bottom: 0.75rem;
+        }
+        
+        .rad-service-desc {
+            color: var(--med-text-muted);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+        
+        .rad-service-icon {
+            width: 45px;
+            height: 45px;
+            background-color: var(--med-gray);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            color: var(--med-primary);
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+        
+        .rad-service-card:hover .rad-service-icon {
+            background-color: var(--med-primary);
+            color: white;
+        }
+        
+        .rad-service-footer {
+            display: flex;
+            align-items: center;
+            border-top: 1px solid var(--med-gray);
+            padding-top: 1rem;
+            margin-top: auto;
+            justify-content: space-between;
+        }
+        
+        .rad-service-info {
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+        }
+        
+        .rad-service-time {
+            display: block;
+            font-size: 0.8rem;
+            color: var(--med-text-muted);
+            margin-top: 2px;
+        }
+        
+        .rad-whatsapp-btn {
+            background-color: #25D366;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            padding: 0.4rem 0.9rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        
+        .rad-whatsapp-btn:hover {
+            background-color: #128C7E;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: white;
+        }
+        
+        .rad-whatsapp-btn i {
+            margin-right: 6px;
+            font-size: 1rem;
+        }
+        
+        .rad-more-services {
+            text-align: center;
+            margin-top: 3rem;
+        }
+        
+        .rad-btn-more {
+            background: linear-gradient(to right, var(--med-primary), var(--med-secondary));
+            color: white;
+            border: none;
+            padding: 0.8rem 2rem;
+            border-radius: 30px;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(33, 74, 104, 0.2);
+        }
+        
+        .rad-btn-more:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(33, 74, 104, 0.3);
+        }
+        
+        .rad-services-bg-shape {
+            position: absolute;
+            top: 10%;
+            right: 5%;
+            width: 300px;
+            height: 300px;
+            background-color: var(--med-accent);
+            opacity: 0.05;
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            z-index: 0;
+        }
+        
+        @media (max-width: 768px) {
+            .rad-services-title {
+                font-size: 2rem;
+            }
+            .rad-service-image {
+                height: 180px;
+            }
+        }
+        
+         .lab-services-section {
+            padding: 5rem 0;
+            position: relative;
+            background: linear-gradient(135deg, rgba(33, 74, 104, 0.03) 0%, rgba(33, 182, 188, 0.05) 50%, rgba(179, 205, 72, 0.03) 100%);
+        }
+        
+        .lab-services-bg-shape {
+            position: absolute;
+            top: 10%;
+            right: 5%;
+            width: 300px;
+            height: 300px;
+            background-color: var(--med-accent);
+            opacity: 0.05;
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            z-index: 0;
+        }
+        
+        .lab-services-bg-shape-2 {
+            position: absolute;
+            bottom: 15%;
+            left: 5%;
+            width: 250px;
+            height: 250px;
+            background-color: var(--med-secondary);
+            opacity: 0.04;
+            border-radius: 50% 50% 70% 30% / 30% 50% 50% 70%;
+            z-index: 0;
+        }
+        
+        .lab-services-header {
+            text-align: center;
+            margin-bottom: 4rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .lab-services-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--med-primary);
+            margin-bottom: 1rem;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .lab-services-title::after {
+            content: "";
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(to right, var(--med-primary), var(--med-secondary));
+            border-radius: 2px;
+        }
+        
+        .lab-services-subtitle {
+            font-size: 1.1rem;
+            color: var(--med-text-muted);
+            max-width: 700px;
+            margin: 0 auto;
+            margin-top: 1.5rem;
+        }
+        
+        .lab-service-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 16px;
+            background-color: white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            height: 100%;
+            transition: all 0.3s ease;
+            z-index: 1;
+            margin-bottom: 30px;
+        }
+        
+        .lab-service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(33, 74, 104, 0.15);
+        }
+        
+        .lab-service-image {
+            height: 250px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .lab-service-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .lab-service-card:hover .lab-service-image img {
+            transform: scale(1.05);
+        }
+        
+        .lab-service-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            background: linear-gradient(to top, rgba(33, 74, 104, 0.8), transparent);
+            display: flex;
+            align-items: flex-end;
+            padding: 20px;
+        }
+        
+        .lab-service-badge {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: var(--med-accent);
+            color: white;
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 0.35rem 0.75rem;
+            border-radius: 30px;
+            z-index: 2;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .lab-service-content {
+            padding: 1.5rem;
+        }
+        
+        .lab-service-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--med-primary);
+            position: relative;
+            padding-left: 15px;
+        }
+        
+        .lab-service-title::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 4px;
+            background: linear-gradient(to bottom, var(--med-primary), var(--med-secondary));
+            border-radius: 2px;
+        }
+        
+        .lab-service-desc {
+            color: var(--med-text-muted);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+        
+        .lab-service-features {
+            margin-bottom: 1.5rem;
+        }
+        
+        .lab-service-feature {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+        
+        .lab-service-feature i {
+            color: var(--med-accent);
+            margin-right: 10px;
+            font-size: 0.8rem;
+        }
+        
+        .lab-service-link {
+            background-color: var(--med-primary);
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.7rem 1.5rem;
+            border-radius: 50px;
+            display: inline-flex;
+            align-items: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(33, 74, 104, 0.2);
+        }
+        
+        .lab-service-link:hover {
+            background-color: var(--med-secondary);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(33, 182, 188, 0.3);
+        }
+        
+        .lab-service-link i {
+            margin-left: 8px;
+        }
+        
+        /* Large featured service */
+        .lab-service-featured {
+            grid-column: span 2;
+        }
+        
+        .lab-service-large {
+            display: flex;
+            flex-direction: row;
+            height: auto;
+        }
+        
+        .lab-service-large .lab-service-image {
+            flex: 0 0 50%;
+            height: auto;
+        }
+        
+        .lab-service-large .lab-service-content {
+            flex: 0 0 50%;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .lab-view-all {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .lab-view-all-btn {
+            background: linear-gradient(to right, var(--med-primary), var(--med-secondary));
+            color: white;
+            border: none;
+            padding: 0.8rem 2.5rem;
+            border-radius: 50px;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(33, 74, 104, 0.2);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .lab-view-all-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(33, 74, 104, 0.3);
+            color: white;
+        }
+        
+        .lab-view-all-btn i {
+            margin-left: 8px;
+        }
+         .floating-cta {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .cta-button {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+        }
+        
+        .whatsapp-btn {
+            background-color: #25D366;
+            color: white;
+        }
+        
+        .call-btn {
+            background-color: #007BFF;
+            color: white;
+        }
+        
+        .cta-button i {
+            font-size: 24px;
+        }
+        
+        .cta-tooltip {
+            position: absolute;
+            right: 75px;
+            background-color: #333;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+            white-space: nowrap;
+        }
+        
+        .cta-button:hover .cta-tooltip {
+            opacity: 1;
+        }
+        
+        /* Animation for attention */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        @media (max-width: 992px) {
+            .lab-service-large {
+                flex-direction: column;
+            }
+            
+            .lab-service-large .lab-service-image {
+                flex: 0 0 100%;
+                height: 250px;
+            }
+            
+            .lab-service-large .lab-service-content {
+                flex: 0 0 100%;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .lab-services-title {
+                font-size: 2rem;
+            }
+        }
+
+/* Mobile responsive fixes */
+html, body { overflow-x: hidden; }
+img { max-width: 100%; height: auto; }
+@media (max-width: 768px) {
+  .health-card, .blog-card { margin-bottom: 20px; }
+  .breadcrumb-title { font-size: 24px !important; }
+}
