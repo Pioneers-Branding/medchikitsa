@@ -899,9 +899,8 @@
                                 <span class="health-original">Rs. 4360</span>
                                 <span class="health-final">Rs. 1500</span>
                             </div>
-                            <a href="https://wa.me/917353330900" class="health-buy-btn">
-                                Buy Now
-                                <i class="fas fa-arrow-right"></i>
+                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Energy%20Package" target="_blank" class="health-buy-btn">
+                                <i class="fab fa-whatsapp"></i> Buy Now
                             </a>
                         </div>
                     </div>
@@ -929,10 +928,9 @@
                                 <span class="health-original">Rs. 7815</span>
                                 <span class="health-final">Rs. 2899</span>
                             </div>
-                            <button class="health-buy-btn">
-                                Buy Now
-                                <i class="fas fa-arrow-right"></i>
-                            </button>
+                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Gym%20Package%20-%20TN" target="_blank" class="health-buy-btn">
+                                <i class="fab fa-whatsapp"></i> Buy Now
+                            </a>
                         </div>
                     </div>
 
@@ -959,10 +957,9 @@
                                 <span class="health-original">Rs. 5775</span>
                                 <span class="health-final">Rs. 1999</span>
                             </div>
-                            <button class="health-buy-btn">
-                                Buy Now
-                                <i class="fas fa-arrow-right"></i>
-                            </button>
+                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Men's%20Health%20Check-Basic" target="_blank" class="health-buy-btn">
+                                <i class="fab fa-whatsapp"></i> Buy Now
+                            </a>
                         </div>
                     </div>
 
@@ -989,10 +986,9 @@
                                 <span class="health-original">Rs. 6500</span>
                                 <span class="health-final">Rs. 2600</span>
                             </div>
-                            <button class="health-buy-btn">
-                                Buy Now
-                                <i class="fas fa-arrow-right"></i>
-                            </button>
+                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Women's%20Wellness" target="_blank" class="health-buy-btn">
+                                <i class="fab fa-whatsapp"></i> Buy Now
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -1013,96 +1009,7 @@
 </section>
 
 
-       <!-- ========================
-      FancyBox Layout 5
-    =========================== -->
-    <section class="fancybox-layout5 bg-overlay bg-overlay-primary-gradient pt-3 pb-5">
-        <div class="bg-img"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
-              <div class="heading-layout2 text-center heading-light mb-50">
-                <h2 class="ms4-title">Why choose Us</h2>
-                <p class="heading-desc text-dark">Reliable diagnostics are driving clinical research and better health outcomes.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 fancybox-container">
-              <!-- fancybox item #1 -->
-              <div class="fancybox-item">
-                <div class="bg-img">
-                  <img src="assets/images/features/1.jpg" alt="feature">
-                </div>
-                <div class="fancybox-body">
-                  <div class="fancybox-icon">
-                    <i class="icon-equipment"></i>
-                  </div><!-- /.fancybox-icon -->
-                  <h4 class="fancybox-title">Improving Health through Automation</h4>
-                  <a href="#" class="btn btn-link btn-secondary">
-                    <i class="icon-arrow-right icon-filled"></i>
-                  </a>
-                </div><!-- /.fancybox-body -->
-              </div><!-- /.fancybox-item -->
-              <!-- fancybox item #2 -->
-              <div class="fancybox-item">
-                <div class="bg-img">
-                  <img src="assets/images/features/2.jpg" alt="feature">
-                </div>
-                <div class="fancybox-body">
-                  <div class="fancybox-icon">
-                    <i class="icon-drugs"></i>
-                  </div><!-- /.fancybox-icon -->
-                  <h4 class="fancybox-title">Partnering for Better Health Outcomes</h4>
-                  <a href="#" class="btn btn-link btn-secondary">
-                    <i class="icon-arrow-right icon-filled"></i>
-                  </a>
-                </div><!-- /.fancybox-body -->
-              </div><!-- /.fancybox-item -->
-              <!-- fancybox item #3 -->
-              <div class="fancybox-item">
-                <div class="bg-img">
-                  <img src="assets/images/features/3.jpg" alt="feature">
-                </div>
-                <div class="fancybox-body">
-                  <div class="fancybox-icon">
-                    <i class="icon-chemical10"></i>
-                  </div><!-- /.fancybox-icon -->
-                  <h4 class="fancybox-title">Innovations Vaccines Drug Development</h4>
-                  <a href="#" class="btn btn-link btn-secondary">
-                    <i class="icon-arrow-right icon-filled"></i>
-                  </a>
-                </div><!-- /.fancybox-body -->
-              </div><!-- /.fancybox-item -->
-              <!-- fancybox item #4 -->
-              <div class="fancybox-item">
-                <div class="bg-img">
-                  <img src="assets/images/features/4.jpg" alt="feature">
-                </div>
-                <div class="fancybox-body">
-                  <div class="fancybox-icon">
-                    <i class="icon-chemical11"></i>
-                  </div><!-- /.fancybox-icon -->
-                  <h4 class="fancybox-title">Trust Towards our Shared Purpose</h4>
-                  <a href="#" class="btn btn-link btn-secondary">
-                    <i class="icon-arrow-right icon-filled"></i>
-                  </a>
-                </div><!-- /.fancybox-body -->
-              </div><!-- /.fancybox-item -->
-              <!-- fancybox item #5 -->
-             <!-- /.fancybox-item -->
-            </div><!-- /.col-12 -->
-          </div><!-- /.row -->
-          <div class="row">
-            <div class="col-12 text-center pt-3">
-              <a href="contact-us" class="btn btn-secondary btn-secondary-style2 btn-xl">
-                <span>Contact Us</span> <i class="icon-arrow-right"></i>
-              </a>
-            </div><!-- /.col-lg-6 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section><!-- /.FancyBox Layout 5 -->
+
 
 
      
