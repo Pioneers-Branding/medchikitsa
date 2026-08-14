@@ -1044,7 +1044,7 @@
                     <i class="icon-equipment"></i>
                   </div><!-- /.fancybox-icon -->
                   <h4 class="fancybox-title">Improving Health through Automation</h4>
-                  <a href="#" class="btn btn-link btn-secondary">
+                  <a href="about" class="btn btn-link btn-secondary">
                     <i class="icon-arrow-right icon-filled"></i>
                   </a>
                 </div><!-- /.fancybox-body -->
@@ -1059,7 +1059,7 @@
                     <i class="icon-drugs"></i>
                   </div><!-- /.fancybox-icon -->
                   <h4 class="fancybox-title">Partnering for Better Health Outcomes</h4>
-                  <a href="#" class="btn btn-link btn-secondary">
+                  <a href="about" class="btn btn-link btn-secondary">
                     <i class="icon-arrow-right icon-filled"></i>
                   </a>
                 </div><!-- /.fancybox-body -->
@@ -1074,7 +1074,7 @@
                     <i class="icon-chemical10"></i>
                   </div><!-- /.fancybox-icon -->
                   <h4 class="fancybox-title">Innovations Vaccines Drug Development</h4>
-                  <a href="#" class="btn btn-link btn-secondary">
+                  <a href="about" class="btn btn-link btn-secondary">
                     <i class="icon-arrow-right icon-filled"></i>
                   </a>
                 </div><!-- /.fancybox-body -->
@@ -1089,7 +1089,7 @@
                     <i class="icon-chemical11"></i>
                   </div><!-- /.fancybox-icon -->
                   <h4 class="fancybox-title">Trust Towards our Shared Purpose</h4>
-                  <a href="#" class="btn btn-link btn-secondary">
+                  <a href="about" class="btn btn-link btn-secondary">
                     <i class="icon-arrow-right icon-filled"></i>
                   </a>
                 </div><!-- /.fancybox-body -->
@@ -1100,7 +1100,7 @@
           </div><!-- /.row -->
           <div class="row">
             <div class="col-12 text-center pt-3">
-              <a href="#" class="btn btn-secondary btn-secondary-style2 btn-xl">
+              <a href="contact-us" class="btn btn-secondary btn-secondary-style2 btn-xl">
                 <span>Contact Us</span> <i class="icon-arrow-right"></i>
               </a>
             </div><!-- /.col-lg-6 -->
@@ -1221,10 +1221,10 @@
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <div class="accordion-header" data-toggle="collapse" data-target="#collapse5">
+                    <div class="accordion-header" data-toggle="collapse" data-target="#collapse6">
                       <a class="accordion-title" href="#">Are Your Services Covered by Insurance?</a>
                     </div><!-- /.accordion-item-header -->
-                    <div id="collapse5" class="collapse" data-parent="#accordion1">
+                    <div id="collapse6" class="collapse" data-parent="#accordion1">
                       <div class="accordion-body">
                         <p>Yes, we work with most major insurance providers. Please check with us for details.</p>
                       </div><!-- /.accordion-item-body -->

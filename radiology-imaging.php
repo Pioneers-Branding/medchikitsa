@@ -669,7 +669,7 @@
               </div><!-- /.process-icon -->
               <h4 class="process-title">Find a location</h4>
               <p class="process-desc">Locate the nearest testing center easily through our website or give us a quick call..</p>
-              <a href="#" class="btn btn-primary btn-link">
+              <a href="contact-us" class="btn btn-primary btn-link">
                 <i class="icon-arrow-right"></i>
                 <span>Contact Us</span>
               </a>
@@ -702,7 +702,7 @@
               <p class="process-desc">Visit our lab for sample collection or choose a home test kit for convenience.
           
               </p>
-              <a href="#" class="btn btn-primary btn-link">
+              <a href="contact-us" class="btn btn-primary btn-link">
                 <i class="icon-arrow-right"></i>
                 <span>Order Test Kits</span>
               </a>
@@ -718,7 +718,7 @@
               <h4 class="process-title">Get Your Results</h4>
               <p class="process-desc">Most test results are available within 7 days after the sample reaches our lab.
               </p>
-              <a href="#" class="btn btn-primary btn-link">
+              <a href="contact-us" class="btn btn-primary btn-link">
                 <i class="icon-arrow-right"></i>
                 <span>View Results</span>
               </a>
@@ -760,7 +760,7 @@
                     <i class="icon-equipment"></i>
                   </div><!-- /.fancybox-icon -->
                   <h4 class="fancybox-title">Advanced Health Solutions</h4>
-                  <a href="#" class="btn btn-link btn-secondary">
+                  <a href="about" class="btn btn-link btn-secondary">
                     <i class="icon-arrow-right icon-filled"></i>
                   </a>
                 </div><!-- /.fancybox-body -->
@@ -775,7 +775,7 @@
                     <i class="icon-drugs"></i>
                   </div><!-- /.fancybox-icon -->
                   <h4 class="fancybox-title">Strong Partnerships for Better Care</h4>
-                  <a href="#" class="btn btn-link btn-secondary">
+                  <a href="about" class="btn btn-link btn-secondary">
                     <i class="icon-arrow-right icon-filled"></i>
                   </a>
                 </div><!-- /.fancybox-body -->
@@ -790,7 +790,7 @@
                     <i class="icon-chemical10"></i>
                   </div><!-- /.fancybox-icon -->
                   <h4 class="fancybox-title">Innovative Research & Development</h4>
-                  <a href="#" class="btn btn-link btn-secondary">
+                  <a href="about" class="btn btn-link btn-secondary">
                     <i class="icon-arrow-right icon-filled"></i>
                   </a>
                 </div><!-- /.fancybox-body -->
@@ -805,7 +805,7 @@
                     <i class="icon-chemical11"></i>
                   </div><!-- /.fancybox-icon -->
                   <h4 class="fancybox-title">Trust & Commitment</h4>
-                  <a href="#" class="btn btn-link btn-secondary">
+                  <a href="about" class="btn btn-link btn-secondary">
                     <i class="icon-arrow-right icon-filled"></i>
                   </a>
                 </div><!-- /.fancybox-body -->
@@ -826,147 +826,23 @@
       
       
       
-            <section class="ts-section pt-5" style="background: linear-gradient(135deg, rgba(33, 74, 104, 0.05) 0%, rgba(33, 182, 188, 0.07) 100%);">
+            <section class="ts-section pt-5">
         <div class="ts-pattern"></div>
     
         <div class="container">
             <div class="ts-header">
+                <h3 class="ts-subtitle">Testimonials</h3>
                 <h2 class="ts-title">What Our Patients Say</h2>
-                <p class="ts-description">Real experiences from those who trusted us with their health.</p>
+                <p class="ts-description">Real stories from those who trusted us with their health.</p>
             </div>
-    
-            <div class="ts-slider-container">
-                <button class="ts-nav-btn prev">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-    
-                <div class="ts-slider-track">
-                    <!-- Testimonial 1 -->
-                    <div class="ts-slide">
-                        <div class="ts-card">
-                            <div class="ts-quote">
-                                <i class="fas fa-quote-right"></i>
-                            </div>
-                            <p class="ts-content">
-                                "The staff made me feel comfortable and answered all my concerns. I couldn’t have asked for better care."
-                            </p>
-                            <div class="ts-user">
-                                <div class="ts-avatar">
-                                    <img src="assets/images/icons/woman.png" alt="Sarah Johnson">
-                                </div>
-                                <div class="ts-user-info">
-                                    <h4 class="ts-name">Ananya Sharma</h4>
-                                    <p class="ts-role">Regular Patient</p>
-                                    <div class="ts-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <!-- Testimonial 2 -->
-                    <div class="ts-slide">
-                        <div class="ts-card">
-                            <div class="ts-quote">
-                                <i class="fas fa-quote-right"></i>
-                            </div>
-                            <p class="ts-content">
-                                " From diagnosis to recovery, everything was seamless. I’m grateful for their dedication and expertise."
-                            </p>
-                            <div class="ts-user">
-                                <div class="ts-avatar">
-                                    <img src="assets/images/icons/man.png" alt="Michael Chen">
-                                </div>
-                                <div class="ts-user-info">
-                                    <h4 class="ts-name"> Vikram Patel</h4>
-                                    <p class="ts-role">Laboratory Patient</p>
-                                    <div class="ts-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <!-- Testimonial 3 -->
-                    <div class="ts-slide">
-                        <div class="ts-card">
-                            <div class="ts-quote">
-                                <i class="fas fa-quote-right"></i>
-                            </div>
-                            <p class="ts-content">
-                                " Their advanced treatment helped me regain my health. I highly recommend them to everyone."
-                            </p>
-                            <div class="ts-user">
-                                <div class="ts-avatar">
-                                    <img src="assets/images/icons/woman.png" alt="Emily Rodriguez">
-                                </div>
-                                <div class="ts-user-info">
-                                    <h4 class="ts-name">Pooja Verma</h4>
-                                    <p class="ts-role">Radiology Patient</p>
-                                    <div class="ts-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="ts-slide">
-                        <div class="ts-card">
-                            <div class="ts-quote">
-                                <i class="fas fa-quote-right"></i>
-                            </div>
-                            <p class="ts-content">
-                                "I was impressed by the fast turnaround for my lab tests. The service was professional and reliable."
-                            </p>
-                            <div class="ts-user">
-                                <div class="ts-avatar">
-                                    <img src="assets/images/icons/man.png" alt="Michael Chen">
-                                </div>
-                                <div class="ts-user-info">
-                                    <h4 class="ts-name">Vijay Kumar</h4>
-                                    <p class="ts-role">Laboratory Patient</p>
-                                    <div class="ts-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <!-- Additional Testimonials -->
-                    <!-- Copy more testimonials here for continuous sliding -->
-                    
-                </div>
-    
-                <button class="ts-nav-btn next">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-    
-                <div class="ts-dots">
-                    <span class="ts-dot active"></span>
-                    <span class="ts-dot"></span>
-                    <span class="ts-dot"></span>
-                </div>
+            <div class="ts-slider-container" style="padding: 20px 0;">
+                <!-- Review Pixel -->
+                <script type="text/javascript">
+                !function(){var e,t=document;e=function(){if(window.EMRPixel)return console.info("EMR: Pixel already loaded");var e=t.createElement("script");e.defer=!0,e.src="https://cdn2.revw.me/js/pixel.js?t="+864e5*Math.ceil(new Date/864e5);var n=t.getElementsByTagName("script")[0];n.charset="utf-8",n.parentNode.insertBefore(e,n),e.onload=function(){EMRPixel.init("reviewmagnet.in",107)}},"interactive"===t.readyState||"complete"===t.readyState?e():t.addEventListener("DOMContentLoaded",e)}();
+                </script><emr-simple-slider widget-id="05af3fd7-4a72-4aaf-9435-eb18197fc224"></emr-simple-slider>
+                <!-- Review Pixel End -->
             </div>
+        </div>
         </div>
     </section>
       
@@ -1080,10 +956,10 @@
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <div class="accordion-header" data-toggle="collapse" data-target="#collapse5">
+                    <div class="accordion-header" data-toggle="collapse" data-target="#collapse6">
                       <a class="accordion-title" href="#">Do you accept insurance?</a>
                     </div><!-- /.accordion-item-header -->
-                    <div id="collapse5" class="collapse" data-parent="#accordion1">
+                    <div id="collapse6" class="collapse" data-parent="#accordion1">
                       <div class="accordion-body">
                         <p> Yes, we work with most major insurance providers. You can check with us to confirm coverage.</p>
                       </div><!-- /.accordion-item-body -->

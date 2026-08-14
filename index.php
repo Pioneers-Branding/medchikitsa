@@ -756,7 +756,7 @@
                             <span class="ms4-feature-text">Expert Radiologists</span>
                         </li>
                     </ul>
-                    <button class="ms4-card-btn">
+                    <button class="ms4-card-btn" onclick="window.location.href='radiology-imaging';">
                         Learn More
                         <i class="fas fa-arrow-right"></i>
                     </button>
@@ -800,7 +800,7 @@
                             <span class="ms4-feature-text">24/7 Emergency  Testing</span>
                         </li>
                     </ul>
-                    <button class="ms4-card-btn">
+                    <button class="ms4-card-btn" onclick="window.location.href='medical-laboratory-services';">
                         Learn More
                         <i class="fas fa-arrow-right"></i>
                     </button>
@@ -844,7 +844,7 @@
                             <span class="ms4-feature-text">Oncology</span>
                         </li>
                     </ul>
-                    <button class="ms4-card-btn">
+                    <button class="ms4-card-btn" onclick="window.location.href='superspeciality-opd';">
                         Learn More
                         <i class="fas fa-arrow-right"></i>
                     </button>
@@ -1030,7 +1030,7 @@
               <div class="fancybox-body">
                 <h4 class="fancybox-title">Our Journey</h4>
                 <p class="fancybox-desc">Over the years, we’ve steadily grown, expanding our services and technology through smart acquisitions. This growth has allowed us to make high-quality clinical lab services more accessible to all.</p>
-                <a href="#" class="btn btn-link btn-primary">
+                <a href="about" class="btn btn-link btn-primary">
                   <i class="plus-icon">+</i>
                   <span>Read More</span>
                 </a>
@@ -1047,7 +1047,7 @@
                 <h4 class="fancybox-title">Dedicated Leadership Team</h4>
                 <p class="fancybox-desc">Our leadership team is committed to improving health outcomes by ensuring top-quality diagnostics and patient care. Their expertise drives our mission of improving lives.
                 </p>
-                <a href="#" class="btn btn-link btn-primary">
+                <a href="about" class="btn btn-link btn-primary">
                   <i class="plus-icon">+</i>
                   <span>Read More</span>
                 </a>
@@ -1063,7 +1063,7 @@
               <div class="fancybox-body">
                 <h4 class="fancybox-title">Accreditation & Licensing</h4>
                 <p class="fancybox-desc">We adhere to strict quality control measures at every stage of testing. Our accredited labs follow industry standards to provide you with accurate and trustworthy results.</p>
-                <a href="#" class="btn btn-link btn-primary">
+                <a href="about" class="btn btn-link btn-primary">
                   <i class="plus-icon">+</i>
                   <span>Read More</span>
                 </a>
@@ -1079,7 +1079,7 @@
               <div class="fancybox-body">
                 <h4 class="fancybox-title">Careers</h4>
                 <p class="fancybox-desc">Did you know? If all the DNA from your cells were uncoiled and laid out, it would stretch from Earth to the Sun 65 times! Join us and be part of innovation.</p>
-                <a href="#" class="btn btn-link btn-primary">
+                <a href="career" class="btn btn-link btn-primary">
                   <i class="plus-icon">+</i>
                   <span>Read More</span>
                 </a>
@@ -1095,7 +1095,7 @@
               <div class="fancybox-body">
                 <h4 class="fancybox-title">Commitment to Patient Care</h4>
                 <p class="fancybox-desc">We believe in providing not just results but peace of mind. Our team ensures that each patient receives personal care and attention throughout their testing experience.</p>
-                <a href="#" class="btn btn-link btn-primary">
+                <a href="about" class="btn btn-link btn-primary">
                   <i class="plus-icon">+</i>
                   <span>Read More</span>
                 </a>
@@ -1112,7 +1112,7 @@
                 <h4 class="fancybox-title">Constant Innovation</h4>
                 <p class="fancybox-desc">We’re always working on new tests, expanding our genetic research, and building strong partnerships to bring you the latest in diagnostic technology.
 </p>
-                <a href="#" class="btn btn-link btn-primary">
+                <a href="about" class="btn btn-link btn-primary">
                   <i class="plus-icon">+</i>
                   <span>Read More</span>
                 </a>
@@ -1306,10 +1306,10 @@
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <div class="accordion-header" data-toggle="collapse" data-target="#collapse5">
+                    <div class="accordion-header" data-toggle="collapse" data-target="#collapse6">
                       <a class="accordion-title" href="#">Are Your Services Covered by Insurance?</a>
                     </div><!-- /.accordion-item-header -->
-                    <div id="collapse5" class="collapse" data-parent="#accordion1">
+                    <div id="collapse6" class="collapse" data-parent="#accordion1">
                       <div class="accordion-body">
                         <p>Yes, we work with most major insurance providers. Please check with us for details.</p>
                       </div><!-- /.accordion-item-body -->

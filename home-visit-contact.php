@@ -612,7 +612,7 @@
                             </div>
                             <div>
                                 <h4 class="h6 mb-1" style="color: var(--med-primary);">Phone Numbers</h4>
-                                <a href="tel:+9173533307006" class="mb-0 text-muted">General: +9173533307006</a>
+                                <a href="tel:+917353330700" class="mb-0 text-muted">General: +917353330700</a>
                                 <!--<p class="mb-0 text-muted">Support: (123) 456-7891</p>-->
                             </div>
                         </div>
@@ -726,7 +726,6 @@
                     </div>
                     
                     <div class="tour-info">
-                        <a href="#" class="tour-link">View full virtual tour <i class="fas fa-arrow-right"></i></a>
                         <div class="devices-info">
                             <i class="fas fa-mobile-alt"></i>
                             Works on all devices

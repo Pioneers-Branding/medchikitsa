@@ -9,10 +9,10 @@
                     <i class="icon-phone"></i><a href="tel:+917353330700">Emergency Line:+917353330700</a>
                   </li>
                   <li>
-                    <i class="icon-location"></i><a href="#"> Vijayapura, Karnataka</a>
+                    <i class="icon-location"></i><a href="https://www.google.com/maps/search/?api=1&query=Medchikitsa+Vijayapura" target="_blank"> Vijayapura, Karnataka</a>
                   </li>
                   <li>
-                    <i class="icon-clock"></i><a href="#">Mon - Fri: 8:00 am - 7:00 pm</a>
+                    <i class="icon-clock"></i><span>Mon - Fri: 8:00 am - 7:00 pm</span>
                   </li>
                 </ul><!-- /.contact-list -->
                 </div>

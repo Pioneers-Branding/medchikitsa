@@ -1062,7 +1062,7 @@
               <h4 class="process-title">Schedule Your Visit</h4>
               <p class="process-desc">Book an appointment online or contact us to arrange a convenient time for your test.
                </p>
-              <a href="#" class="btn btn-primary btn-link">
+              <a href="contact-us" class="btn btn-primary btn-link">
                 <i class="icon-arrow-right"></i>
                 <span>Set Up Appointment</span>
               </a>
@@ -1079,7 +1079,7 @@
               <p class="process-desc">Provide your sample at our lab or use our home collection service for added convenience.
                
               </p>
-              <a href="#" class="btn btn-primary btn-link">
+              <a href="contact-us" class="btn btn-primary btn-link">
                 <i class="icon-arrow-right"></i>
                 <span>Request Home Collection</span>
               </a>
@@ -1095,7 +1095,7 @@
               <h4 class="process-title">Receive Your Report</h4>
               <p class="process-desc">Get your results online within a few days, ensuring a quick and seamless experience.
               </p>
-              <a href="#" class="btn btn-primary btn-link">
+              <a href="contact-us" class="btn btn-primary btn-link">
                 <i class="icon-arrow-right"></i>
                 <span>Check Reports</span>
               </a>
@@ -1104,7 +1104,7 @@
         </div><!-- /.row -->
         <div class="row">
           <div class="col-12 text-center">
-            <a href="#" class="btn btn-primary btn-xl">
+            <a href="about" class="btn btn-primary btn-xl">
               <span>Accreditation & Licensing</span> <i class="icon-arrow-right"></i>
             </a>
           </div><!-- /.col-lg-6 -->
@@ -1113,237 +1113,139 @@
     </section>
     
     
-     <section class="fancybox-layout5 bg-overlay bg-overlay-primary-gradient pt-3 pb-5">
-        <div class="bg-img"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
-              <div class="heading-layout2 text-center heading-light mb-50">
-                <h2 class="ms4-title">Why choose Us</h2>
-                <p class="heading-desc text-dark">Reliable diagnostics are driving clinical research and better health outcomes.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 fancybox-container">
-              <!-- fancybox item #1 -->
-              <div class="fancybox-item">
-                <div class="bg-img">
-                  <img src="assets/images/features/1.jpg" alt="feature">
-                </div>
-                <div class="fancybox-body">
-                  <div class="fancybox-icon">
-                    <i class="icon-equipment"></i>
-                  </div><!-- /.fancybox-icon -->
-                  <h4 class="fancybox-title">Improving Health through Automation</h4>
-                  <a href="#" class="btn btn-link btn-secondary">
-                    <i class="icon-arrow-right icon-filled"></i>
-                  </a>
-                </div><!-- /.fancybox-body -->
-              </div><!-- /.fancybox-item -->
-              <!-- fancybox item #2 -->
-              <div class="fancybox-item">
-                <div class="bg-img">
-                  <img src="assets/images/features/2.jpg" alt="feature">
-                </div>
-                <div class="fancybox-body">
-                  <div class="fancybox-icon">
-                    <i class="icon-drugs"></i>
-                  </div><!-- /.fancybox-icon -->
-                  <h4 class="fancybox-title">Partnering for Better Health Outcomes</h4>
-                  <a href="#" class="btn btn-link btn-secondary">
-                    <i class="icon-arrow-right icon-filled"></i>
-                  </a>
-                </div><!-- /.fancybox-body -->
-              </div><!-- /.fancybox-item -->
-              <!-- fancybox item #3 -->
-              <div class="fancybox-item">
-                <div class="bg-img">
-                  <img src="assets/images/features/3.jpg" alt="feature">
-                </div>
-                <div class="fancybox-body">
-                  <div class="fancybox-icon">
-                    <i class="icon-chemical10"></i>
-                  </div><!-- /.fancybox-icon -->
-                  <h4 class="fancybox-title">Innovative Research & Development</h4>
-                  <a href="#" class="btn btn-link btn-secondary">
-                    <i class="icon-arrow-right icon-filled"></i>
-                  </a>
-                </div><!-- /.fancybox-body -->
-              </div><!-- /.fancybox-item -->
-              <!-- fancybox item #4 -->
-              <div class="fancybox-item">
-                <div class="bg-img">
-                  <img src="assets/images/features/4.jpg" alt="feature">
-                </div>
-                <div class="fancybox-body">
-                  <div class="fancybox-icon">
-                    <i class="icon-chemical11"></i>
-                  </div><!-- /.fancybox-icon -->
-                  <h4 class="fancybox-title">Trust & Commitment</h4>
-                  <a href="#" class="btn btn-link btn-secondary">
-                    <i class="icon-arrow-right icon-filled"></i>
-                  </a>
-                </div><!-- /.fancybox-body -->
-              </div><!-- /.fancybox-item -->
-              <!-- fancybox item #5 -->
-             <!-- /.fancybox-item -->
-            </div><!-- /.col-12 -->
-          </div><!-- /.row -->
-          <div class="row">
-            <div class="col-12 text-center pt-3">
-              <a href="contact-us" class="btn btn-secondary btn-secondary-style2 btn-xl">
-                <span>Contact Us</span> <i class="icon-arrow-right"></i>
-              </a>
-            </div><!-- /.col-lg-6 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section><!-- /.FancyBox Layout 5 -->
-      
-      
-      
-            <section class="ts-section pt-5" style="background: linear-gradient(135deg, rgba(33, 74, 104, 0.05) 0%, rgba(33, 182, 188, 0.07) 100%);">
+      <section class="fancybox-layout1 pb-0 pt-3">
+       <div class="container">
+         <div class="row">
+           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+             <div class="heading text-center mb-50">
+               <!--<h2 class="heading-subtitle">Commitment to Quality</h2>-->
+               <h3 class="heading-title">Why Choose Medchikitsa?</h3>
+             </div>
+           </div>
+         </div>
+         <div class="row">
+         
+           <div class="col-sm-6 col-d-4 col-lg-4">
+             <div class="fancybox-item">
+               <div class="fancybox-icon">
+                 <i class="icon-archives"></i>
+               </div>
+               <div class="fancybox-body">
+                 <h4 class="fancybox-title">Our Journey</h4>
+                 <p class="fancybox-desc">Over the years, we’ve steadily grown, expanding our services and technology through smart acquisitions. This growth has allowed us to make high-quality clinical lab services more accessible to all.</p>
+                 <a href="about" class="btn btn-link btn-primary">
+                   <i class="plus-icon">+</i>
+                   <span>Read More</span>
+                 </a>
+               </div>
+             </div>
+           </div>
+     
+           <div class="col-sm-6 col-d-4 col-lg-4">
+             <div class="fancybox-item">
+               <div class="fancybox-icon">
+                 <i class="icon-avatar"></i>
+               </div>
+               <div class="fancybox-body">
+                 <h4 class="fancybox-title">Dedicated Leadership Team</h4>
+                 <p class="fancybox-desc">Our leadership team is committed to improving health outcomes by ensuring top-quality diagnostics and patient care. Their expertise drives our mission of improving lives.
+                 </p>
+                 <a href="about" class="btn btn-link btn-primary">
+                   <i class="plus-icon">+</i>
+                   <span>Read More</span>
+                 </a>
+               </div>
+             </div>
+           </div>
+          
+           <div class="col-sm-6 col-d-4 col-lg-4">
+             <div class="fancybox-item">
+               <div class="fancybox-icon">
+                 <i class="icon-class"></i>
+               </div>
+               <div class="fancybox-body">
+                 <h4 class="fancybox-title">Accreditation & Licensing</h4>
+                 <p class="fancybox-desc">We adhere to strict quality control measures at every stage of testing. Our accredited labs follow industry standards to provide you with accurate and trustworthy results.</p>
+                 <a href="about" class="btn btn-link btn-primary">
+                   <i class="plus-icon">+</i>
+                   <span>Read More</span>
+                 </a>
+               </div>
+             </div>
+           </div>
+    
+           <div class="col-sm-6 col-d-4 col-lg-4">
+             <div class="fancybox-item">
+               <div class="fancybox-icon">
+                 <i class="icon-clothing"></i>
+               </div>
+               <div class="fancybox-body">
+                 <h4 class="fancybox-title">Careers</h4>
+                 <p class="fancybox-desc">Did you know? If all the DNA from your cells were uncoiled and laid out, it would stretch from Earth to the Sun 65 times! Join us and be part of innovation.</p>
+                 <a href="career" class="btn btn-link btn-primary">
+                   <i class="plus-icon">+</i>
+                   <span>Read More</span>
+                 </a>
+               </div>
+             </div>
+           </div>
+  
+           <div class="col-sm-6 col-d-4 col-lg-4">
+             <div class="fancybox-item">
+               <div class="fancybox-icon">
+                 <i class="icon-atom"></i>
+               </div>
+               <div class="fancybox-body">
+                 <h4 class="fancybox-title">Commitment to Patient Care</h4>
+                 <p class="fancybox-desc">We believe in providing not just results but peace of mind. Our team ensures that each patient receives personal care and attention throughout their testing experience.</p>
+                 <a href="about" class="btn btn-link btn-primary">
+                   <i class="plus-icon">+</i>
+                   <span>Read More</span>
+                 </a>
+               </div>
+             </div>
+           </div>
+       
+           <div class="col-sm-6 col-d-4 col-lg-4">
+             <div class="fancybox-item">
+               <div class="fancybox-icon">
+                 <i class="icon-avatar2"></i>
+               </div><!-- /.fancybox-icon -->
+               <div class="fancybox-body">
+                 <h4 class="fancybox-title">Constant Innovation</h4>
+                 <p class="fancybox-desc">We’re always working on new tests, expanding our genetic research, and building strong partnerships to bring you the latest in diagnostic technology.
+</p>
+                 <a href="about" class="btn btn-link btn-primary">
+                   <i class="plus-icon">+</i>
+                   <span>Read More</span>
+                 </a>
+               </div>
+             </div>
+           </div>
+         </div>
+        
+       </div>
+     </section>
+       
+       
+       
+      <section class="ts-section pt-5">
         <div class="ts-pattern"></div>
     
         <div class="container">
             <div class="ts-header">
+                <h3 class="ts-subtitle">Testimonials</h3>
                 <h2 class="ts-title">What Our Patients Say</h2>
                 <p class="ts-description">Real stories from those who trusted us with their health.</p>
             </div>
-    
-            <div class="ts-slider-container">
-                <button class="ts-nav-btn prev">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-    
-                <div class="ts-slider-track">
-                    <!-- Testimonial 1 -->
-                    <div class="ts-slide">
-                        <div class="ts-card">
-                            <div class="ts-quote">
-                                <i class="fas fa-quote-right"></i>
-                            </div>
-                            <p class="ts-content">
-                                "The medical staff made me feel at ease throughout my treatment. The care is exceptional, and the facilities are top-notch."
-                            </p>
-                            <div class="ts-user">
-                                <div class="ts-avatar">
-                                    <img src="assets/images/icons/woman.png" alt="Sarah Johnson">
-                                </div>
-                                <div class="ts-user-info">
-                                    <h4 class="ts-name">Priya Sharma</h4>
-                                    <p class="ts-role">Regular Patient</p>
-                                    <div class="ts-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <!-- Testimonial 2 -->
-                    <div class="ts-slide">
-                        <div class="ts-card">
-                            <div class="ts-quote">
-                                <i class="fas fa-quote-right"></i>
-                            </div>
-                            <p class="ts-content">
-                                "Quick results, professional staff, and advanced diagnostic equipment. Highly recommend!"
-                            </p>
-                            <div class="ts-user">
-                                <div class="ts-avatar">
-                                    <img src="assets/images/icons/man.png" alt="Michael Chen">
-                                </div>
-                                <div class="ts-user-info">
-                                    <h4 class="ts-name"> Rohit Verma</h4>
-                                    <p class="ts-role">Laboratory Patient</p>
-                                    <div class="ts-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <!-- Testimonial 3 -->
-                    <div class="ts-slide">
-                        <div class="ts-card">
-                            <div class="ts-quote">
-                                <i class="fas fa-quote-right"></i>
-                            </div>
-                            <p class="ts-content">
-                                "The radiology team explained everything clearly, ensuring my comfort. Accurate and prompt results!"
-                            </p>
-                            <div class="ts-user">
-                                <div class="ts-avatar">
-                                    <img src="assets/images/icons/woman.png" alt="Emily Rodriguez">
-                                </div>
-                                <div class="ts-user-info">
-                                    <h4 class="ts-name">Aisha Patel</h4>
-                                    <p class="ts-role">Radiology Patient</p>
-                                    <div class="ts-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="ts-slide">
-                        <div class="ts-card">
-                            <div class="ts-quote">
-                                <i class="fas fa-quote-right"></i>
-                            </div>
-                            <p class="ts-content">
-                                "I was impressed by the fast turnaround for my lab tests. The service was professional and reliable."
-                            </p>
-                            <div class="ts-user">
-                                <div class="ts-avatar">
-                                    <img src="assets/images/icons/man.png" alt="Michael Chen">
-                                </div>
-                                <div class="ts-user-info">
-                                    <h4 class="ts-name">Vijay Kumar</h4>
-                                    <p class="ts-role">Laboratory Patient</p>
-                                    <div class="ts-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <!-- Additional Testimonials -->
-                    <!-- Copy more testimonials here for continuous sliding -->
-                    
-                </div>
-    
-                <button class="ts-nav-btn next">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-    
-                <div class="ts-dots">
-                    <span class="ts-dot active"></span>
-                    <span class="ts-dot"></span>
-                    <span class="ts-dot"></span>
-                </div>
+            <div class="ts-slider-container" style="padding: 20px 0;">
+                <!-- Review Pixel -->
+                <script type="text/javascript">
+                !function(){var e,t=document;e=function(){if(window.EMRPixel)return console.info("EMR: Pixel already loaded");var e=t.createElement("script");e.defer=!0,e.src="https://cdn2.revw.me/js/pixel.js?t="+864e5*Math.ceil(new Date/864e5);var n=t.getElementsByTagName("script")[0];n.charset="utf-8",n.parentNode.insertBefore(e,n),e.onload=function(){EMRPixel.init("reviewmagnet.in",107)}},"interactive"===t.readyState||"complete"===t.readyState?e():t.addEventListener("DOMContentLoaded",e)}();
+                </script><emr-simple-slider widget-id="05af3fd7-4a72-4aaf-9435-eb18197fc224"></emr-simple-slider>
+                <!-- Review Pixel End -->
             </div>
+        </div>
         </div>
     </section>
       

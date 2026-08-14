@@ -426,14 +426,6 @@
 
             </div>
 
-            <!-- Pagination Bar -->
-            <div class="blog-pagination">
-                <span class="active">1</span>
-                <a href="blog/index.php">2</a>
-                <a href="blog/index.php">3</a>
-                <a href="blog/index.php"><i class="fas fa-chevron-right"></i></a>
-            </div>
-
         </div>
     </section>
 
