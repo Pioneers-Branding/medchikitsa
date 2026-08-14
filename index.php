@@ -611,9 +611,6 @@
                       <span>Book a Home Visit</span>
                       <i class="icon-arrow-right"></i>
                     </a>
-                    <a href="#" class="btn btn-white btn-outlined">
-                      <span>Tests and Services</span>
-                    </a>
                   </div>
                 </div><!-- /.slide-content -->
               </div><!-- /.col-xl-7 -->

@@ -491,11 +491,8 @@
             <button class="filter-btn">Diabetes</button>
             <button class="filter-btn">Heart</button>
             <button class="filter-btn">Cancer</button>
-            <button class="filter-btn">Alcohol</button>
             <button class="filter-btn">Smokers</button>
             <button class="filter-btn">Vitamin</button>
-            <button class="filter-btn">Joint</button>
-            <button class="filter-btn">Weight</button>
             <!-- <button class="filter-btn view-more">View More... <i class="fas fa-chevron-down"></i></button> -->
         </div>
 
@@ -535,7 +532,6 @@
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
-                            <i class="fas fa-trash trash-icon"></i>
                             <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Basic%20Health%20Checkup" class="whatsapp-btn" target="_blank">
                                 <i class="fab fa-whatsapp"></i> Buy
                             </a>
