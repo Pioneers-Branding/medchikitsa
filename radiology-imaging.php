@@ -669,10 +669,10 @@
               </div><!-- /.process-icon -->
               <h4 class="process-title">Find a location</h4>
               <p class="process-desc">Locate the nearest testing center easily through our website or give us a quick call..</p>
-              <a href="contact-us" class="btn btn-primary btn-link">
+              <div class="btn btn-primary btn-link" style="cursor: default; pointer-events: none; text-decoration: none;">
                 <i class="icon-arrow-right"></i>
                 <span>Contact Us</span>
-              </a>
+              </div>
             </div><!-- /.process-item -->
           </div><!-- /.col-lg-3-->
           <!-- process item #2 -->
@@ -685,10 +685,10 @@
               <h4 class="process-title">Make an Appointment</h4>
               <p class="process-desc">Book an appointment online or request a home visit by our lab experts.
                 </p>
-              <a href="home-visit-contact.php" class="btn btn-primary btn-link">
+              <div class="btn btn-primary btn-link" style="cursor: default; pointer-events: none; text-decoration: none;">
                 <i class="icon-arrow-right"></i>
                 <span>Book a Home Visit</span>
-              </a>
+              </div>
             </div><!-- /.process-item -->
           </div><!-- /.col-lg-3-->
           <!-- process item #3 -->
@@ -702,10 +702,10 @@
               <p class="process-desc">Visit our lab for sample collection or choose a home test kit for convenience.
           
               </p>
-              <a href="contact-us" class="btn btn-primary btn-link">
+              <div class="btn btn-primary btn-link" style="cursor: default; pointer-events: none; text-decoration: none;">
                 <i class="icon-arrow-right"></i>
                 <span>Order Test Kits</span>
-              </a>
+              </div>
             </div><!-- /.process-item -->
           </div><!-- /.col-lg-3-->
           <!-- process item #4 -->
@@ -718,10 +718,10 @@
               <h4 class="process-title">Get Your Results</h4>
               <p class="process-desc">Most test results are available within 7 days after the sample reaches our lab.
               </p>
-              <a href="contact-us" class="btn btn-primary btn-link">
+              <div class="btn btn-primary btn-link" style="cursor: default; pointer-events: none; text-decoration: none;">
                 <i class="icon-arrow-right"></i>
                 <span>View Results</span>
-              </a>
+              </div>
             </div><!-- /.process-item -->
           </div><!-- /.col-lg-3-->
         </div><!-- /.row -->

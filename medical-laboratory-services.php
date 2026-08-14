@@ -1046,10 +1046,10 @@
               <h4 class="process-title"> Choose a Service</h4>
               <p class="process-desc">Select the test you need from our wide range of diagnostic services tailored to your health concerns.
             .</p>
-              <a href="contact-us" class="btn btn-primary btn-link">
+              <div class="btn btn-primary btn-link" style="cursor: default; pointer-events: none; text-decoration: none;">
                 <i class="icon-arrow-right"></i>
                 <span>Contact Us</span>
-              </a>
+              </div>
             </div><!-- /.process-item -->
           </div><!-- /.col-lg-3-->
           <!-- process item #2 -->
@@ -1062,10 +1062,10 @@
               <h4 class="process-title">Schedule Your Visit</h4>
               <p class="process-desc">Book an appointment online or contact us to arrange a convenient time for your test.
                </p>
-              <a href="contact-us" class="btn btn-primary btn-link">
+              <div class="btn btn-primary btn-link" style="cursor: default; pointer-events: none; text-decoration: none;">
                 <i class="icon-arrow-right"></i>
                 <span>Set Up Appointment</span>
-              </a>
+              </div>
             </div><!-- /.process-item -->
           </div><!-- /.col-lg-3-->
           <!-- process item #3 -->
@@ -1079,10 +1079,10 @@
               <p class="process-desc">Provide your sample at our lab or use our home collection service for added convenience.
                
               </p>
-              <a href="contact-us" class="btn btn-primary btn-link">
+              <div class="btn btn-primary btn-link" style="cursor: default; pointer-events: none; text-decoration: none;">
                 <i class="icon-arrow-right"></i>
                 <span>Request Home Collection</span>
-              </a>
+              </div>
             </div><!-- /.process-item -->
           </div><!-- /.col-lg-3-->
           <!-- process item #4 -->
@@ -1095,10 +1095,10 @@
               <h4 class="process-title">Receive Your Report</h4>
               <p class="process-desc">Get your results online within a few days, ensuring a quick and seamless experience.
               </p>
-              <a href="contact-us" class="btn btn-primary btn-link">
+              <div class="btn btn-primary btn-link" style="cursor: default; pointer-events: none; text-decoration: none;">
                 <i class="icon-arrow-right"></i>
                 <span>Check Reports</span>
-              </a>
+              </div>
             </div><!-- /.process-item -->
           </div><!-- /.col-lg-3-->
         </div><!-- /.row -->

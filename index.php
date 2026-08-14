@@ -756,10 +756,6 @@
                             <span class="ms4-feature-text">Expert Radiologists</span>
                         </li>
                     </ul>
-                    <button class="ms4-card-btn" onclick="window.location.href='radiology-imaging';">
-                        Learn More
-                        <i class="fas fa-arrow-right"></i>
-                    </button>
                 </div>
     
                 <!-- Laboratory Card -->
@@ -800,10 +796,6 @@
                             <span class="ms4-feature-text">24/7 Emergency  Testing</span>
                         </li>
                     </ul>
-                    <button class="ms4-card-btn" onclick="window.location.href='medical-laboratory-services';">
-                        Learn More
-                        <i class="fas fa-arrow-right"></i>
-                    </button>
                 </div>
     
                 <!-- OPD Card -->
@@ -844,10 +836,6 @@
                             <span class="ms4-feature-text">Oncology</span>
                         </li>
                     </ul>
-                    <button class="ms4-card-btn" onclick="window.location.href='superspeciality-opd';">
-                        Learn More
-                        <i class="fas fa-arrow-right"></i>
-                    </button>
                 </div>
             </div>
             </div>

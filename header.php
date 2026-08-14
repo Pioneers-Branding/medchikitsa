@@ -12,7 +12,7 @@
                     <i class="icon-location"></i><a href="https://www.google.com/maps/search/?api=1&query=Medchikitsa+Vijayapura" target="_blank"> Vijayapura, Karnataka</a>
                   </li>
                   <li>
-                    <i class="icon-clock"></i><span>Mon - Fri: 8:00 am - 7:00 pm</span>
+                    <i class="icon-clock"></i><a href="javascript:void(0);" style="cursor: default; color: #f4f4f4; text-decoration: none;">Mon - Fri: 8:00 am - 7:00 pm</a>
                   </li>
                 </ul><!-- /.contact-list -->
                 </div>

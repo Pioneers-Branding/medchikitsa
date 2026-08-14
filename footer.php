@@ -8,11 +8,11 @@
                         At Medchikitsa, we are committed to providing exceptional healthcare services with state-of-the-art facilities and expert medical professionals. Our focus is on delivering comprehensive care with a patient-first approach.
                     </p>
                     <div class="social-links">
-                        <a href="https://www.facebook.com/profile.php?id=61591969797326" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://x.com/Medchikitsa" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                        <a href="https://www.instagram.com/medchikitsa" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/company/medchikitsa" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://www.threads.com/@medchikitsa" target="_blank"><i class="fa-brands fa-threads"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61591969797326" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://x.com/Medchikitsa" target="_blank" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/medchikitsa" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/medchikitsa" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.threads.net/@medchikitsa" target="_blank" aria-label="Threads"><i class="fa-brands fa-threads"></i></a>
                     </div>
                 </div>
     
