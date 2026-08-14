@@ -736,93 +736,119 @@
     </section>
     
     
-     <section class="fancybox-layout5 bg-overlay bg-overlay-primary-gradient pt-3 pb-5">
-        <div class="bg-img"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
-              <div class="heading-layout2 text-center heading-light mb-50">
-                <h2 class="ms4-title">Why choose Us</h2>
-                <p class="heading-desc text-dark">Reliable diagnostics lead to better health outcomes and advancements in medical research.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 fancybox-container">
-              <!-- fancybox item #1 -->
-              <div class="fancybox-item">
-                <div class="bg-img">
-                  <img src="assets/images/features/1.jpg" alt="feature">
-                </div>
-                <div class="fancybox-body">
-                  <div class="fancybox-icon">
-                    <i class="icon-equipment"></i>
-                  </div><!-- /.fancybox-icon -->
-                  <h4 class="fancybox-title">Advanced Health Solutions</h4>
-                  <a href="about" class="btn btn-link btn-secondary">
-                    <i class="icon-arrow-right icon-filled"></i>
-                  </a>
-                </div><!-- /.fancybox-body -->
-              </div><!-- /.fancybox-item -->
-              <!-- fancybox item #2 -->
-              <div class="fancybox-item">
-                <div class="bg-img">
-                  <img src="assets/images/features/2.jpg" alt="feature">
-                </div>
-                <div class="fancybox-body">
-                  <div class="fancybox-icon">
-                    <i class="icon-drugs"></i>
-                  </div><!-- /.fancybox-icon -->
-                  <h4 class="fancybox-title">Strong Partnerships for Better Care</h4>
-                  <a href="about" class="btn btn-link btn-secondary">
-                    <i class="icon-arrow-right icon-filled"></i>
-                  </a>
-                </div><!-- /.fancybox-body -->
-              </div><!-- /.fancybox-item -->
-              <!-- fancybox item #3 -->
-              <div class="fancybox-item">
-                <div class="bg-img">
-                  <img src="assets/images/features/3.jpg" alt="feature">
-                </div>
-                <div class="fancybox-body">
-                  <div class="fancybox-icon">
-                    <i class="icon-chemical10"></i>
-                  </div><!-- /.fancybox-icon -->
-                  <h4 class="fancybox-title">Innovative Research & Development</h4>
-                  <a href="about" class="btn btn-link btn-secondary">
-                    <i class="icon-arrow-right icon-filled"></i>
-                  </a>
-                </div><!-- /.fancybox-body -->
-              </div><!-- /.fancybox-item -->
-              <!-- fancybox item #4 -->
-              <div class="fancybox-item">
-                <div class="bg-img">
-                  <img src="assets/images/features/4.jpg" alt="feature">
-                </div>
-                <div class="fancybox-body">
-                  <div class="fancybox-icon">
-                    <i class="icon-chemical11"></i>
-                  </div><!-- /.fancybox-icon -->
-                  <h4 class="fancybox-title">Trust & Commitment</h4>
-                  <a href="about" class="btn btn-link btn-secondary">
-                    <i class="icon-arrow-right icon-filled"></i>
-                  </a>
-                </div><!-- /.fancybox-body -->
-              </div><!-- /.fancybox-item -->
-              <!-- fancybox item #5 -->
-             <!-- /.fancybox-item -->
-            </div><!-- /.col-12 -->
-          </div><!-- /.row -->
-          <div class="row">
-            <div class="col-12 text-center pt-3">
-              <a href="contact-us" class="btn btn-secondary btn-secondary-style2 btn-xl">
-                <span>Contact Us</span> <i class="icon-arrow-right"></i>
-              </a>
-            </div><!-- /.col-lg-6 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section><!-- /.FancyBox Layout 5 -->
+       <section class="fancybox-layout1 pb-0 pt-3">
+       <div class="container">
+         <div class="row">
+           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+             <div class="heading text-center mb-50">
+               <!--<h2 class="heading-subtitle">Commitment to Quality</h2>-->
+               <h3 class="heading-title">Why Choose Medchikitsa?</h3>
+             </div>
+           </div>
+         </div>
+         <div class="row">
+         
+           <div class="col-sm-6 col-d-4 col-lg-4">
+             <div class="fancybox-item">
+               <div class="fancybox-icon">
+                 <i class="icon-archives"></i>
+               </div>
+               <div class="fancybox-body">
+                 <h4 class="fancybox-title">Our Journey</h4>
+                 <p class="fancybox-desc">Over the years, we’ve steadily grown, expanding our services and technology through smart acquisitions. This growth has allowed us to make high-quality clinical lab services more accessible to all.</p>
+                 <a href="about" class="btn btn-link btn-primary">
+                   <i class="plus-icon">+</i>
+                   <span>Read More</span>
+                 </a>
+               </div>
+             </div>
+           </div>
+     
+           <div class="col-sm-6 col-d-4 col-lg-4">
+             <div class="fancybox-item">
+               <div class="fancybox-icon">
+                 <i class="icon-avatar"></i>
+               </div>
+               <div class="fancybox-body">
+                 <h4 class="fancybox-title">Dedicated Leadership Team</h4>
+                 <p class="fancybox-desc">Our leadership team is committed to improving health outcomes by ensuring top-quality diagnostics and patient care. Their expertise drives our mission of improving lives.
+                 </p>
+                 <a href="about" class="btn btn-link btn-primary">
+                   <i class="plus-icon">+</i>
+                   <span>Read More</span>
+                 </a>
+               </div>
+             </div>
+           </div>
+          
+           <div class="col-sm-6 col-d-4 col-lg-4">
+             <div class="fancybox-item">
+               <div class="fancybox-icon">
+                 <i class="icon-class"></i>
+               </div>
+               <div class="fancybox-body">
+                 <h4 class="fancybox-title">Accreditation & Licensing</h4>
+                 <p class="fancybox-desc">We adhere to strict quality control measures at every stage of testing. Our accredited labs follow industry standards to provide you with accurate and trustworthy results.</p>
+                 <a href="about" class="btn btn-link btn-primary">
+                   <i class="plus-icon">+</i>
+                   <span>Read More</span>
+                 </a>
+               </div>
+             </div>
+           </div>
+    
+           <div class="col-sm-6 col-d-4 col-lg-4">
+             <div class="fancybox-item">
+               <div class="fancybox-icon">
+                 <i class="icon-clothing"></i>
+               </div>
+               <div class="fancybox-body">
+                 <h4 class="fancybox-title">Careers</h4>
+                 <p class="fancybox-desc">Did you know? If all the DNA from your cells were uncoiled and laid out, it would stretch from Earth to the Sun 65 times! Join us and be part of innovation.</p>
+                 <a href="career" class="btn btn-link btn-primary">
+                   <i class="plus-icon">+</i>
+                   <span>Read More</span>
+                 </a>
+               </div>
+             </div>
+           </div>
+  
+           <div class="col-sm-6 col-d-4 col-lg-4">
+             <div class="fancybox-item">
+               <div class="fancybox-icon">
+                 <i class="icon-atom"></i>
+               </div>
+               <div class="fancybox-body">
+                 <h4 class="fancybox-title">Commitment to Patient Care</h4>
+                 <p class="fancybox-desc">We believe in providing not just results but peace of mind. Our team ensures that each patient receives personal care and attention throughout their testing experience.</p>
+                 <a href="about" class="btn btn-link btn-primary">
+                   <i class="plus-icon">+</i>
+                   <span>Read More</span>
+                 </a>
+               </div>
+             </div>
+           </div>
+       
+           <div class="col-sm-6 col-d-4 col-lg-4">
+             <div class="fancybox-item">
+               <div class="fancybox-icon">
+                 <i class="icon-avatar2"></i>
+               </div><!-- /.fancybox-icon -->
+               <div class="fancybox-body">
+                 <h4 class="fancybox-title">Constant Innovation</h4>
+                 <p class="fancybox-desc">We’re always working on new tests, expanding our genetic research, and building strong partnerships to bring you the latest in diagnostic technology.
+</p>
+                 <a href="about" class="btn btn-link btn-primary">
+                   <i class="plus-icon">+</i>
+                   <span>Read More</span>
+                 </a>
+               </div>
+             </div>
+           </div>
+         </div>
+        
+       </div>
+     </section>
       
       
       
