@@ -1,4 +1,4 @@
-ï»¿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,7 +12,7 @@
   <meta name="author" content="Medchikitsa">
   <meta name="publisher" content="Medchikitsa">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="canonical" href="https://www.medchikitsa.com/contact-us">
+  <link rel="canonical" href="https://medchikitsa.com/contact-us">
  <meta name="robots" content="index, follow">
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="Contact Us | Medchikitsa">
@@ -701,7 +701,7 @@
                         </div>
                         <div class="tour-badge">
                             <i class="fas fa-vr-cardboard"></i>
-                            360Â° Virtual Tour
+                            360° Virtual Tour
                         </div>
                     </div>
                     
@@ -763,7 +763,7 @@
                             <i class="fas fa-vr-cardboard" style="color: var(--med-secondary);"></i>
                         </div>
                         <div>
-                            <h4 class="h6 mb-1">Immersive 360Â° Experience</h4>
+                            <h4 class="h6 mb-1">Immersive 360° Experience</h4>
                             <p class="small text-muted mb-0"> Experience our facility virtually, as if you were physically there.</p>
                         </div>
                     </div>

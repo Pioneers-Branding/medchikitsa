@@ -1,4 +1,4 @@
-ï»¿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,7 +9,7 @@
 
 <meta name="keywords" content="MedChikitsa, diagnostic center, medical testing, Vijayapura, Karnataka, laboratory services, health checkups">
 
-<link rel="canonical" href="https://www.medchikitsa.com/about">
+<link rel="canonical" href="https://medchikitsa.com/about">
 
 <meta name="robots" content="index, follow">
 
@@ -816,7 +816,7 @@
               </div>
               <div class="fancybox-body">
                 <h4 class="fancybox-title">Our Journey</h4>
-                <p class="fancybox-desc">Over the years, weâ€™ve steadily grown, expanding our services and technology through smart acquisitions. This growth has allowed us to make high-quality clinical lab services more accessible to all.</p>
+                <p class="fancybox-desc">Over the years, we’ve steadily grown, expanding our services and technology through smart acquisitions. This growth has allowed us to make high-quality clinical lab services more accessible to all.</p>
               </div>
             </div>
           </div>
@@ -877,7 +877,7 @@
               </div><!-- /.fancybox-icon -->
               <div class="fancybox-body">
                 <h4 class="fancybox-title">Constant Innovation</h4>
-                <p class="fancybox-desc">Weâ€™re always working on new tests, expanding our genetic research, and building strong partnerships to bring you the latest in diagnostic technology.
+                <p class="fancybox-desc">We’re always working on new tests, expanding our genetic research, and building strong partnerships to bring you the latest in diagnostic technology.
 </p>
               </div>
             </div>

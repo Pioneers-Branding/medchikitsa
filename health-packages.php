@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,7 +9,7 @@
   <title>Health Packages | MedChikitsa Diagnostic Centre</title>
 <meta name="description" content="Explore MedChikitsa's comprehensive health packages in Vijayapura, Karnataka, offering full-body checkups, diabetes screening, cardiac assessments, and more, tailored to meet your health needs.">
 <meta name="keywords" content="Health Packages, Full Body Checkup, Diabetes Screening, Cardiac Assessment, Diagnostic Centre, Vijayapura, Karnataka, MedChikitsa">
-<link rel="canonical" href="https://www.medchikitsa.com/health-packages">
+<link rel="canonical" href="https://medchikitsa.com/health-packages">
 <meta name="robots" content="index, follow">
 <meta name="author" content="MedChikitsa Team">
 <meta name="publisher" content="MedChikitsa">
@@ -249,7 +249,7 @@
         }
 
         .test-list li:before {
-            content: "•";
+            content: "�";
             position: absolute;
             left: 0;
             color: var(--med-accent);
@@ -524,11 +524,11 @@
                         <div class="price-section">
                             <div class="price-container">
                                 <div>
-                                    <span class="original-price">₹2299/-</span>
+                                    <span class="original-price">?2299/-</span>
                                     <span class="discount">52% OFF</span>
                                 </div>
                                 <div>
-                                    <span class="current-price">₹1099/-</span>
+                                    <span class="current-price">?1099/-</span>
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
@@ -567,11 +567,11 @@
                         <div class="price-section">
                             <div class="price-container">
                                 <div>
-                                    <span class="original-price">₹2999/-</span>
+                                    <span class="original-price">?2999/-</span>
                                     <span class="discount">53% OFF</span>
                                 </div>
                                 <div>
-                                    <span class="current-price">₹1399/-</span>
+                                    <span class="current-price">?1399/-</span>
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
@@ -610,11 +610,11 @@
                         <div class="price-section">
                             <div class="price-container">
                                 <div>
-                                    <span class="original-price">₹4999/-</span>
+                                    <span class="original-price">?4999/-</span>
                                     <span class="discount">50% OFF</span>
                                 </div>
                                 <div>
-                                    <span class="current-price">₹2499/-</span>
+                                    <span class="current-price">?2499/-</span>
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
@@ -653,11 +653,11 @@
                         <div class="price-section">
                             <div class="price-container">
                                 <div>
-                                    <span class="original-price">₹5072/-</span>
+                                    <span class="original-price">?5072/-</span>
                                     <span class="discount">4% OFF</span>
                                 </div>
                                 <div>
-                                    <span class="current-price">₹4830/-</span>
+                                    <span class="current-price">?4830/-</span>
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
@@ -696,11 +696,11 @@
                         <div class="price-section">
                             <div class="price-container">
                                 <div>
-                                    <span class="original-price">₹4199/-</span>
+                                    <span class="original-price">?4199/-</span>
                                     <span class="discount">4% OFF</span>
                                 </div>
                                 <div>
-                                    <span class="current-price">₹3999/-</span>
+                                    <span class="current-price">?3999/-</span>
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
@@ -739,11 +739,11 @@
                         <div class="price-section">
                             <div class="price-container">
                                 <div>
-                                    <span class="original-price">₹5247/-</span>
+                                    <span class="original-price">?5247/-</span>
                                     <span class="discount">4% OFF</span>
                                 </div>
                                 <div>
-                                    <span class="current-price">₹4997/-</span>
+                                    <span class="current-price">?4997/-</span>
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
@@ -780,11 +780,11 @@
           <div class="price-section">
               <div class="price-container">
                   <div>
-                      <span class="original-price">₹3499/-</span>
+                      <span class="original-price">?3499/-</span>
                       <span class="discount">37% OFF</span>
                   </div>
                   <div>
-                      <span class="current-price">₹2199/-</span>
+                      <span class="current-price">?2199/-</span>
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
@@ -822,11 +822,11 @@
           <div class="price-section">
               <div class="price-container">
                   <div>
-                      <span class="original-price">₹4857/-</span>
+                      <span class="original-price">?4857/-</span>
                       <span class="discount">4% OFF</span>
                   </div>
                   <div>
-                      <span class="current-price">₹4663/-</span>
+                      <span class="current-price">?4663/-</span>
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
@@ -864,11 +864,11 @@
           <div class="price-section">
               <div class="price-container">
                   <div>
-                      <span class="original-price">₹2299/-</span>
+                      <span class="original-price">?2299/-</span>
                       <span class="discount">17% OFF</span>
                   </div>
                   <div>
-                      <span class="current-price">₹1899/-</span>
+                      <span class="current-price">?1899/-</span>
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
@@ -906,11 +906,11 @@
           <div class="price-section">
               <div class="price-container">
                   <div>
-                      <span class="original-price">₹4999/-</span>
+                      <span class="original-price">?4999/-</span>
                       <span class="discount">30% OFF</span>
                   </div>
                   <div>
-                      <span class="current-price">₹3499/-</span>
+                      <span class="current-price">?3499/-</span>
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
@@ -948,11 +948,11 @@
           <div class="price-section">
               <div class="price-container">
                   <div>
-                      <span class="original-price">₹1999/-</span>
+                      <span class="original-price">?1999/-</span>
                       <span class="discount">50% OFF</span>
                   </div>
                   <div>
-                      <span class="current-price">₹999/-</span>
+                      <span class="current-price">?999/-</span>
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
@@ -990,11 +990,11 @@
           <div class="price-section">
               <div class="price-container">
                   <div>
-                      <span class="original-price">₹4599/-</span>
+                      <span class="original-price">?4599/-</span>
                       <span class="discount">50% OFF</span>
                   </div>
                   <div>
-                      <span class="current-price">₹2299/-</span>
+                      <span class="current-price">?2299/-</span>
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
@@ -1031,11 +1031,11 @@
           <div class="price-section">
               <div class="price-container">
                   <div>
-                      <span class="original-price">₹3354/-</span>
+                      <span class="original-price">?3354/-</span>
                       <span class="discount">23% OFF</span>
                   </div>
                   <div>
-                      <span class="current-price">₹2580/-</span>
+                      <span class="current-price">?2580/-</span>
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
@@ -1073,11 +1073,11 @@
           <div class="price-section">
               <div class="price-container">
                   <div>
-                      <span class="original-price">₹3499/-</span>
+                      <span class="original-price">?3499/-</span>
                       <span class="discount">48% OFF</span>
                   </div>
                   <div>
-                      <span class="current-price">₹1799/-</span>
+                      <span class="current-price">?1799/-</span>
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
@@ -1115,11 +1115,11 @@
           <div class="price-section">
               <div class="price-container">
                   <div>
-                      <span class="original-price">₹2699/-</span>
+                      <span class="original-price">?2699/-</span>
                       <span class="discount">51% OFF</span>
                   </div>
                   <div>
-                      <span class="current-price">₹1299/-</span>
+                      <span class="current-price">?1299/-</span>
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
@@ -1157,11 +1157,11 @@
           <div class="price-section">
               <div class="price-container">
                   <div>
-                      <span class="original-price">₹6999/-</span>
+                      <span class="original-price">?6999/-</span>
                       <span class="discount">50% OFF</span>
                   </div>
                   <div>
-                      <span class="current-price">₹3499/-</span>
+                      <span class="current-price">?3499/-</span>
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
@@ -1199,11 +1199,11 @@
           <div class="price-section">
               <div class="price-container">
                   <div>
-                      <span class="original-price">₹4599/-</span>
+                      <span class="original-price">?4599/-</span>
                       <span class="discount">50% OFF</span>
                   </div>
                   <div>
-                      <span class="current-price">₹2299/-</span>
+                      <span class="current-price">?2299/-</span>
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
@@ -1241,11 +1241,11 @@
           <div class="price-section">
               <div class="price-container">
                   <div>
-                      <span class="original-price">₹1999/-</span>
+                      <span class="original-price">?1999/-</span>
                       <span class="discount">35% OFF</span>
                   </div>
                   <div>
-                      <span class="current-price">₹1299/-</span>
+                      <span class="current-price">?1299/-</span>
                       <span class="onwards">Onwards</span>
                   </div>
               </div>

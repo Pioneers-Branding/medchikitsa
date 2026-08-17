@@ -1,4 +1,4 @@
-ï»¿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,7 +6,7 @@
   <title>Radiology Imaging Services | Medichikitsa Diagnostic Centre</title>
 <meta name="description" content="Explore Medichikitsa's advanced radiology imaging services in Vijayapura, Karnataka, including MRI, CT scans, X-rays, and ultrasounds, ensuring accurate diagnostics and patient care.">
 <meta name="keywords" content="Radiology Imaging, MRI, CT Scan, X-ray, Ultrasound, Diagnostic Centre, Vijayapura, Karnataka, Medichikitsa">
-<link rel="canonical" href="https://www.medchikitsa.com/radiology-imaging">
+<link rel="canonical" href="https://medchikitsa.com/radiology-imaging">
 <meta name="robots" content="index, follow">
 <meta name="author" content="Medichikitsa Team">
 <meta name="publisher" content="Medichikitsa">
@@ -349,7 +349,7 @@
                     <div class="rad-intro-tagline">Advancing Healthcare Through Technology</div>
                     <h1 class="rad-intro-heading">Introduction to <span>Radiology Imaging</span></h1>
                     <p class="rad-intro-text">
-                       Radiography imaging helps doctors see inside the body using advanced X-ray technology. Itâ€™s a quick, painless, and effective way to check for fractures, infections, lung conditions, and more. By capturing detailed images, radiography makes it easier to diagnose health issues early and start the right treatment on time.
+                       Radiography imaging helps doctors see inside the body using advanced X-ray technology. It’s a quick, painless, and effective way to check for fractures, infections, lung conditions, and more. By capturing detailed images, radiography makes it easier to diagnose health issues early and start the right treatment on time.
                        </p>
                     <p class="rad-intro-text">
                         This technology is safe, fast, and widely used in hospitals and clinics. Whether it's a routine chest X-ray or a detailed bone scan, radiography ensures clear, accurate results with minimal discomfort.
@@ -636,10 +636,10 @@
             <h2 class="heading-subtitle" style="color: var(--med-accent);">How to Order and Prepare for Your Test!</h2>
           </div><!-- /.col-12 -->
           <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5">
-            <h3 class="heading-title">Preparing for Your Test â€“ A Hassle-Free Experience</h3>
+            <h3 class="heading-title">Preparing for Your Test – A Hassle-Free Experience</h3>
           </div><!-- /.col-xl-5 -->
           <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 offset-xl-1">
-            <p class="heading-desc mb-20">To save time, complete your details on the form beforehand. While most routine tests are covered by your health insurance, some may not beâ€”so itâ€™s always good to check.</p>
+            <p class="heading-desc mb-20">To save time, complete your details on the form beforehand. While most routine tests are covered by your health insurance, some may not be—so it’s always good to check.</p>
             <p class="heading-desc mb-30">We ensure you get accurate results quickly, so you have the health information you need when it matters most. Your health and convenience are our top priorities!
 
             </p>
@@ -755,7 +755,7 @@
                </div>
                <div class="fancybox-body">
                  <h4 class="fancybox-title">Our Journey</h4>
-                 <p class="fancybox-desc">Over the years, weâ€™ve steadily grown, expanding our services and technology through smart acquisitions. This growth has allowed us to make high-quality clinical lab services more accessible to all.</p>
+                 <p class="fancybox-desc">Over the years, we’ve steadily grown, expanding our services and technology through smart acquisitions. This growth has allowed us to make high-quality clinical lab services more accessible to all.</p>
                </div>
              </div>
            </div>
@@ -816,7 +816,7 @@
                </div><!-- /.fancybox-icon -->
                <div class="fancybox-body">
                  <h4 class="fancybox-title">Constant Innovation</h4>
-                 <p class="fancybox-desc">Weâ€™re always working on new tests, expanding our genetic research, and building strong partnerships to bring you the latest in diagnostic technology.
+                 <p class="fancybox-desc">We’re always working on new tests, expanding our genetic research, and building strong partnerships to bring you the latest in diagnostic technology.
 </p>
                </div>
              </div>

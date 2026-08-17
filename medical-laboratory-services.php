@@ -1,4 +1,4 @@
-ï»¿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,7 +7,7 @@
   
 <meta name="description" content="Discover Medichikitsa's comprehensive medical laboratory services in Vijayapura, Karnataka, offering accurate diagnostics including pathology, biochemistry, microbiology, histopathology, genetics, and newborn screening with expert care.">
 <meta name="keywords" content="Medical Laboratory Services, Pathology, Biochemistry, Microbiology, Histopathology, Genetics Testing, Newborn Screening, Diagnostic Centre, Vijayapura, Karnataka, Medichikitsa">
-<link rel="canonical" href="https://www.medchikitsa.com/medical-laboratory-services">
+<link rel="canonical" href="https://medchikitsa.com/medical-laboratory-services">
 <meta name="robots" content="index, follow">
 <meta name="author" content="Medichikitsa Team">
 <meta name="publisher" content="Medichikitsa">
@@ -1016,7 +1016,7 @@
           </div><!-- /.col-xl-5 -->
           <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 offset-xl-1">
             <p class="heading-desc mb-20">To minimize wait times, complete your personal details on the form beforehand.
-              While most routine tests are covered by insurance, some may not beâ€”stay informed..</p>
+              While most routine tests are covered by insurance, some may not be—stay informed..</p>
             <p class="heading-desc mb-30">We prioritize direct patient communication to deliver timely and valuable health insights.
             </p>
             <ul class="features-list list-horizontal bg-transparent list-unstyled p-0 mb-60">
@@ -1132,7 +1132,7 @@
                </div>
                <div class="fancybox-body">
                  <h4 class="fancybox-title">Our Journey</h4>
-                 <p class="fancybox-desc">Over the years, weâ€™ve steadily grown, expanding our services and technology through smart acquisitions. This growth has allowed us to make high-quality clinical lab services more accessible to all.</p>
+                 <p class="fancybox-desc">Over the years, we’ve steadily grown, expanding our services and technology through smart acquisitions. This growth has allowed us to make high-quality clinical lab services more accessible to all.</p>
                </div>
              </div>
            </div>
@@ -1193,7 +1193,7 @@
                </div><!-- /.fancybox-icon -->
                <div class="fancybox-body">
                  <h4 class="fancybox-title">Constant Innovation</h4>
-                 <p class="fancybox-desc">Weâ€™re always working on new tests, expanding our genetic research, and building strong partnerships to bring you the latest in diagnostic technology.
+                 <p class="fancybox-desc">We’re always working on new tests, expanding our genetic research, and building strong partnerships to bring you the latest in diagnostic technology.
 </p>
                </div>
              </div>
@@ -1300,17 +1300,17 @@
                     </div><!-- /.accordion-item-header -->
                     <div id="collapse2" class="collapse" data-parent="#accordion1">
                       <div class="accordion-body">
-                        <p> Most routine test results are available within 24â€“48 hours, while specialized tests may take longer.</p>
+                        <p> Most routine test results are available within 24–48 hours, while specialized tests may take longer.</p>
                       </div><!-- /.accordion-item-body -->
                     </div>
                   </div><!-- /.accordion-item -->
                   <div class="accordion-item ">
                     <div class="accordion-header" data-toggle="collapse" data-target="#collapse3">
-                      <a class="accordion-title" href="#">Do I need a doctorâ€™s prescription for lab tests?</a>
+                      <a class="accordion-title" href="#">Do I need a doctor’s prescription for lab tests?</a>
                     </div><!-- /.accordion-item-header -->
                     <div id="collapse3" class="collapse " data-parent="#accordion1">
                       <div class="accordion-body">
-                        <p> Some tests require a doctorâ€™s prescription, but many wellness screenings can be done without one.</p>
+                        <p> Some tests require a doctor’s prescription, but many wellness screenings can be done without one.</p>
                       </div><!-- /.accordion-item-body -->
                     </div>
                   </div>

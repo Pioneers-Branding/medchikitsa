@@ -1,4 +1,4 @@
-ï»¿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,7 +11,7 @@
   <meta name="keywords" content="Superspeciality OPD, Medchikitsa, Cardiology, Neurology, Orthopedics, Oncology, Specialist Consultation, Advanced Healthcare, Vijayapura">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.medchikitsa.com/superspeciality-opd">
+    <link rel="canonical" href="https://medchikitsa.com/superspeciality-opd">
   <meta property="og:title" content="Superspeciality OPD | Medchikitsa">
     <meta name="publisher" content="Medchikitsa">
   <meta property="og:description" content="Consult top specialists in cardiology, neurology, orthopedics, and oncology at Medchikitsa's Superspeciality OPD. Personalized care for complex health issues.">
@@ -769,7 +769,7 @@
                     <div class="rad-intro-tagline">Advancing Healthcare Through Technology</div>
                     <h1 class="rad-intro-heading">Introduction to <span>SuperSpeciality OPD</span></h1>
                     <p class="rad-intro-text">
-                       Super Specialty OPD offers advanced medical care through specialized consultations in areas like cardiology, neurology, oncology, and orthopedics. Itâ€™s a fast, effective, and reliable way to address complex health issues that require expert attention. By providing access to top specialists and cutting-edge technologies, Super Specialty OPD helps in early diagnosis and tailored treatment plans. This ensures that patients receive precise care for their specific conditions, leading to timely interventions and better health outcomes.
+                       Super Specialty OPD offers advanced medical care through specialized consultations in areas like cardiology, neurology, oncology, and orthopedics. It’s a fast, effective, and reliable way to address complex health issues that require expert attention. By providing access to top specialists and cutting-edge technologies, Super Specialty OPD helps in early diagnosis and tailored treatment plans. This ensures that patients receive precise care for their specific conditions, leading to timely interventions and better health outcomes.
                        </p>
                     <p class="rad-intro-text">
                   Super Specialty OPD is a trusted, efficient, and widely available service in hospitals and clinics. Whether it's a routine consultation or a complex treatment plan, Super Specialty OPD provides expert care with precision and minimal inconvenience. It ensures accurate diagnoses and effective treatment tailored to each patient's needs, helping them achieve the best possible outcomes.                         </p>
@@ -1036,7 +1036,7 @@
                </div>
                <div class="fancybox-body">
                  <h4 class="fancybox-title">Our Journey</h4>
-                 <p class="fancybox-desc">Over the years, weâ€™ve steadily grown, expanding our services and technology through smart acquisitions. This growth has allowed us to make high-quality clinical lab services more accessible to all.</p>
+                 <p class="fancybox-desc">Over the years, we’ve steadily grown, expanding our services and technology through smart acquisitions. This growth has allowed us to make high-quality clinical lab services more accessible to all.</p>
                </div>
              </div>
            </div>
@@ -1097,7 +1097,7 @@
                </div><!-- /.fancybox-icon -->
                <div class="fancybox-body">
                  <h4 class="fancybox-title">Constant Innovation</h4>
-                 <p class="fancybox-desc">Weâ€™re always working on new tests, expanding our genetic research, and building strong partnerships to bring you the latest in diagnostic technology.
+                 <p class="fancybox-desc">We’re always working on new tests, expanding our genetic research, and building strong partnerships to bring you the latest in diagnostic technology.
 </p>
                </div>
              </div>
@@ -1215,7 +1215,7 @@
                     </div><!-- /.accordion-item-header -->
                     <div id="collapse5" class="collapse" data-parent="#accordion1">
                       <div class="accordion-body">
-                        <p>Weâ€™re open Monday to Friday, 8:00 AM - 7:00 PM, and offer 24/7 emergency services.</p>
+                        <p>We’re open Monday to Friday, 8:00 AM - 7:00 PM, and offer 24/7 emergency services.</p>
                       </div><!-- /.accordion-item-body -->
                     </div>
                   </div>

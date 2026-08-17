@@ -12,7 +12,7 @@
   <meta name="publisher" content="Medchikitsa">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://www.medchikitsa.com/career">
+  <link rel="canonical" href="https://medchikitsa.com/career">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="Careers | Medchikitsa">

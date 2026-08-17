@@ -12,7 +12,7 @@
   <meta name="author" content="Medchikitsa">
   <meta name="publisher" content="Medchikitsa">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="canonical" href="https://www.medchikitsa.com/contact-us">
+  <link rel="canonical" href="https://medchikitsa.com/contact-us">
  <meta name="robots" content="index, follow">
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="Apply Now | Medchikitsa">
