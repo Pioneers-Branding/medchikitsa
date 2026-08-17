@@ -756,10 +756,6 @@
                <div class="fancybox-body">
                  <h4 class="fancybox-title">Our Journey</h4>
                  <p class="fancybox-desc">Over the years, we’ve steadily grown, expanding our services and technology through smart acquisitions. This growth has allowed us to make high-quality clinical lab services more accessible to all.</p>
-                 <a href="about" class="btn btn-link btn-primary">
-                   <i class="plus-icon">+</i>
-                   <span>Read More</span>
-                 </a>
                </div>
              </div>
            </div>
@@ -773,10 +769,6 @@
                  <h4 class="fancybox-title">Dedicated Leadership Team</h4>
                  <p class="fancybox-desc">Our leadership team is committed to improving health outcomes by ensuring top-quality diagnostics and patient care. Their expertise drives our mission of improving lives.
                  </p>
-                 <a href="about" class="btn btn-link btn-primary">
-                   <i class="plus-icon">+</i>
-                   <span>Read More</span>
-                 </a>
                </div>
              </div>
            </div>
@@ -789,10 +781,6 @@
                <div class="fancybox-body">
                  <h4 class="fancybox-title">Accreditation & Licensing</h4>
                  <p class="fancybox-desc">We adhere to strict quality control measures at every stage of testing. Our accredited labs follow industry standards to provide you with accurate and trustworthy results.</p>
-                 <a href="about" class="btn btn-link btn-primary">
-                   <i class="plus-icon">+</i>
-                   <span>Read More</span>
-                 </a>
                </div>
              </div>
            </div>
@@ -805,10 +793,6 @@
                <div class="fancybox-body">
                  <h4 class="fancybox-title">Careers</h4>
                  <p class="fancybox-desc">Did you know? If all the DNA from your cells were uncoiled and laid out, it would stretch from Earth to the Sun 65 times! Join us and be part of innovation.</p>
-                 <a href="career" class="btn btn-link btn-primary">
-                   <i class="plus-icon">+</i>
-                   <span>Read More</span>
-                 </a>
                </div>
              </div>
            </div>
@@ -821,10 +805,6 @@
                <div class="fancybox-body">
                  <h4 class="fancybox-title">Commitment to Patient Care</h4>
                  <p class="fancybox-desc">We believe in providing not just results but peace of mind. Our team ensures that each patient receives personal care and attention throughout their testing experience.</p>
-                 <a href="about" class="btn btn-link btn-primary">
-                   <i class="plus-icon">+</i>
-                   <span>Read More</span>
-                 </a>
                </div>
              </div>
            </div>
@@ -838,10 +818,6 @@
                  <h4 class="fancybox-title">Constant Innovation</h4>
                  <p class="fancybox-desc">We’re always working on new tests, expanding our genetic research, and building strong partnerships to bring you the latest in diagnostic technology.
 </p>
-                 <a href="about" class="btn btn-link btn-primary">
-                   <i class="plus-icon">+</i>
-                   <span>Read More</span>
-                 </a>
                </div>
              </div>
            </div>

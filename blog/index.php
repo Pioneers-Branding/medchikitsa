@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -187,6 +187,103 @@
           color: #ffffff;
           border-color: var(--med-primary);
           box-shadow: 0 6px 15px rgba(33, 74, 104, 0.2);
+      }
+      /* Breadcrumb Styles */
+      .breadcrumb-section {
+          background-image: url('assets/images/Contact-us.webp');
+          background-size: cover;
+          background-position: center;
+          position: relative;
+          padding: 60px 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 200px;
+      }
+      
+      .breadcrumb-section::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          /*background: linear-gradient(rgba(33, 74, 104, 0.8), rgba(33, 182, 188, 0.6));*/
+      }
+      
+      .breadcrumb-content {
+          position: relative;
+          z-index: 1;
+          text-align: left;
+      }
+      
+      .breadcrumb-title {
+          color: white;
+          font-size: 2.5rem;
+          font-weight: 700;
+          margin-bottom: 15px;
+          text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+          letter-spacing: 1px;
+      }
+      
+      .breadcrumb-nav {
+          display: inline-flex;
+          background-color: rgba(255, 255, 255, 0.2);
+          padding: 12px 30px;
+          border-radius: 50px;
+          backdrop-filter: blur(5px);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+      
+      .breadcrumb-list {
+          list-style: none;
+          display: flex;
+          align-items: center;
+          margin: 0;
+          padding: 0;
+      }
+      
+      .breadcrumb-item {
+          font-size: 1.1rem;
+          color: white;
+          font-weight: 500;
+      }
+      
+      .breadcrumb-item a {
+          color: white;
+          text-decoration: none;
+          transition: all 0.3s ease;
+          position: relative;
+      }
+      
+      .breadcrumb-item a::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 2px;
+          bottom: -3px;
+          left: 0;
+          background-color: var(--med-accent);
+          transition: width 0.3s ease;
+      }
+      
+      .breadcrumb-item a:hover {
+          color: white;
+      }
+      
+      .breadcrumb-item a:hover::after {
+          width: 100%;
+      }
+      
+      .breadcrumb-item.active {
+          color: var(--med-accent);
+      }
+      
+      .breadcrumb-divider {
+          color: rgba(255, 255, 255, 0.7);
+          margin: 0 10px;
+          font-size: 0.8rem;
       }
   </style>
 </head>
