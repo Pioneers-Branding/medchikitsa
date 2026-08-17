@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -532,7 +532,7 @@
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
-                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Basic%20Health%20Checkup" class="whatsapp-btn" target="_blank">
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Basic%20Health%20Checkup" class="whatsapp-btn" target="_blank">
                                 <i class="fab fa-whatsapp"></i> Buy
                             </a>
                         </div>
@@ -575,7 +575,7 @@
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
-                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Full%20body%20Health%20Checkup" class="whatsapp-btn" target="_blank">
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Full%20body%20Health%20Checkup" class="whatsapp-btn" target="_blank">
                                 <i class="fab fa-whatsapp"></i> Buy
                             </a>
                         </div>
@@ -618,7 +618,7 @@
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
-                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20Comprehensive%20full%20body%20checkup%20with%20Vitamin%20D%20%26%20B12" class="whatsapp-btn" target="_blank">
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20Comprehensive%20full%20body%20checkup%20with%20Vitamin%20D%20%26%20B12" class="whatsapp-btn" target="_blank">
                                 <i class="fab fa-whatsapp"></i> Buy
                             </a>
                         </div>
@@ -661,7 +661,7 @@
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
-                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Healthy%20Advance%20Package%20with%20Vitamin%20D" class="whatsapp-btn" target="_blank">
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Healthy%20Advance%20Package%20with%20Vitamin%20D" class="whatsapp-btn" target="_blank">
                                 <i class="fab fa-whatsapp"></i> Buy
                             </a>
                         </div>
@@ -704,7 +704,7 @@
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
-                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Full%20Body%20Essential%20Checkup" class="whatsapp-btn" target="_blank">
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Full%20Body%20Essential%20Checkup" class="whatsapp-btn" target="_blank">
                                 <i class="fab fa-whatsapp"></i> Buy
                             </a>
                         </div>
@@ -747,7 +747,7 @@
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
-                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Fit%20health%20check-up" class="whatsapp-btn" target="_blank">
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Fit%20health%20check-up" class="whatsapp-btn" target="_blank">
                                 <i class="fab fa-whatsapp"></i> Buy
                             </a>
                         </div>
@@ -788,7 +788,7 @@
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
-              <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20360%20Health%20Check-up" class="whatsapp-btn" target="_blank">
+              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20360%20Health%20Check-up" class="whatsapp-btn" target="_blank">
                   <i class="fab fa-whatsapp"></i> Buy
               </a>
           </div>
@@ -830,7 +830,7 @@
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
-              <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Swasth%20Health%20Check-up" class="whatsapp-btn" target="_blank">
+              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Swasth%20Health%20Check-up" class="whatsapp-btn" target="_blank">
                   <i class="fab fa-whatsapp"></i> Buy
               </a>
           </div>
@@ -872,7 +872,7 @@
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
-              <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Basic%20Health%20Checkup%20for%20Two" class="whatsapp-btn" target="_blank">
+              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Basic%20Health%20Checkup%20for%20Two" class="whatsapp-btn" target="_blank">
                   <i class="fab fa-whatsapp"></i> Buy
               </a>
           </div>
@@ -914,7 +914,7 @@
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
-              <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20complete%20health%20check-up" class="whatsapp-btn" target="_blank">
+              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20complete%20health%20check-up" class="whatsapp-btn" target="_blank">
                   <i class="fab fa-whatsapp"></i> Buy
               </a>
           </div>
@@ -956,7 +956,7 @@
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
-              <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Swift%20Health%20Checkup" class="whatsapp-btn" target="_blank">
+              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Swift%20Health%20Checkup" class="whatsapp-btn" target="_blank">
                   <i class="fab fa-whatsapp"></i> Buy
               </a>
           </div>
@@ -998,7 +998,7 @@
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
-              <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20Women's%20Primary%20Prevention%20Health%20Checkup" class="whatsapp-btn" target="_blank">
+              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20Women's%20Primary%20Prevention%20Health%20Checkup" class="whatsapp-btn" target="_blank">
                   <i class="fab fa-whatsapp"></i> Buy
               </a>
           </div>
@@ -1039,7 +1039,7 @@
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
-              <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20General%20Supreme%20Health%20Check%20-%20MB%20Pack%201" class="whatsapp-btn" target="_blank">
+              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20General%20Supreme%20Health%20Check%20-%20MB%20Pack%201" class="whatsapp-btn" target="_blank">
                   <i class="fab fa-whatsapp"></i> Buy
               </a>
           </div>
@@ -1081,7 +1081,7 @@
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
-              <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Advance%20Health%20Checkup" class="whatsapp-btn" target="_blank">
+              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Advance%20Health%20Checkup" class="whatsapp-btn" target="_blank">
                   <i class="fab fa-whatsapp"></i> Buy
               </a>
           </div>
@@ -1123,7 +1123,7 @@
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
-              <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Diabetes%20Screening" class="whatsapp-btn" target="_blank">
+              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Diabetes%20Screening" class="whatsapp-btn" target="_blank">
                   <i class="fab fa-whatsapp"></i> Buy
               </a>
           </div>
@@ -1165,7 +1165,7 @@
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
-              <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Young%20Male%20Health%20Checkup" class="whatsapp-btn" target="_blank">
+              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Young%20Male%20Health%20Checkup" class="whatsapp-btn" target="_blank">
                   <i class="fab fa-whatsapp"></i> Buy
               </a>
           </div>
@@ -1207,7 +1207,7 @@
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
-              <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Prime%20Comprehensive%20Health%20Checkup" class="whatsapp-btn" target="_blank">
+              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Prime%20Comprehensive%20Health%20Checkup" class="whatsapp-btn" target="_blank">
                   <i class="fab fa-whatsapp"></i> Buy
               </a>
           </div>
@@ -1249,7 +1249,7 @@
                       <span class="onwards">Onwards</span>
                   </div>
               </div>
-              <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Smart%20Health%20Checkup" class="whatsapp-btn" target="_blank">
+              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Smart%20Health%20Checkup" class="whatsapp-btn" target="_blank">
                   <i class="fab fa-whatsapp"></i> Buy
               </a>
           </div>

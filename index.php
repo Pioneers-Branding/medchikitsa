@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -44,7 +44,7 @@
   "@id": "https://medchikitsa.com/",
   "url": "https://medchikitsa.com/",
   "logo": "https://medchikitsa.com/assets/images/logo.png",
-  "telephone": "+917353330700",
+  "telephone": "+916360225347",
   "email": "medchikitsa@gmail.com",
   "address": {
     "@type": "PostalAddress",
@@ -552,48 +552,14 @@
                   <h1 class="slide-title">Medchikitsa Home Visit Service</h1>
                   <p class="slide-desc">Skip the waiting room and enjoy healthcare in the comfort of your own home. Our friendly, professional technologists bring top-quality lab services directly to your door. Schedule your visit today for a seamless and stress-free experience.</p>
                   <div class="d-flex flex-wrap align-items-center">
-                    <a href="home-visit-contact.php" class="btn btn-white btn-white-style2 mr-30">
+                    <a href="contact-us.php" class="btn btn-white btn-white-style2 mr-30">
                       <span>Book a Home Visit</span>
                       <i class="icon-arrow-right"></i>
                     </a>
                   </div>
                 </div><!-- /.slide-content -->
               </div><!-- /.col-xl-7 -->
-              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4 offset-xl-1">
-                <div class="fancybox-layout5 p-0 m-0">
-                  <div class="fancybox-container">
-                    <!-- fancybox item #1 -->
-                    <div class="fancybox-item">
-                      <div class="fancybox-body">
-                        <div class="fancybox-icon">
-                          <i class="icon-chemical5"></i>
-                        </div><!-- /.fancybox-icon -->
-                        <h4 class="fancybox-title">New Advanced Instruments</h4>
-                      </div><!-- /.fancybox-body -->
-                    </div><!-- /.fancybox-item -->
-                    <!-- fancybox item #2 -->
-                    <div class="fancybox-item">
-                      <div class="fancybox-body">
-                        <div class="fancybox-icon" style="display:inline-block;">
-                          <!--<i class="icon-chemical2"></i>-->
-                          <img src="assets/images/icons/Mri-icons.png">
-                        </div><!-- /.fancybox-icon -->
-                        <h4 class="fancybox-title">MRI (Magnetic Resonance Imaging)</h4>
-                      </div><!-- /.fancybox-body -->
-                    </div><!-- /.fancybox-item -->
-                    <!-- fancybox item #3 -->
-                    <div class="fancybox-item">
-                      <div class="fancybox-body">
-                        <div class="fancybox-icon" style="display:inline-block;">
-                          <!--<i class="icon-archive"></i>-->
-                          <img src="assets/images/icons/ct-scan-icons.png">
-                        </div><!-- /.fancybox-icon -->
-                        <h4 class="fancybox-title">Computed Tomography (CT Scan)</h4>
-                      </div><!-- /.fancybox-body -->
-                    </div><!-- /.fancybox-item -->
-                  </div><!-- /.fancybox-container -->
-                </div><!-- /.fancybox-layout5 -->
-              </div><!-- /.col-xl-3 -->
+
             </div><!-- /.row -->
           </div><!-- /.container -->
         </div><!-- /.slide-item -->
@@ -607,46 +573,14 @@
                   <h2 class="slide-title">Precision for Your Health!</h2>
                   <p class="slide-desc">We believe accurate diagnostics are the foundation of good health. Using the latest medical technology, our expert team provides precise results you can trust, helping you make informed decisions about your wellbeing.</p>
                   <div class="d-flex flex-wrap align-items-center">
-                    <a href="home-visit-contact.php" class="btn btn-white btn-white-style2 mr-30">
+                    <a href="contact-us.php" class="btn btn-white btn-white-style2 mr-30">
                       <span>Book a Home Visit</span>
                       <i class="icon-arrow-right"></i>
                     </a>
                   </div>
                 </div><!-- /.slide-content -->
               </div><!-- /.col-xl-7 -->
-              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4 offset-xl-1">
-                <div class="fancybox-layout5 p-0 m-0">
-                  <div class="fancybox-container">
-                    <!-- fancybox item #1 -->
-                    <div class="fancybox-item">
-                      <div class="fancybox-body">
-                        <div class="fancybox-icon">
-                          <i class="icon-chemical5"></i>
-                        </div><!-- /.fancybox-icon -->
-                        <h4 class="fancybox-title">New Advanced Instruments</h4>
-                      </div><!-- /.fancybox-body -->
-                    </div><!-- /.fancybox-item -->
-                    <!-- fancybox item #2 -->
-                    <div class="fancybox-item">
-                      <div class="fancybox-body">
-                        <div class="fancybox-icon">
-                          <i class="icon-chemical2"></i>
-                        </div><!-- /.fancybox-icon -->
-                        <h4 class="fancybox-title">Strict Quality Practices</h4>
-                      </div><!-- /.fancybox-body -->
-                    </div><!-- /.fancybox-item -->
-                    <!-- fancybox item #3 -->
-                    <div class="fancybox-item">
-                      <div class="fancybox-body">
-                        <div class="fancybox-icon">
-                          <i class="icon-archive"></i>
-                        </div><!-- /.fancybox-icon -->
-                        <h4 class="fancybox-title">Customized Lab Solutions</h4>
-                      </div><!-- /.fancybox-body -->
-                    </div><!-- /.fancybox-item -->
-                  </div><!-- /.fancybox-container -->
-                </div><!-- /.fancybox-layout5 -->
-              </div><!-- /.col-xl-3 -->
+
             </div><!-- /.row -->
           </div><!-- /.container -->
         </div><!-- /.slide-item -->
@@ -679,7 +613,7 @@
                 <p class="mb-30">While we believe we are more than just numbers, the depth of our laboratories is pretty
                   impressive.</p>
                 <div class="d-flex flex-wrap align-items-center mb-30">
-                  <a href="home-visit-contact.php" class="btn btn-secondary btn-xl mr-30">
+                  <a href="contact-us.php" class="btn btn-secondary btn-xl mr-30">
                     <span>Book a Home Visit</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -884,7 +818,7 @@
                                 <span class="health-original">Rs. 4360</span>
                                 <span class="health-final">Rs. 1500</span>
                             </div>
-                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Energy%20Package" target="_blank" class="health-buy-btn">
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Energy%20Package" target="_blank" class="health-buy-btn">
                                 <i class="fab fa-whatsapp"></i> Buy Now
                             </a>
                         </div>
@@ -913,7 +847,7 @@
                                 <span class="health-original">Rs. 7815</span>
                                 <span class="health-final">Rs. 2899</span>
                             </div>
-                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Gym%20Package%20-%20TN" target="_blank" class="health-buy-btn">
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Gym%20Package%20-%20TN" target="_blank" class="health-buy-btn">
                                 <i class="fab fa-whatsapp"></i> Buy Now
                             </a>
                         </div>
@@ -942,7 +876,7 @@
                                 <span class="health-original">Rs. 5775</span>
                                 <span class="health-final">Rs. 1999</span>
                             </div>
-                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Men's%20Health%20Check-Basic" target="_blank" class="health-buy-btn">
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Men's%20Health%20Check-Basic" target="_blank" class="health-buy-btn">
                                 <i class="fab fa-whatsapp"></i> Buy Now
                             </a>
                         </div>
@@ -971,7 +905,7 @@
                                 <span class="health-original">Rs. 6500</span>
                                 <span class="health-final">Rs. 2600</span>
                             </div>
-                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Women's%20Wellness" target="_blank" class="health-buy-btn">
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Women's%20Wellness" target="_blank" class="health-buy-btn">
                                 <i class="fab fa-whatsapp"></i> Buy Now
                             </a>
                         </div>
@@ -1377,7 +1311,7 @@
                             </div>
                             <div class="cs-info-content">
                                 <h4 class="cs-info-label">Phone</h4>
-                                <p class="cs-info-text">Emergency: <a href="tel:+917353330700">+917353330700</p></a>
+                                <p class="cs-info-text">Emergency: <a href="tel:+916360225347">+916360225347</p></a>
                             </div>
                         </div>
                         

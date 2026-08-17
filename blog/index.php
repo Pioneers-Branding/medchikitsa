@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,7 +9,7 @@
   <meta name="keywords" content="Medchikitsa Blog, Diagnostic Tips, Lab Test Guide, Health Articles Vijayapura, Radiology Insights">
   
   <base href="../">
-  <?php include('header-links.php')?>	
+  <?php include('../header-links.php')?>	
   
   <style>
       :root {
@@ -193,7 +193,7 @@
 
 <body>
   <div class="wrapper">
-    <?php include('header.php')?>
+    <?php include('../header.php')?>
 
     <!-- Breadcrumb Section -->
     <section class="breadcrumb-section"> 
@@ -429,8 +429,8 @@
         </div>
     </section>
 
-    <?php include('footer.php')?>
-    <?php include('footer-links.php')?>
+    <?php include('../footer.php')?>
+    <?php include('../footer-links.php')?>
   </div>
 </body>
 </html>

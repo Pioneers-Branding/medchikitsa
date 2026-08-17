@@ -1388,8 +1388,7 @@
             applyButtons.forEach(button => {
                 button.addEventListener('click', function() {
                     const jobTitle = this.getAttribute('data-job');
-                    jobTitlePopup.textContent = jobTitle;
-                    applyPopup.classList.add('show');
+                    window.location.href = 'hiring.php?job=' + encodeURIComponent(jobTitle);
                 });
             });
             

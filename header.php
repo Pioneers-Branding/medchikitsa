@@ -6,7 +6,7 @@
               <div class="d-flex align-items-center justify-content-between">
                 <ul class="contact-list d-flex flex-wrap align-items-center list-unstyled pt-3 mb-0" >
                   <li>
-                    <i class="icon-phone"></i><a href="tel:+917353330700">Emergency Line:+917353330700</a>
+                    <i class="icon-phone"></i><a href="tel:+916360225347">Emergency Line:+916360225347</a>
                   </li>
                   <li>
                     <i class="icon-location"></i><a href="https://www.google.com/maps/search/?api=1&query=Medchikitsa+Vijayapura" target="_blank"> Vijayapura, Karnataka</a>
@@ -24,7 +24,7 @@
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="https://medchikitsa.com">
-            <img src="assets/images/logo/Logo-1.png" height="80px" width="180px" class="logo-dark" alt="logo">
+            <img src="assets/images/logo/Logo-1.png" style="max-height: 60px; max-width: 100%; object-fit: contain;" class="logo-dark" alt="logo">
           </a>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
@@ -56,6 +56,9 @@
                 <a href="health-packages" class="nav-item-link">Health Packages</a>
             </li>
             <li class="nav-item">
+                <a href="blog/" class="nav-item-link">Blog</a>
+            </li>
+            <li class="nav-item">
                 <a href="contact-us" class="nav-item-link">Contact Us</a>
             </li>
   
@@ -75,11 +78,11 @@
       </nav><!-- /.navabr -->
     </header><!-- /.Header -->
     <div class="floating-cta">
-        <a href="https://wa.me/+917353330900" class="cta-button whatsapp-btn pulse-animation" target="_blank">
+        <a href="https://wa.me/+916360225347" class="cta-button whatsapp-btn" target="_blank">
             <i class="bi bi-whatsapp"></i>
             <span class="cta-tooltip">Chat on WhatsApp</span>
         </a>
-        <a href="tel:+917353330700" class="cta-button call-btn">
+        <a href="tel:+916360225347" class="cta-button call-btn">
             <i class="bi bi-telephone-fill"></i>
             <span class="cta-tooltip">Call Us</span>
         </a>

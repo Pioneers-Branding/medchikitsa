@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -435,7 +435,7 @@
                                         <span class="rad-service-time">15-30 minutes</span>
                                     </div>
                                 </div>
-                                <a href="https://wa.me/+917353330900?text=I'm%20interested%20in%20booking%20an%20X-ray%20appointment" class="rad-whatsapp-btn" target="_blank">
+                                <a href="https://wa.me/+916360225347?text=I'm%20interested%20in%20booking%20an%20X-ray%20appointment" class="rad-whatsapp-btn" target="_blank">
                                     <i class="fab fa-whatsapp"></i> Book Now
                                 </a>
                             </div>
@@ -465,7 +465,7 @@
                                         <span class="rad-service-time">30-60 minutes</span>
                                     </div>
                                 </div>
-                                <a href="https://wa.me/+917353330900?text=I'm%20interested%20in%20booking%20an%20MRI%20appointment" class="rad-whatsapp-btn" target="_blank">
+                                <a href="https://wa.me/+916360225347?text=I'm%20interested%20in%20booking%20an%20MRI%20appointment" class="rad-whatsapp-btn" target="_blank">
                                     <i class="fab fa-whatsapp"></i> Book Now
                                 </a>
                             </div>
@@ -495,7 +495,7 @@
                                         <span class="rad-service-time">15-30 minutes</span>
                                     </div>
                                 </div>
-                                <a href="https://wa.me/+917353330900?text=I'm%20interested%20in%20booking%20a%20CT%20Scan%20appointment" class="rad-whatsapp-btn" target="_blank">
+                                <a href="https://wa.me/+916360225347?text=I'm%20interested%20in%20booking%20a%20CT%20Scan%20appointment" class="rad-whatsapp-btn" target="_blank">
                                     <i class="fab fa-whatsapp"></i> Book Now
                                 </a>
                             </div>
@@ -525,7 +525,7 @@
                                         <span class="rad-service-time">30-45 minutes</span>
                                     </div>
                                 </div>
-                                <a href="https://wa.me/+917353330900?text=I'm%20interested%20in%20booking%20an%20Ultrasound%20appointment" class="rad-whatsapp-btn" target="_blank">
+                                <a href="https://wa.me/+916360225347?text=I'm%20interested%20in%20booking%20an%20Ultrasound%20appointment" class="rad-whatsapp-btn" target="_blank">
                                     <i class="fab fa-whatsapp"></i> Book Now
                                 </a>
                             </div>
@@ -555,7 +555,7 @@
                                         <span class="rad-service-time">20-30 minutes</span>
                                     </div>
                                 </div>
-                                <a href="https://wa.me/+917353330900?text=I'm%20interested%20in%20booking%20a%20Mammography%20appointment" class="rad-whatsapp-btn" target="_blank">
+                                <a href="https://wa.me/+916360225347?text=I'm%20interested%20in%20booking%20a%20Mammography%20appointment" class="rad-whatsapp-btn" target="_blank">
                                     <i class="fab fa-whatsapp"></i> Book Now
                                 </a>
                             </div>
@@ -585,7 +585,7 @@
                                         <span class="rad-service-time">Variable duration</span>
                                     </div>
                                 </div>
-                                <a href="https://wa.me/+917353330900?text=I'm%20interested%20in%20booking%20a%20Fluoroscopy%20appointment" class="rad-whatsapp-btn" target="_blank">
+                                <a href="https://wa.me/+916360225347?text=I'm%20interested%20in%20booking%20a%20Fluoroscopy%20appointment" class="rad-whatsapp-btn" target="_blank">
                                     <i class="fab fa-whatsapp"></i> Book Now
                                 </a>
                             </div>
@@ -615,7 +615,7 @@
                                         <span class="rad-service-time">10-20 minutes</span>
                                     </div>
                                 </div>
-                                <a href="https://wa.me/+917353330900?text=I'm%20interested%20in%20booking%20a%20DEXA%20Scan%20appointment" class="rad-whatsapp-btn" target="_blank">
+                                <a href="https://wa.me/+916360225347?text=I'm%20interested%20in%20booking%20a%20DEXA%20Scan%20appointment" class="rad-whatsapp-btn" target="_blank">
                                     <i class="fab fa-whatsapp"></i> Book Now
                                 </a>
                             </div>
@@ -884,10 +884,10 @@
                 </p>
                 
                 <div class="rad-cta-actions">
-                    <a href="https://wa.me/+917353330900?text=I'd%20like%20to%20schedule%20a%20radiology%20appointment" class="rad-cta-btn rad-cta-btn-primary" target="_blank">
+                    <a href="https://wa.me/+916360225347?text=I'd%20like%20to%20schedule%20a%20radiology%20appointment" class="rad-cta-btn rad-cta-btn-primary" target="_blank">
                         <i class="fab fa-whatsapp"></i> Book Appointment
                     </a>
-                    <a href="tel:+917353330700" class="rad-cta-btn rad-cta-btn-secondary">
+                    <a href="tel:+916360225347" class="rad-cta-btn rad-cta-btn-secondary">
                         <i class="fas fa-phone-alt"></i> Call Us Now
                     </a>
                 </div>

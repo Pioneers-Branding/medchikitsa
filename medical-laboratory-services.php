@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -878,7 +878,7 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-start mt-2">
-                        <a href="https://wa.me/+917353330900?text=I'm%20interested%20in%20booking%20a%20home%20collection%20appointment" class="lab-service-link" target="_blank">
+                        <a href="https://wa.me/+916360225347?text=I'm%20interested%20in%20booking%20a%20home%20collection%20appointment" class="lab-service-link" target="_blank">
                             <i class="fab fa-whatsapp me-2"></i> Book Now <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -1261,10 +1261,10 @@
                 </p>
                 
                 <div class="rad-cta-actions">
-                    <a href="https://wa.me/+917353330900?text=I'd%20like%20to%20schedule%20a%20radiology%20appointment" class="rad-cta-btn rad-cta-btn-primary" target="_blank">
+                    <a href="https://wa.me/+916360225347?text=I'd%20like%20to%20schedule%20a%20radiology%20appointment" class="rad-cta-btn rad-cta-btn-primary" target="_blank">
                         <i class="fab fa-whatsapp"></i> Book Appointment
                     </a>
-                    <a href="tel:+917353330700" class="rad-cta-btn rad-cta-btn-secondary">
+                    <a href="tel:+916360225347" class="rad-cta-btn rad-cta-btn-secondary">
                         <i class="fas fa-phone-alt"></i> Call Us Now
                     </a>
                 </div>

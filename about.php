@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -630,7 +630,7 @@
                                 <span class="health-original">Rs. 4360</span>
                                 <span class="health-final">Rs. 1500</span>
                             </div>
-                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Energy%20Package" target="_blank" class="health-buy-btn">
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Energy%20Package" target="_blank" class="health-buy-btn">
                                 <i class="fab fa-whatsapp"></i> Buy Now
                             </a>
                         </div>
@@ -659,7 +659,7 @@
                                 <span class="health-original">Rs. 7815</span>
                                 <span class="health-final">Rs. 2899</span>
                             </div>
-                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Gym%20Package%20-%20TN" target="_blank" class="health-buy-btn">
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Gym%20Package%20-%20TN" target="_blank" class="health-buy-btn">
                                 <i class="fab fa-whatsapp"></i> Buy Now
                             </a>
                         </div>
@@ -688,7 +688,7 @@
                                 <span class="health-original">Rs. 5775</span>
                                 <span class="health-final">Rs. 1999</span>
                             </div>
-                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Men's%20Health%20Check-Basic" target="_blank" class="health-buy-btn">
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Men's%20Health%20Check-Basic" target="_blank" class="health-buy-btn">
                                 <i class="fab fa-whatsapp"></i> Buy Now
                             </a>
                         </div>
@@ -717,7 +717,7 @@
                                 <span class="health-original">Rs. 6500</span>
                                 <span class="health-final">Rs. 2600</span>
                             </div>
-                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Women's%20Wellness" target="_blank" class="health-buy-btn">
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Women's%20Wellness" target="_blank" class="health-buy-btn">
                                 <i class="fab fa-whatsapp"></i> Buy Now
                             </a>
                         </div>
@@ -745,7 +745,7 @@
                                 <span class="health-original">Rs. 7815</span>
                                 <span class="health-final">Rs. 2899</span>
                             </div>
-                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Gym%20Package%20-%20TN" target="_blank" class="health-buy-btn">
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Gym%20Package%20-%20TN" target="_blank" class="health-buy-btn">
                                 <i class="fab fa-whatsapp"></i> Buy Now
                             </a>
                         </div>
@@ -773,7 +773,7 @@
                                 <span class="health-original">Rs. 5775</span>
                                 <span class="health-final">Rs. 1999</span>
                             </div>
-                            <a href="https://wa.me/917353330900?text=I%20want%20to%20buy%20this%20medchikitsa%20Men's%20Health%20Check-Basic" target="_blank" class="health-buy-btn">
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Men's%20Health%20Check-Basic" target="_blank" class="health-buy-btn">
                                 <i class="fab fa-whatsapp"></i> Buy Now
                             </a>
                         </div>

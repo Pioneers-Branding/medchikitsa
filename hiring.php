@@ -3,7 +3,7 @@
 
 <head>
  
-  <title>Contact-Us| Medichikitsa Vijayapura</title>
+  <title>Hiring| Medichikitsa Vijayapura</title>
   
   
   
@@ -15,14 +15,14 @@
   <link rel="canonical" href="https://www.medchikitsa.com/contact-us">
  <meta name="robots" content="index, follow">
   <!-- Open Graph / Facebook -->
-  <meta property="og:title" content="Contact Us | Medchikitsa">
+  <meta property="og:title" content="Apply Now | Medchikitsa">
   <meta property="og:description" content="Contact Medchikitsa for healthcare inquiries, consultations, and support. Reach our team today for assistance with your medical needs.">
   <meta property="og:url" content="https://medchikitsa.com/contact-us">
   <meta property="og:type" content="website">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Contact Us | Medchikitsa">
+  <meta name="twitter:title" content="Apply Now | Medchikitsa">
   <meta name="twitter:description" content="Need assistance? Reach out to Medchikitsa for healthcare consultations, inquiries, and support.">
 
   
@@ -568,12 +568,12 @@
                <section class="breadcrumb-section"> 
                    <div class="container">
             <div class="breadcrumb-content">
-                <h1 class="breadcrumb-title">Contact Us</h1>
+                <h1 class="breadcrumb-title">Apply Now</h1>
                 <nav aria-label="breadcrumb" class="breadcrumb-nav">
                     <ol class="breadcrumb-list">
                         <li class="breadcrumb-item"><a href="index.php" class="text-dark">Home</a></li>
                         <li class="breadcrumb-divider"><i class="fas fa-chevron-right"></i></li>
-                        <li class="breadcrumb-item active text-dark">Contact-Us</li>
+                        <li class="breadcrumb-item active text-dark">Hiring</li>
                     </ol>
                 </nav>
             </div>
@@ -642,18 +642,14 @@
                 <!-- Right Side: Contact Form -->
                 <div class="col-lg-7">
                     <div class="form-wrapper p-5" style="background-color: white; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.04); height: 100%;">
-                        <h3 class="h4 mb-4" style="color: var(--med-primary);">Send Us a Message</h3>
+                        <h3 class="h4 mb-4" style="color: var(--med-primary);">Submit Your Application</h3>
                         
-                          <form class="contact-form" accept-charset='UTF-8' action='https://app.formester.com/forms/OwuroVfFc0m_/submissions' method='POST'>
+                          <form class="contact-form" action='#' method='POST' enctype="multipart/form-data">
                             <div class="row g-4">
                                 <div class="col-12">
                                     <div class="floating-label-group">
-                                        <select class="form-control" name="visit_type" id="visitType" required>
-                                            <option value="" disabled selected></option>
-                                            <option value="Clinic Visit">Clinic Visit</option>
-                                            <option value="Home Visit">Home Visit</option>
-                                        </select>
-                                        <label for="visitType">Visit Type</label>
+                                        <input type="text" class="form-control" name="job_title" id="jobTitle" value="<?php echo isset($_GET['job']) ? htmlspecialchars($_GET['job']) : ''; ?>" readonly>
+                                        <label for="jobTitle">Position Applied For</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -672,8 +668,15 @@
                                 
                                 <div class="col-md-6">
                                     <div class="floating-label-group">
-                                        <input type="text" class="form-control" name="address" id="address" placeholder=" " required>
-                                        <label for="address">Address</label>
+                                        <input type="email" class="form-control" name="email" id="email" placeholder=" " required>
+                                        <label for="email">Email Address</label>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12">
+                                    <div class="floating-label-group" style="padding-top: 10px;">
+                                        <label for="resume" style="position: static; padding: 0 0 5px 0; color: var(--med-text-muted);">Upload Resume</label>
+                                        <input type="file" class="form-control" name="resume" id="resume" accept=".pdf,.doc,.docx" required style="height: auto; padding: 10px;">
                                     </div>
                                 </div>
                                 
@@ -683,7 +686,7 @@
                                 
                                 <div class="col-12">
                                     <button type="submit" class="btn btn-primary px-5 py-3" style="background: linear-gradient(135deg, var(--med-primary) 0%, var(--med-secondary) 100%); border: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease;">
-                                        <i class="fas fa-paper-plane me-2"></i>Send Message
+                                        <i class="fas fa-paper-plane me-2"></i>Submit Application
                                     </button>
                                 </div>
                             </div>

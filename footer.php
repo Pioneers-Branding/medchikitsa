@@ -13,6 +13,7 @@
                         <a href="https://www.instagram.com/medchikitsa" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                         <a href="https://www.linkedin.com/company/medchikitsa" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
                         <a href="https://www.threads.net/@medchikitsa" target="_blank" aria-label="Threads"><i class="fa-brands fa-threads"></i></a>
+                        <a href="https://g.page/r/CdkvWVPSJxSuEAE/review" target="_blank" aria-label="Google Reviews"><i class="fa-brands fa-google"></i></a>
                     </div>
                 </div>
     
@@ -24,6 +25,7 @@
                         <li><a href="about"><i class="fas fa-chevron-right"></i> About Us</a></li>
                         <li><a href="contact-us"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
                         
+                        <li><a href="blog/"><i class="fas fa-chevron-right"></i> Blog</a></li>
                         <li><a href="career"><i class="fas fa-chevron-right"></i>Careers</a></li>
                         <li><a href="privilage-card"><i class="fas fa-chevron-right"></i>Membership Card</a></li>
                     </ul>
@@ -50,7 +52,7 @@
                         </li>
                         <li>
                             <i class="fas fa-phone"></i>
-                            <a  style="color:rgba(255, 255, 255, 0.7);" href="tel:+917353330700"  >+917353330700</a>
+                            <a  style="color:rgba(255, 255, 255, 0.7);" href="tel:+916360225347"  >+916360225347</a>
                         </li>
                         <li>
                             <i class="fas fa-envelope"></i>
