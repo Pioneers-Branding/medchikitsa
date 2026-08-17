@@ -552,13 +552,13 @@
                   <h1 class="slide-title">Medchikitsa Home Visit Service</h1>
                   <p class="slide-desc">Skip the waiting room and enjoy healthcare in the comfort of your own home. Our friendly, professional technologists bring top-quality lab services directly to your door. Schedule your visit today for a seamless and stress-free experience.</p>
                   <div class="d-flex flex-wrap align-items-center">
-                    <a href="contact-us.php" class="btn btn-white btn-white-style2 mr-30 mb-2" style="display: inline-flex; align-items: center; justify-content: center; position: relative; z-index: 10;">
-                      <span>Book a Home Visit</span>
-                      <i class="icon-arrow-right"></i>
+                    <a href="contact-us.php" class="btn btn-white btn-white-style2 mr-30 mb-2">
+                      <span style="pointer-events: none;">Book a Home Visit</span>
+                      <i class="icon-arrow-right" style="pointer-events: none;"></i>
                     </a>
-                    <a href="privilage-card" class="btn btn-primary mb-2" style="border-radius: 30px; font-weight: 600; padding: 10px 28px; display: inline-flex; align-items: center; justify-content: center; position: relative; z-index: 10;">
-                      <span>Membership Card</span>
-                      <i class="icon-arrow-right"></i>
+                    <a href="privilage-card.php" class="btn btn-primary mb-2" style="border-radius: 30px;">
+                      <span style="pointer-events: none;">Membership Card</span>
+                      <i class="icon-arrow-right" style="pointer-events: none;"></i>
                     </a>
                   </div>
                 </div><!-- /.slide-content -->
@@ -577,13 +577,13 @@
                   <h2 class="slide-title">Precision for Your Health!</h2>
                   <p class="slide-desc">We believe accurate diagnostics are the foundation of good health. Using the latest medical technology, our expert team provides precise results you can trust, helping you make informed decisions about your wellbeing.</p>
                   <div class="d-flex flex-wrap align-items-center">
-                    <a href="contact-us.php" class="btn btn-white btn-white-style2 mr-30 mb-2" style="display: inline-flex; align-items: center; justify-content: center; position: relative; z-index: 10;">
-                      <span>Book a Home Visit</span>
-                      <i class="icon-arrow-right"></i>
+                    <a href="contact-us.php" class="btn btn-white btn-white-style2 mr-30 mb-2">
+                      <span style="pointer-events: none;">Book a Home Visit</span>
+                      <i class="icon-arrow-right" style="pointer-events: none;"></i>
                     </a>
-                    <a href="privilage-card" class="btn btn-primary mb-2" style="border-radius: 30px; font-weight: 600; padding: 10px 28px; display: inline-flex; align-items: center; justify-content: center; position: relative; z-index: 10;">
-                      <span>Membership Card</span>
-                      <i class="icon-arrow-right"></i>
+                    <a href="privilage-card.php" class="btn btn-primary mb-2" style="border-radius: 30px;">
+                      <span style="pointer-events: none;">Membership Card</span>
+                      <i class="icon-arrow-right" style="pointer-events: none;"></i>
                     </a>
                   </div>
                 </div><!-- /.slide-content -->
