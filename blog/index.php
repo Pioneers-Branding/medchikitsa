@@ -329,7 +329,7 @@
                             <h3 class="blog-card-title">The Importance of Regular Full-Body Health Checkups</h3>
                             <p class="blog-excerpt-text">Preventive healthcare is key to living a long, healthy life. Discover why scheduling routine lab tests helps detect underlying conditions before symptoms arise.</p>
                             <div class="blog-card-footer">
-                                <a href="blog/index.php" class="blog-read-more-btn">
+                                <a href="blog/regular-health-checkups.php" class="blog-read-more-btn">
                                     Read Article <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -375,7 +375,7 @@
                             <h3 class="blog-card-title">Top 5 Benefits of Home Sample Collection Services</h3>
                             <p class="blog-excerpt-text">Skip travel hassle and long clinic queues. Learn how certified phlebotomists deliver safe, hygienic home blood collection directly to your doorstep.</p>
                             <div class="blog-card-footer">
-                                <a href="blog/index.php" class="blog-read-more-btn">
+                                <a href="blog/home-sample-collection-benefits.php" class="blog-read-more-btn">
                                     Read Article <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -398,7 +398,7 @@
                             <h3 class="blog-card-title">What You Need to Know Before Your First MRI & CT Scan</h3>
                             <p class="blog-excerpt-text">Nervous about your upcoming imaging procedure? We walk you through prep tips, metallic safety precautions, and what to expect inside the scanner.</p>
                             <div class="blog-card-footer">
-                                <a href="blog/index.php" class="blog-read-more-btn">
+                                <a href="blog/mri-ct-scan-guide.php" class="blog-read-more-btn">
                                     Read Article <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -421,7 +421,7 @@
                             <h3 class="blog-card-title">Role of Advanced Thyroid Screening in Daily Energy</h3>
                             <p class="blog-excerpt-text">Feeling constantly fatigued or experiencing sudden weight changes? Uncover how T3, T4, and TSH levels regulate your metabolism and overall vitality.</p>
                             <div class="blog-card-footer">
-                                <a href="blog/index.php" class="blog-read-more-btn">
+                                <a href="blog/thyroid-screening-energy.php" class="blog-read-more-btn">
                                     Read Article <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -444,7 +444,7 @@
                             <h3 class="blog-card-title">Managing Diabetes: Crucial Insights from HbA1c Testing</h3>
                             <p class="blog-excerpt-text">Why is HbA1c more reliable than daily fasting blood sugar tests? Learn how 3-month average glucose monitoring aids effective diabetes management.</p>
                             <div class="blog-card-footer">
-                                <a href="blog/index.php" class="blog-read-more-btn">
+                                <a href="blog/managing-diabetes-hba1c.php" class="blog-read-more-btn">
                                     Read Article <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -467,7 +467,7 @@
                             <h3 class="blog-card-title">Heart Health 101: Lipid Profile & Early Heart Checks</h3>
                             <p class="blog-excerpt-text">Distinguish between HDL (good) and LDL (bad) cholesterol. Learn how early lipid profiling protects against silent cardiovascular conditions.</p>
                             <div class="blog-card-footer">
-                                <a href="blog/index.php" class="blog-read-more-btn">
+                                <a href="blog/heart-health-lipid-profile.php" class="blog-read-more-btn">
                                     Read Article <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -490,7 +490,7 @@
                             <h3 class="blog-card-title">Vitamin D & B12 Deficiency: Signs, Symptoms & Fixes</h3>
                             <p class="blog-excerpt-text">Bone pain, muscle weakness, or numbness? Explore why Vitamin D and B12 deficiencies are widespread and how timely diagnostic testing helps.</p>
                             <div class="blog-card-footer">
-                                <a href="blog/index.php" class="blog-read-more-btn">
+                                <a href="blog/vitamin-d-b12-deficiency.php" class="blog-read-more-btn">
                                     Read Article <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
