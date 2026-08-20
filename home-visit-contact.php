@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -694,14 +694,13 @@
                     <p class="section-subtitle">Explore our facility from anywhere, anytime</p>
                     
                     <div class="tour-container">
-                        <!--<img src="/api/placeholder/600/350" alt="Medical Center Tour" class="img-fluid w-100">-->
-                        <img src="assets/images/video-image.webp" alt="Medical Center Tour" class="img-fluid w-100">
-                        <div class="play-button">
-                            <i class="fas fa-play"></i>
-                        </div>
+                        <video class="img-fluid w-100" controls autoplay muted loop style="border-radius: 15px;">
+                            <source src="assets/videos/virtual-tour.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                         <div class="tour-badge">
                             <i class="fas fa-vr-cardboard"></i>
-                            360� Virtual Tour
+                            360Â° Virtual Tour
                         </div>
                     </div>
                     
@@ -763,7 +762,7 @@
                             <i class="fas fa-vr-cardboard" style="color: var(--med-secondary);"></i>
                         </div>
                         <div>
-                            <h4 class="h6 mb-1">Immersive 360� Experience</h4>
+                            <h4 class="h6 mb-1">Immersive 360Â° Experience</h4>
                             <p class="small text-muted mb-0"> Experience our facility virtually, as if you were physically there.</p>
                         </div>
                     </div>
