@@ -792,7 +792,7 @@
                </div>
                <div class="fancybox-body">
                  <h4 class="fancybox-title">Careers</h4>
-                 <p class="fancybox-desc">Did you know? If all the DNA from your cells were uncoiled and laid out, it would stretch from Earth to the Sun 65 times! Join us and be part of innovation.</p>
+                 <p class="fancybox-desc">Join our team of dedicated professionals. We offer a dynamic work environment with opportunities for growth and a chance to make a real difference in patient care.</p>
                </div>
              </div>
            </div>
@@ -1135,3 +1135,4 @@
 </body>
 
 </html>
+
