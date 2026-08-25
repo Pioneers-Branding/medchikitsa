@@ -746,7 +746,7 @@
              </div>
            </div>
          </div>
-         <div class="row">
+         <div class="row why-choose-slider">
          
            <div class="col-sm-6 col-d-4 col-lg-4">
              <div class="fancybox-item">

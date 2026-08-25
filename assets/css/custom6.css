@@ -908,3 +908,84 @@ img { max-width: 100%; height: auto; }
   .health-card, .blog-card { margin-bottom: 20px; }
   .breadcrumb-title { font-size: 24px !important; }
 }
+
+/* Mobile-only slider for Why Choose Medchikitsa? */
+@media (max-width: 767px) {
+  .fancybox-layout1 .why-choose-slider {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    scroll-snap-type: x mandatory !important;
+    -webkit-overflow-scrolling: touch !important;
+    padding-bottom: 20px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+  }
+  
+  .fancybox-layout1 .why-choose-slider::-webkit-scrollbar {
+    display: none !important;
+  }
+  
+  .fancybox-layout1 .why-choose-slider {
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+  }
+
+  .fancybox-layout1 .why-choose-slider > [class*="col-"] {
+    flex: 0 0 85% !important;
+    max-width: 85% !important;
+    scroll-snap-align: center !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* Compact Contact Info (Homepage style) */
+  .cs-info-wrapper {
+    padding: 15px !important;
+  }
+  .cs-info-title {
+    font-size: 20px !important;
+    margin-bottom: 15px !important;
+  }
+  .cs-info-item {
+    padding: 12px 15px !important;
+    margin-bottom: 12px !important;
+    gap: 10px !important;
+  }
+  .cs-info-label {
+    font-size: 14px !important;
+    margin-bottom: 2px !important;
+  }
+  .cs-info-text {
+    font-size: 13px !important;
+  }
+
+  /* Compact Contact Info (Contact page style) */
+  .contact-info-box {
+    padding: 1.25rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  .contact-item {
+    margin-bottom: 1rem !important;
+  }
+  .contact-icon-circle {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 0.9rem !important;
+  }
+  .qr-box {
+    padding: 1.25rem !important;
+    margin-top: 1rem !important;
+  }
+  .qr-code-wrapper img {
+    height: 120px !important;
+    width: 120px !important;
+  }
+  .row.g-5 {
+    --bs-gutter-y: 1.5rem !important;
+  }
+}
+
