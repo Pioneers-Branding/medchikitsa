@@ -483,6 +483,15 @@
     </section>
 
        <div class="container mt-4 pb-3">
+        <!-- Search Container -->
+        <div class="search-container">
+            <div class="search-wrapper">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" id="package-search" placeholder="Search health packages (e.g. CBC, Vitamin, Diabetes)..." class="search-input">
+                <button id="clear-search" class="clear-btn" style="display: none;" title="Clear Search"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+        
         <!-- Filter Section -->
         <div class="filter-section">
             <button class="filter-btn active">Popular</button>
@@ -1428,6 +1437,47 @@
                 }
             });
             
+            // Search functionality integration
+            const searchInput = document.getElementById('package-search');
+            const clearSearchBtn = document.getElementById('clear-search');
+
+            function applyFilters() {
+                const query = searchInput ? searchInput.value.toLowerCase().trim() : '';
+                const activeBtn = document.querySelector('.filter-btn.active');
+                const category = activeBtn ? activeBtn.textContent.trim().replace(/ /g, '-') : 'Popular';
+                
+                // Toggle clear button visibility
+                if (clearSearchBtn) {
+                    clearSearchBtn.style.display = query.length > 0 ? 'flex' : 'none';
+                }
+
+                packages.forEach(function(pkg) {
+                    // Check category match
+                    let categoryMatch = false;
+                    if (category === 'Popular' || category === 'View-More...') {
+                        categoryMatch = true;
+                    } else {
+                        categoryMatch = pkg.classList.contains(category);
+                    }
+                    
+                    // Check search query match
+                    let searchMatch = false;
+                    if (query === '') {
+                        searchMatch = true;
+                    } else {
+                        const cardText = pkg.textContent.toLowerCase();
+                        searchMatch = cardText.includes(query);
+                    }
+                    
+                    // Show/Hide based on both conditions
+                    if (categoryMatch && searchMatch) {
+                        pkg.style.display = 'block';
+                    } else {
+                        pkg.style.display = 'none';
+                    }
+                });
+            }
+
             // Add click event to filter buttons
             filterButtons.forEach(function(button) {
                 button.addEventListener('click', function() {
@@ -1439,28 +1489,22 @@
                     // Add active class to clicked button
                     button.classList.add('active');
                     
-                    // Get the category from button text
-                    const category = button.textContent.trim().replace(/ /g, '-');
-                    
-                    // Hide all packages
-                    packages.forEach(function(pkg) {
-                        pkg.style.display = 'none';
-                    });
-                    
-                    // Show packages for selected category
-                    if (category === 'Popular' || category === 'View-More...') {
-                        // For Popular or View More, show all packages
-                        packages.forEach(function(pkg) {
-                            pkg.style.display = 'block';
-                        });
-                    } else {
-                        // For specific category, show only matching packages
-                        document.querySelectorAll(`.${category}`).forEach(function(pkg) {
-                            pkg.style.display = 'block';
-                        });
-                    }
+                    // Apply unified filtering
+                    applyFilters();
                 });
             });
+
+            // Listen to search input events
+            if (searchInput) {
+                searchInput.addEventListener('input', applyFilters);
+            }
+            if (clearSearchBtn) {
+                clearSearchBtn.addEventListener('click', function() {
+                    searchInput.value = '';
+                    applyFilters();
+                    searchInput.focus();
+                });
+            }
             
             // Trash icon functionality
             const trashIcons = document.querySelectorAll('.trash-icon');
