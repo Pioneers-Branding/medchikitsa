@@ -73,3 +73,41 @@
             </div>
         </div>
     </footer>
+
+    <!-- Floating Footer Bar -->
+    <div class="floating-footer-bar" id="floatingFooterBar">
+        <div class="floating-footer-container">
+            <!-- WhatsApp Item -->
+            <a href="https://wa.me/+916360225347?text=Hello%20Medchikitsa%2C%20I%20have%20an%20inquiry." 
+               class="floating-footer-item whatsapp-item" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               title="Chat on WhatsApp">
+                <div class="floating-footer-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <span class="floating-footer-label">WhatsApp</span>
+            </a>
+
+            <!-- Contact Us Page Item -->
+            <a href="<?php echo (file_exists('contact-us.php') ? 'contact-us' : (file_exists('../contact-us.php') ? '../contact-us' : 'contact-us')); ?>" 
+               class="floating-footer-item contact-item" 
+               title="Contact Us Page">
+                <div class="floating-footer-icon">
+                    <i class="fas fa-envelope-open-text"></i>
+                </div>
+                <span class="floating-footer-label">Contact Us</span>
+            </a>
+
+            <!-- 24*7 Call Item -->
+            <a href="tel:+916360225347" 
+               class="floating-footer-item call-item" 
+               title="24*7 Emergency Call">
+                <div class="floating-footer-icon pulse-icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <span class="floating-footer-label">24*7 Call</span>
+            </a>
+        </div>
+    </div>
+

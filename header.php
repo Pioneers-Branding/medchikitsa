@@ -6,13 +6,13 @@
               <div class="d-flex align-items-center justify-content-between">
                 <ul class="contact-list d-flex flex-wrap align-items-center list-unstyled pt-3 mb-0" >
                   <li>
-                    <i class="icon-phone"></i><a href="tel:+916360225347">Emergency Line:+916360225347</a>
+                    <i class="icon-phone"></i><a href="tel:+916360225347">24*7 Emergency Line: +916360225347</a>
                   </li>
                   <li>
                     <i class="icon-location"></i><a href="https://www.google.com/maps/search/?api=1&query=Medchikitsa+Vijayapura" target="_blank"> Vijayapura, Karnataka</a>
                   </li>
                   <li>
-                    <i class="icon-clock"></i><a href="javascript:void(0);" style="cursor: default; color: #f4f4f4; text-decoration: none;">Mon - Fri: 8:00 am - 7:00 pm</a>
+                    <i class="icon-clock"></i><a href="javascript:void(0);" style="cursor: default; color: #f4f4f4; text-decoration: none;">24*7 Open Services</a>
                   </li>
                 </ul><!-- /.contact-list -->
                 </div>
@@ -65,6 +65,11 @@
 
             </ul><!-- /.navbar-nav -->
             <ul class="header-actions d-flex align-items-center position-relative list-unstyled mb-0">
+              <li class="me-2 d-none d-sm-inline-block">
+                <span class="badge-247-header">
+                  <i class="fas fa-clock"></i> 24*7 Open
+                </span>
+              </li>
               <li>
                 <a href="contact-us" class="btn btn-secondary btn-contact">
                   Book a Lab Visit
@@ -77,14 +82,5 @@
         </div><!-- /.container -->
       </nav><!-- /.navabr -->
     </header><!-- /.Header -->
-    <div class="floating-cta">
-        <a href="https://wa.me/+916360225347" class="cta-button whatsapp-btn" target="_blank">
-            <i class="bi bi-whatsapp"></i>
-            <span class="cta-tooltip">Chat on WhatsApp</span>
-        </a>
-        <a href="tel:+916360225347" class="cta-button call-btn">
-            <i class="bi bi-telephone-fill"></i>
-            <span class="cta-tooltip">Call Us</span>
-        </a>
-    </div> 
+ 
     
