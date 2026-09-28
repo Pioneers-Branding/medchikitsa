@@ -1285,7 +1285,7 @@
                             </div>
                             <div class="cs-info-content">
                                 <h4 class="cs-info-label">Location</h4>
-                                <p class="cs-info-text">Milan Commercial Complex , Ground Floor , Near Vittal Mandir Road, Beside Federal Bank , Vijayapur ,568101</p>
+                                <p class="cs-info-text">Milan Commercial Complex , Ground Floor , Near Vittal Mandir Road, Beside Federal Bank , Vijayapur ,586101</p>
                             </div>
                         </div>
     

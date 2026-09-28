@@ -602,7 +602,7 @@
                             </div>
                             <div>
                                 <h4 class="h6 mb-1" style="color: var(--med-primary);">Our Location</h4>
-                                <p class="mb-0 text-muted">Milan Commercial Complex , Ground Floor , Near Vittal Mandir Road, Beside Federal Bank , Vijayapur ,568101</p>
+                                <p class="mb-0 text-muted">Milan Commercial Complex , Ground Floor , Near Vittal Mandir Road, Beside Federal Bank , Vijayapur ,586101</p>
                             </div>
                         </div>
                         
