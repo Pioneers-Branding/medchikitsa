@@ -71,8 +71,8 @@
                 </span>
               </li>
               <li>
-                <a href="contact-us" class="btn btn-secondary btn-contact">
-                  Book a Lab Visit
+                <a href="home-visit-contact.php" class="btn btn-secondary btn-contact">
+                  Book a Home Visit
                 </a>
               </li>
               

@@ -655,17 +655,8 @@
                             <?php if (!empty($_GET['doctor'])): ?>
                                 <input type="hidden" name="doctor_consultation" value="<?php echo htmlspecialchars($_GET['doctor']); ?>">
                             <?php endif; ?>
+                            <input type="hidden" name="visit_type" value="Lab Visit / Clinic Consultation">
                             <div class="row g-4">
-                                <div class="col-12">
-                                    <div class="floating-label-group">
-                                        <select class="form-control" name="visit_type" id="visitType" required>
-                                            <option value="" disabled selected></option>
-                                            <option value="Clinic Visit">Clinic Visit</option>
-                                            <option value="Home Visit">Home Visit</option>
-                                        </select>
-                                        <label for="visitType">Visit Type</label>
-                                    </div>
-                                </div>
                                 <div class="col-12">
                                     <div class="floating-label-group">
                                         <input type="text" class="form-control" name="name" id="fullName" placeholder=" " oninput="this.value = this.value.replace(/[^A-Za-z\s]/g, '')" required>
@@ -684,6 +675,23 @@
                                     <div class="floating-label-group">
                                         <input type="text" class="form-control" name="address" id="address" placeholder=" " required>
                                         <label for="address">Address</label>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12">
+                                    <div class="d-flex flex-wrap align-items-center justify-content-between p-3" style="background: rgba(33, 182, 188, 0.08); border: 1.5px dashed var(--med-secondary); border-radius: 12px; gap: 12px;">
+                                        <div class="d-flex align-items-center gap-3">
+                                            <div style="width: 40px; height: 40px; border-radius: 50%; background: var(--med-secondary); display: flex; align-items: center; justify-content: center; color: white;">
+                                                <i class="fas fa-home"></i>
+                                            </div>
+                                            <div>
+                                                <div style="font-weight: 700; font-size: 14.5px; color: var(--med-primary);">Need Blood Sample Collection at Home?</div>
+                                                <div style="font-size: 13px; color: var(--med-text-muted);">Book our doorstep certified phlebotomist service across Vijayapura.</div>
+                                            </div>
+                                        </div>
+                                        <a href="home-visit-contact.php" class="btn btn-sm px-3 py-2" style="background: var(--med-secondary); color: #fff; font-weight: 600; border-radius: 8px; font-size: 13px; text-decoration: none;">
+                                            Book Home Visit <i class="fas fa-arrow-right ms-1"></i>
+                                        </a>
                                     </div>
                                 </div>
                                 

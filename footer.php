@@ -27,6 +27,7 @@ $med_base = file_exists('index.php') ? '' : '../';
                         <li><a href="<?php echo $med_base; ?>index.php"><i class="fas fa-chevron-right"></i> Home</a></li>
                         <li><a href="<?php echo $med_base; ?>about.php"><i class="fas fa-chevron-right"></i> About Us</a></li>
                         <li><a href="<?php echo $med_base; ?>contact-us.php"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                        <li><a href="<?php echo $med_base; ?>home-visit-contact.php"><i class="fas fa-chevron-right"></i> Book Home Visit</a></li>
                         <li><a href="<?php echo $med_base; ?>career.php"><i class="fas fa-chevron-right"></i> Careers</a></li>
                         <li><a href="<?php echo $med_base; ?>privilage-card.php"><i class="fas fa-chevron-right"></i> Membership Card</a></li>
                         <li><a href="<?php echo $med_base; ?>blog/"><i class="fas fa-chevron-right"></i> Blog</a></li>
@@ -41,6 +42,7 @@ $med_base = file_exists('index.php') ? '' : '../';
                         <li><a href="<?php echo $med_base; ?>medical-laboratory-services.php"><i class="fas fa-chevron-right"></i> Medical Laboratory Services</a></li>
                         <li><a href="<?php echo $med_base; ?>superspeciality-opd.php"><i class="fas fa-chevron-right"></i> Superspeciality OPD</a></li>
                         <li><a href="<?php echo $med_base; ?>health-packages.php"><i class="fas fa-chevron-right"></i> Health Packages</a></li>
+                        <li><a href="<?php echo $med_base; ?>home-visit-contact.php"><i class="fas fa-chevron-right"></i> Book Home Visit</a></li>
                     </ul>
                 </div>
     
@@ -88,6 +90,16 @@ $med_base = file_exists('index.php') ? '' : '../';
                     <i class="fab fa-whatsapp"></i>
                 </div>
                 <span class="floating-footer-label">WhatsApp</span>
+            </a>
+
+            <!-- Home Visit Item -->
+            <a href="<?php echo $med_base; ?>home-visit-contact.php" 
+               class="floating-footer-item home-item" 
+               title="Book Doorstep Home Visit">
+                <div class="floating-footer-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <span class="floating-footer-label">Home Visit</span>
             </a>
 
             <!-- Contact Us Page Item -->

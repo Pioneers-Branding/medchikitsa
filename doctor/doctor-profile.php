@@ -1,6 +1,39 @@
 <?php
 // Central Doctor Profile Data
 $doctors_data = [
+    'dr-siddharth-shrigiri' => [
+        'id' => 'dr-siddharth-shrigiri',
+        'name' => 'Dr. Siddharth Shrigiri',
+        'designation' => 'Consultant Radiologist | MBBS, DMRD / MD Radio-Diagnosis',
+        'badge' => 'Radiology & Imaging',
+        'badge_class' => 'badge-teal',
+        'subtitle' => 'Consultant Radiologist | Diagnostic Imaging & Sonology Specialist',
+        'photo' => 'assets/images/team/dr-siddharth-shrigiri.png?v=2',
+        'experience' => '10+ Years Experience',
+        'department' => 'Department of Radiology & Imaging',
+        'about' => 'Dr. Siddharth Shrigiri is an accomplished Consultant Radiologist with specialized clinical expertise in ultrasound diagnostics, color Doppler imaging, and general diagnostic radiology. He works closely with medical specialists and diagnostic teams across Karnataka to ensure comprehensive and high-accuracy diagnostic evaluations.',
+        'highlights' => [
+            'Consultant Radiologist & Diagnostic Imaging Specialist',
+            'Expertise in High-Resolution Ultrasound, Obstetric & Color Doppler Scans',
+            'Cross-sectional diagnostic imaging review (CT, MRI & Digital X-Ray)',
+            'Dedicated to precision diagnostic interpretation and patient care'
+        ],
+        'qualifications' => [
+            'MBBS - Registered Medical Practitioner',
+            'Postgraduate in Radio-Diagnosis (DMRD / MD)',
+            'Specialist in Abdominal, Pelvic & Obstetric Sonology',
+            'Advanced Certification in Color Doppler & Vascular Imaging'
+        ],
+        'work_areas' => [
+            'High-Resolution Ultrasonography & Doppler Studies',
+            'Abdominal, Pelvic & Small Parts Sonology',
+            'Antenatal, Anomaly & 3D/4D Obstetric Scans',
+            'Digital Radiography & CT/MRI Diagnostic Correlation',
+            'Comprehensive Health Checkup Diagnostic Reviews'
+        ],
+        'timings' => 'Mon - Sat: 09:00 AM - 05:00 PM',
+        'location' => 'MedChikitsa Main Diagnostic Hub, Vijayapura'
+    ],
     'jeevan-naik' => [
         'id' => 'jeevan-naik',
         'name' => 'Jeevan Naik',

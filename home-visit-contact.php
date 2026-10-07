@@ -3,7 +3,7 @@
 
 <head>
  
-  <title>Home Visit Contact | Medichikitsa Vijayapura</title>
+  <title>Home Sample Collection | Book Blood Test at Home | MedChikitsa Vijayapura</title>
   
   
   
@@ -568,12 +568,12 @@
                <section class="breadcrumb-section"> 
                    <div class="container">
             <div class="breadcrumb-content">
-                <h1 class="breadcrumb-title">Home Visit Contact</h1>
+                <h1 class="breadcrumb-title">Home Sample Collection</h1>
                 <nav aria-label="breadcrumb" class="breadcrumb-nav">
                     <ol class="breadcrumb-list">
                         <li class="breadcrumb-item"><a href="index.php" class="text-dark">Home</a></li>
                         <li class="breadcrumb-divider"><i class="fas fa-chevron-right"></i></li>
-                        <li class="breadcrumb-item active text-dark">Contact-Us</li>
+                        <li class="breadcrumb-item active text-dark">Book Home Visit</li>
                     </ol>
                 </nav>
             </div>
@@ -584,96 +584,157 @@
         <div class="container">
             <!-- Section Header -->
             <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold mb-3" style="color: var(--med-primary);">Get In Touch</h2>
-                <div class="divider-accent mx-auto mb-4"></div>
-                <p class="lead text-muted max-w-md mx-auto">We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                <span class="badge px-3 py-2 mb-2" style="background: rgba(33, 182, 188, 0.15); color: var(--med-primary); font-size: 13px; font-weight: 700; border-radius: 20px;">
+                    <i class="fas fa-shield-virus me-1 text-success"></i> NABL Standard Diagnostic Care at Home
+                </span>
+                <h2 class="display-5 fw-bold mb-3" style="color: var(--med-primary);">Doorstep Blood & Lab Sample Collection</h2>
+                <div class="divider-accent mx-auto mb-3"></div>
+                <p class="lead text-muted max-w-md mx-auto" style="font-size: 1.05rem;">Skip the clinic queue. Our certified phlebotomists collect blood and lab samples right from the comfort of your home or office across Vijayapura.</p>
             </div>
             
             <div class="row g-5 align-items-stretch">
-                <!-- Left Side: Contact Information & QR Code -->
+                <!-- Left Side: Home Visit Highlights & Contact -->
                 <div class="col-lg-5">
-                    <!-- Contact Information Box -->
-                    <div class="contact-info-box p-4 mb-5" style="background-color: white; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.04); border-top: 5px solid var(--med-accent);">
-                        <h3 class="h4 mb-4" style="color: var(--med-primary);">Contact Information</h3>
+                    <!-- Home Visit Highlights Box -->
+                    <div class="contact-info-box p-4 mb-4" style="background-color: white; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.04); border-top: 5px solid var(--med-secondary);">
+                        <h3 class="h5 mb-3" style="color: var(--med-primary); font-weight: 700;">Why Choose Home Collection?</h3>
                         
-                        <div class="contact-item d-flex align-items-center mb-4">
-                            <div class="contact-icon-circle me-3 flex-shrink-0">
-                                <i class="fas fa-map-marker-alt"></i>
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="contact-icon-circle me-3 flex-shrink-0" style="background: rgba(33, 182, 188, 0.12); color: var(--med-secondary);">
+                                <i class="fas fa-syringe"></i>
                             </div>
                             <div>
-                                <h4 class="h6 mb-1" style="color: var(--med-primary);">Our Location</h4>
-                                <p class="mb-0 text-muted">Milan Commercial Complex , Ground Floor , Near Vittal Mandir Road, Beside Federal Bank , Vijayapur ,586101</p>
+                                <h4 class="h6 mb-1" style="color: var(--med-primary);">100% Sterile & Safe</h4>
+                                <p class="mb-0 text-muted small">Single-use barcoded vacutainer needles and temperature-controlled sample carriers.</p>
                             </div>
                         </div>
                         
-                        <div class="contact-item d-flex align-items-center mb-4">
-                            <div class="contact-icon-circle me-3 flex-shrink-0">
-                                <i class="fas fa-phone-alt"></i>
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="contact-icon-circle me-3 flex-shrink-0" style="background: rgba(179, 205, 72, 0.2); color: #6f8715;">
+                                <i class="fas fa-user-check"></i>
                             </div>
                             <div>
-                                <h4 class="h6 mb-1" style="color: var(--med-primary);">Phone Numbers</h4>
-                                <a href="tel:+916360225347" class="mb-0 text-muted">General: +916360225347</a>
-                                <!--<p class="mb-0 text-muted">Support: (123) 456-7891</p>-->
+                                <h4 class="h6 mb-1" style="color: var(--med-primary);">Certified Phlebotomists</h4>
+                                <p class="mb-0 text-muted small">Trained and verified technicians experienced with elderly, kids, and difficult veins.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="contact-icon-circle me-3 flex-shrink-0" style="background: rgba(33, 74, 104, 0.1); color: var(--med-primary);">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4 class="h6 mb-1" style="color: var(--med-primary);">Early Morning Slots</h4>
+                                <p class="mb-0 text-muted small">Slots starting 06:30 AM for ideal fasting blood sugar, lipid profiles, and thyroid tests.</p>
                             </div>
                         </div>
                         
-                        <div class="contact-item d-flex align-items-center">
-                            <div class="contact-icon-circle me-3 flex-shrink-0">
-                                <i class="fas fa-envelope"></i>
+                        <div class="d-flex align-items-start">
+                            <div class="contact-icon-circle me-3 flex-shrink-0" style="background: rgba(37, 211, 102, 0.15); color: #128c7e;">
+                                <i class="fab fa-whatsapp"></i>
                             </div>
                             <div>
-                                <h4 class="h6 mb-1" style="color: var(--med-primary);">Email Address</h4>
-                                <a href="mailto:medchikitsa@gmail.com" class="mb-0 text-muted">medchikitsa@gmail.com</a>
-                                <!--<p class="mb-0 text-muted">support@medicalcenter.com</p>-->
+                                <h4 class="h6 mb-1" style="color: var(--med-primary);">Fast Digital Reports</h4>
+                                <p class="mb-0 text-muted small">Accurate, digitally signed reports delivered directly to your WhatsApp and Email.</p>
                             </div>
                         </div>
                     </div>
                     
-                    <!-- QR Code Box -->
-                    <div class="qr-box p-4 text-center mt-3 " style="background: linear-gradient(135deg, var(--med-primary) 0%, var(--med-secondary) 100%); border-radius: 16px; box-shadow: 0 10px 40px rgba(33, 74, 104, 0.2);">
-                        <h4 class="text-white mb-3">Find Us With QR Code</h4>
-                        <div class="qr-code-wrapper bg-white p-3 d-inline-block rounded-3">
-                            <img src="assets/images/QR.jpeg" height="160px" width="160px" alt="Location QR Code" class="img-fluid rounded-2">
+                    <!-- Instant WhatsApp Booking Box -->
+                    <div class="p-4 text-center" style="background: linear-gradient(135deg, #153a5b 0%, #21b6bc 100%); border-radius: 16px; box-shadow: 0 10px 30px rgba(33, 74, 104, 0.2);">
+                        <h4 class="text-white mb-2" style="font-size: 18px; font-weight: 700;">Prefer Instant WhatsApp Booking?</h4>
+                        <p class="text-white opacity-75 small mb-3">Share your prescription or test list on WhatsApp for instant slot confirmation.</p>
+                        <a href="https://wa.me/+916360225347?text=Hello%20Medchikitsa%2C%20I%20would%20like%20to%20book%20a%20Home%20Sample%20Collection." target="_blank" class="btn btn-light px-4 py-2" style="font-weight: 700; border-radius: 25px; color: #128c7e; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
+                            <i class="fab fa-whatsapp me-2 text-success"></i> WhatsApp Us Now
+                        </a>
+                        <div class="mt-3 text-white small">
+                            <i class="fas fa-phone-alt me-1"></i> Helpline: <a href="tel:+916360225347" class="text-white fw-bold">+91 63602 25347</a>
                         </div>
-                        <p class="text-white mt-3 mb-0 small">Scan for directions to our facility</p>
                     </div>
                 </div>
                 
-                <!-- Right Side: Contact Form -->
+                <!-- Right Side: Dedicated Home Visit Booking Form -->
                 <div class="col-lg-7">
-                    <div class="form-wrapper p-5" style="background-color: white; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.04); height: 100%;">
-                        <h3 class="h4 mb-4" style="color: var(--med-primary);">Book a Home Visit</h3>
+                    <div class="form-wrapper p-4 p-md-5" style="background-color: white; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.04); height: 100%;">
+                        <div class="d-flex align-items-center justify-content-between mb-4 pb-2 border-bottom">
+                            <div>
+                                <h3 class="h4 mb-1" style="color: var(--med-primary); font-weight: 700;">Home Visit Booking Form</h3>
+                                <p class="text-muted small mb-0">Fill in your details and our coordinator will confirm your slot.</p>
+                            </div>
+                            <span class="badge bg-success px-3 py-2"><i class="fas fa-check-circle me-1"></i> Free / Low Cost</span>
+                        </div>
                         
-                          <form class="contact-form" accept-charset='UTF-8' action='https://app.formester.com/forms/OwuroVfFc0m_/submissions' method='POST'>
+                        <form class="contact-form" accept-charset='UTF-8' action='https://app.formester.com/forms/OwuroVfFc0m_/submissions' method='POST'>
+                            <input type="hidden" name="visit_type" value="Home Sample Collection">
                             <div class="row g-4">
-                                <div class="col-12">
+                                <div class="col-md-6">
                                     <div class="floating-label-group">
                                         <input type="text" class="form-control" name="name" id="fullName" placeholder=" " oninput="this.value = this.value.replace(/[^A-Za-z\s]/g, '')" required>
-                                        <label for="fullName">Full Name</label>
+                                        <label for="fullName">Patient Full Name *</label>
                                     </div>
                                 </div>
                                 
                                 <div class="col-md-6">
                                     <div class="floating-label-group">
-                                        <input type="tel" class="form-control" id="phone" name="mobile" placeholder=" "  oninput="this.value = this.value.replace(/[^0-9+]/g, '')"  required>
-                                        <label for="phone">Phone Number</label>
+                                        <input type="tel" class="form-control" id="phone" name="mobile" placeholder=" " oninput="this.value = this.value.replace(/[^0-9+]/g, '')" required>
+                                        <label for="phone">Phone / WhatsApp Number *</label>
                                     </div>
                                 </div>
                                 
-                                <div class="col-md-6">
+                                <div class="col-12">
                                     <div class="floating-label-group">
                                         <input type="text" class="form-control" name="address" id="address" placeholder=" " required>
-                                        <label for="address">Address</label>
+                                        <label for="address">Home Address & Landmark (Vijayapura) *</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="floating-label-group">
+                                        <input type="date" class="form-control" name="preferred_date" id="prefDate" required>
+                                        <label for="prefDate">Preferred Collection Date *</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="floating-label-group">
+                                        <select class="form-control" name="preferred_time_slot" id="prefSlot" required>
+                                            <option value="" disabled selected></option>
+                                            <option value="Early Morning (06:30 AM - 08:30 AM)">Early Morning (06:30 AM - 08:30 AM)</option>
+                                            <option value="Morning (08:30 AM - 11:30 AM)">Morning (08:30 AM - 11:30 AM)</option>
+                                            <option value="Afternoon (12:00 PM - 03:00 PM)">Afternoon (12:00 PM - 03:00 PM)</option>
+                                            <option value="Evening (04:00 PM - 07:00 PM)">Evening (04:00 PM - 07:00 PM)</option>
+                                        </select>
+                                        <label for="prefSlot">Preferred Time Slot *</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="floating-label-group">
+                                        <input type="text" class="form-control" name="required_tests" id="requiredTests" placeholder=" " required>
+                                        <label for="requiredTests">Required Tests / Health Package / Doctor Prescription *</label>
+                                    </div>
+                                    <small class="text-muted" style="font-size: 11.5px;">E.g., Complete Blood Count (CBC), Thyroid Profile, Diabetes HbA1c, Senior Citizen Package, etc.</small>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="floating-label-group">
+                                        <select class="form-control" name="fasting_status" id="fastingStatus">
+                                            <option value="" disabled selected></option>
+                                            <option value="Yes - Fasting 10-12 hours">Yes - Fasting Required (10-12 hrs)</option>
+                                            <option value="No - Non-fasting">No - Non-fasting</option>
+                                            <option value="Not Sure - Need Guidance">Not Sure - Guide Me</option>
+                                        </select>
+                                        <label for="fastingStatus">Is Patient Fasting? (Optional)</label>
                                     </div>
                                 </div>
                                 
                                 <div class="col-lg-12">
-                                    <div class="g-recaptcha " data-sitekey="6LfBABgrAAAAAP78Pj-SKsQHzp5XwgCbuwUjBkmI"></div>
+                                    <div class="g-recaptcha" data-sitekey="6LfBABgrAAAAAP78Pj-SKsQHzp5XwgCbuwUjBkmI"></div>
                                 </div>
                                 
                                 <div class="col-12">
-                                    <button type="submit" class="btn btn-primary px-5 py-3" style="background: linear-gradient(135deg, var(--med-primary) 0%, var(--med-secondary) 100%); border: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease;">
-                                        <i class="fas fa-paper-plane me-2"></i>Send Message
+                                    <button type="submit" class="btn btn-primary w-100 py-3" style="background: linear-gradient(135deg, var(--med-primary) 0%, var(--med-secondary) 100%); border: none; border-radius: 10px; font-weight: 700; font-size: 15px; transition: all 0.3s ease; box-shadow: 0 8px 20px rgba(33, 74, 104, 0.2);">
+                                        <i class="fas fa-calendar-check me-2"></i> Book Home Sample Collection
                                     </button>
                                 </div>
                             </div>

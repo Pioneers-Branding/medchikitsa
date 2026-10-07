@@ -1051,6 +1051,21 @@ body {
     color: #ffffff !important;
 }
 
+/* Home Visit Item */
+.floating-footer-item.home-item {
+    background: linear-gradient(135deg, #21b6bc 0%, #178f94 100%);
+    color: #ffffff !important;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 14px rgba(33, 182, 188, 0.35);
+}
+
+.floating-footer-item.home-item:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 6px 20px rgba(33, 182, 188, 0.5);
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #1aa3a9 0%, #13777c 100%);
+}
+
 /* Contact Item */
 .floating-footer-item.contact-item {
     background: linear-gradient(135deg, #214a68 0%, #17354b 100%);

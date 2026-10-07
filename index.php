@@ -1375,12 +1375,12 @@
         .dr-btn-visit {
             width: 100%;
             text-align: center;
-            background: #ffffff;
+            background: linear-gradient(135deg, rgba(30, 182, 189, 0.08) 0%, rgba(21, 58, 91, 0.04) 100%);
             color: #153a5b !important;
             border: 2px solid #1eb6bd;
-            font-size: 14px;
+            font-size: 14.5px;
             font-weight: 700;
-            padding: 10px 16px;
+            padding: 11px 18px;
             border-radius: 12px;
             text-decoration: none;
             transition: all 0.3s ease;
@@ -1390,30 +1390,11 @@
             gap: 8px;
         }
         .dr-btn-visit:hover {
-            background: #1eb6bd;
-            color: #ffffff !important;
-            box-shadow: 0 4px 14px rgba(30, 182, 189, 0.28);
-        }
-        .dr-btn-book-now {
-            width: 100%;
-            text-align: center;
             background: linear-gradient(135deg, #153a5b 0%, #1eb6bd 100%);
+            border-color: transparent;
             color: #ffffff !important;
-            font-size: 14px;
-            font-weight: 700;
-            padding: 11px 16px;
-            border-radius: 12px;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            border: none;
-        }
-        .dr-btn-book-now:hover {
-            box-shadow: 0 6px 18px rgba(21, 58, 91, 0.3);
-            background: linear-gradient(135deg, #1eb6bd 0%, #153a5b 100%);
+            box-shadow: 0 6px 18px rgba(30, 182, 189, 0.3);
+            transform: translateY(-2px);
         }
         @media (max-width: 768px) {
             .dr-name {
@@ -1438,46 +1419,40 @@
 
             <div class="row g-4 justify-content-center">
                 <!-- ========================================================
-                     CARD 1: JEEVAN NAIK (CENTER HEAD)
+                     CARD 1: DR. SIDDHARTH SHRIGIRI (RADIOLOGY & IMAGING)
                      ======================================================== -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-12">
                     <div class="dr-graphic-card">
                         <div class="dr-avatar-frame">
-                            <img src="assets/images/team/jeevan-naik.png" alt="JEEVAN NAIK">
+                            <img src="assets/images/team/dr-siddharth-shrigiri.png?v=2" alt="DR. SIDDHARTH SHRIGIRI">
                         </div>
-                        <span class="dr-badge badge-teal">CENTER HEAD</span>
-                        <h3 class="dr-name">JEEVAN NAIK</h3>
-                        <p class="dr-subhead">10+ Years Experience in NABL | Laboratory Quality & Operations</p>
+                        <span class="dr-badge badge-teal">RADIOLOGY & IMAGING</span>
+                        <h3 class="dr-name">DR. SIDDHARTH SHRIGIRI</h3>
+                        <p class="dr-subhead">MBBS, DMRD / MD • Consultant Radiologist</p>
                         
                         <div class="dr-btn-actions">
-                            <a href="doctor/jeevan-naik.php" class="dr-btn-visit">
+                            <a href="doctor/dr-siddharth-shrigiri.php" class="dr-btn-visit">
                                 <i class="fas fa-user-circle"></i> Profile Visit
-                            </a>
-                            <a href="contact-us.php?doctor=Jeevan+Naik" class="dr-btn-book-now">
-                                <i class="fas fa-calendar-check"></i> Book Appointment
                             </a>
                         </div>
                     </div>
                 </div>
 
                 <!-- ========================================================
-                     CARD 2: SAVITA PATIL (QUALITY CONTROL & SUPERVISOR)
+                     CARD 2: DR. VIJAYALAXMI S. PATIL (PATHOLOGIST)
                      ======================================================== -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-12">
                     <div class="dr-graphic-card">
                         <div class="dr-avatar-frame">
-                            <img src="assets/images/team/savita-patil.png" alt="SAVITA PATIL">
+                            <img src="assets/images/team/dr-vijayalaxmi-patil.png" alt="DR. VIJAYALAXMI S. PATIL">
                         </div>
-                        <span class="dr-badge badge-gold">QUALITY CONTROL & SUPERVISOR</span>
-                        <h3 class="dr-name">SAVITA PATIL</h3>
-                        <p class="dr-subhead">20+ years of experience in laboratory quality and supervision.</p>
+                        <span class="dr-badge badge-gold">PATHOLOGIST</span>
+                        <h3 class="dr-name">DR. VIJAYALAXMI S. PATIL</h3>
+                        <p class="dr-subhead">MD - PATHOLOGY • Professor of Pathology</p>
                         
                         <div class="dr-btn-actions">
-                            <a href="doctor/savita-patil.php" class="dr-btn-visit">
+                            <a href="doctor/dr-vijayalaxmi-patil.php" class="dr-btn-visit">
                                 <i class="fas fa-user-circle"></i> Profile Visit
-                            </a>
-                            <a href="contact-us.php?doctor=Savita+Patil" class="dr-btn-book-now">
-                                <i class="fas fa-calendar-check"></i> Book Appointment
                             </a>
                         </div>
                     </div>
@@ -1499,9 +1474,6 @@
                             <a href="doctor/dr-sangmesh.php" class="dr-btn-visit">
                                 <i class="fas fa-user-circle"></i> Profile Visit
                             </a>
-                            <a href="contact-us.php?doctor=Dr.+Sangmesh" class="dr-btn-book-now">
-                                <i class="fas fa-calendar-check"></i> Book Appointment
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -1522,31 +1494,45 @@
                             <a href="doctor/dr-irfan-itagi.php" class="dr-btn-visit">
                                 <i class="fas fa-user-circle"></i> Profile Visit
                             </a>
-                            <a href="contact-us.php?doctor=Dr.+Irfan+Itagi" class="dr-btn-book-now">
-                                <i class="fas fa-calendar-check"></i> Book Appointment
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ========================================================
+                     CARD 5: JEEVAN NAIK (CENTER HEAD)
+                     ======================================================== -->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                    <div class="dr-graphic-card">
+                        <div class="dr-avatar-frame">
+                            <img src="assets/images/team/jeevan-naik.png" alt="JEEVAN NAIK">
+                        </div>
+                        <span class="dr-badge badge-teal">CENTER HEAD</span>
+                        <h3 class="dr-name">JEEVAN NAIK</h3>
+                        <p class="dr-subhead">10+ Years Experience in NABL | Laboratory Quality & Operations</p>
+                        
+                        <div class="dr-btn-actions">
+                            <a href="doctor/jeevan-naik.php" class="dr-btn-visit">
+                                <i class="fas fa-user-circle"></i> Profile Visit
                             </a>
                         </div>
                     </div>
                 </div>
 
                 <!-- ========================================================
-                     CARD 5: DR. VIJAYALAXMI S. PATIL (PATHOLOGIST)
+                     CARD 6: SAVITA PATIL (QUALITY CONTROL & SUPERVISOR)
                      ======================================================== -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-12">
                     <div class="dr-graphic-card">
                         <div class="dr-avatar-frame">
-                            <img src="assets/images/team/dr-vijayalaxmi-patil.png" alt="DR. VIJAYALAXMI S. PATIL">
+                            <img src="assets/images/team/savita-patil.png" alt="SAVITA PATIL">
                         </div>
-                        <span class="dr-badge badge-gold">PATHOLOGIST</span>
-                        <h3 class="dr-name">DR. VIJAYALAXMI S. PATIL</h3>
-                        <p class="dr-subhead">MD - PATHOLOGY • Professor of Pathology</p>
+                        <span class="dr-badge badge-gold">QUALITY CONTROL & SUPERVISOR</span>
+                        <h3 class="dr-name">SAVITA PATIL</h3>
+                        <p class="dr-subhead">20+ years of experience in laboratory quality and supervision.</p>
                         
                         <div class="dr-btn-actions">
-                            <a href="doctor/dr-vijayalaxmi-patil.php" class="dr-btn-visit">
+                            <a href="doctor/savita-patil.php" class="dr-btn-visit">
                                 <i class="fas fa-user-circle"></i> Profile Visit
-                            </a>
-                            <a href="contact-us.php?doctor=Dr.+Vijayalaxmi+S.+Patil" class="dr-btn-book-now">
-                                <i class="fas fa-calendar-check"></i> Book Appointment
                             </a>
                         </div>
                     </div>
