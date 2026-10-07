@@ -282,25 +282,137 @@
       color: var(--med-secondary);
     }
 
-    .specialist-spotlight-card {
-      background: white;
-      border-radius: 16px;
-      border: 1px solid var(--med-border);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-      padding: 30px;
+        .specialist-spotlight-card {
+      background: linear-gradient(135deg, #ffffff 0%, #f8fbfa 100%);
+      border-radius: 18px;
+      border: 1px solid #e2e8f0;
+      border-left: 5px solid var(--med-secondary);
+      box-shadow: 0 10px 30px rgba(33, 74, 104, 0.08);
+      padding: 24px 28px;
       display: flex;
       align-items: center;
-      gap: 25px;
-      margin-top: 30px;
+      gap: 22px;
+      margin-top: 32px;
+      transition: all 0.3s ease;
+    }
+
+    .specialist-spotlight-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 40px rgba(33, 74, 104, 0.12);
+      border-left-color: var(--med-accent);
+    }
+
+    .specialist-avatar-wrap {
+      width: 95px;
+      height: 95px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, rgba(33, 182, 188, 0.15) 0%, rgba(33, 74, 104, 0.1) 100%);
+      border: 3px solid var(--med-secondary);
+      padding: 3px;
+      flex-shrink: 0;
+      box-shadow: 0 6px 18px rgba(33, 182, 188, 0.25);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .specialist-thumb {
-      width: 100px;
-      height: 100px;
+      width: 100%;
+      height: 100%;
       border-radius: 50%;
       object-fit: cover;
-      border: 3px solid var(--med-secondary);
-      flex-shrink: 0;
+      object-position: top center;
+      display: block;
+    }
+
+    .specialist-badge {
+      display: inline-block;
+      background: rgba(33, 182, 188, 0.12);
+      color: var(--med-primary);
+      font-size: 0.76rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 3px 12px;
+      border-radius: 20px;
+      margin-bottom: 6px;
+    }
+
+    .specialist-name {
+      color: var(--med-primary);
+      font-size: 1.28rem;
+      font-weight: 700;
+      margin-bottom: 3px;
+      line-height: 1.25;
+    }
+
+    .specialist-name a {
+      color: inherit;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .specialist-name a:hover {
+      color: var(--med-secondary);
+    }
+
+    .specialist-qual {
+      color: #64748b;
+      font-size: 0.9rem;
+      font-weight: 500;
+      margin-bottom: 12px;
+    }
+
+    .specialist-card-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn-specialist-profile {
+      background: var(--med-primary);
+      color: white;
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 7px 18px;
+      border-radius: 25px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.25s ease;
+      box-shadow: 0 3px 8px rgba(33, 74, 104, 0.2);
+    }
+
+    .btn-specialist-profile:hover {
+      background: var(--med-secondary);
+      color: white;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 14px rgba(33, 182, 188, 0.3);
+    }
+
+    .btn-specialist-appoint {
+      background: white;
+      color: var(--med-primary);
+      border: 1px solid #cbd5e1;
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 6px 16px;
+      border-radius: 25px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.25s ease;
+    }
+
+    .btn-specialist-appoint:hover {
+      border-color: var(--med-secondary);
+      color: var(--med-secondary);
+      background: rgba(33, 182, 188, 0.05);
+      transform: translateY(-2px);
     }
 
     .lab-faq-section {
@@ -511,19 +623,25 @@
               </li>
             </ul>
 
-            <!-- Department Specialist Highlight -->
+                        <!-- Department Specialist Highlight -->
             <div class="specialist-spotlight-card">
-              <img src="assets/images/team/Sangmesh.webp" alt="Dr. Sangmesh" class="specialist-thumb" onerror="this.src='assets/images/team/member-1.jpg'">
+              <div class="specialist-avatar-wrap">
+                <img src="assets/images/team/dr-sangmesh.png" alt="Dr. Sangmesh" class="specialist-thumb" onerror="this.onerror=null; this.src='assets/images/team/dr-vijayalaxmi-patil.png';">
+              </div>
               <div>
-                <span class="badge bg-light text-primary mb-1">Clinical Consultant</span>
-                <h5 class="mb-1" style="color: var(--med-primary); font-weight: 700;">Dr. Sangmesh</h5>
-                <p class="text-muted mb-2" style="font-size: 0.9rem;">MD (General Medicine) - Consultant Physician</p>
-                <a href="doctor/dr-sangmesh.php" class="btn btn-sm btn-outline-primary" style="border-radius: 20px;">
-                  View Doctor Profile <i class="fas fa-arrow-right ms-1"></i>
-                </a>
+                <span class="specialist-badge"><i class="fas fa-user-md me-1"></i> Clinical Consultant</span>
+                <h4 class="specialist-name"><a href="doctor/dr-sangmesh.php">Dr. Sangmesh</a></h4>
+                <p class="specialist-qual">MD (General Medicine) - Consultant Physician</p>
+                <div class="specialist-card-actions">
+                  <a href="doctor/dr-sangmesh.php" class="btn-specialist-profile">
+                    View Doctor Profile <i class="fas fa-arrow-right"></i>
+                  </a>
+                  <a href="https://wa.me/+916360225347?text=I%20would%20like%20to%20consult%20with%20Dr.%20Sangmesh" class="btn-specialist-appoint" target="_blank">
+                    <i class="fab fa-whatsapp text-success"></i> Book Consultation
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </section>

@@ -1,3 +1,6 @@
+<?php
+$med_base = file_exists('index.php') ? '' : '../';
+?>
    <footer class="footer">
         <div class="container">
             <div class="row">
@@ -21,13 +24,12 @@
                 <div class="col-lg-2 col-md-6 footer-col">
                     <h3 class="footer-title">Quick Links</h3>
                     <ul class="footer-links">
-                        <li><a href="https://medchikitsa.com"><i class="fas fa-chevron-right"></i> Home</a></li>
-                        <li><a href="about"><i class="fas fa-chevron-right"></i> About Us</a></li>
-                        <li><a href="contact-us"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
-                        
-                        <li><a href="blog/"><i class="fas fa-chevron-right"></i> Blog</a></li>
-                        <li><a href="career"><i class="fas fa-chevron-right"></i>Careers</a></li>
-                        <li><a href="privilage-card"><i class="fas fa-chevron-right"></i>Membership Card</a></li>
+                        <li><a href="<?php echo $med_base; ?>index.php"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="<?php echo $med_base; ?>about.php"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="<?php echo $med_base; ?>contact-us.php"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                        <li><a href="<?php echo $med_base; ?>career.php"><i class="fas fa-chevron-right"></i> Careers</a></li>
+                        <li><a href="<?php echo $med_base; ?>privilage-card.php"><i class="fas fa-chevron-right"></i> Membership Card</a></li>
+                        <li><a href="<?php echo $med_base; ?>blog/"><i class="fas fa-chevron-right"></i> Blog</a></li>
                     </ul>
                 </div>
     
@@ -35,10 +37,10 @@
                 <div class="col-lg-3 col-md-6 footer-col">
                     <h3 class="footer-title">Our Services</h3>
                     <ul class="footer-links">
-                        <li><a href="radiology-imaging"><i class="fas fa-chevron-right"></i> Radiology Imaaging</a></li>
-                        <li><a href="medical-laboratory-services"><i class="fas fa-chevron-right"></i>Medical Laboratory Services</a></li>
-                        <li><a href="superspeciality-opd"><i class="fas fa-chevron-right"></i>Superspeciality OPD</a></li>
-                        <li><a href="health-packages"><i class="fas fa-chevron-right"></i>Health Packages</a></li>
+                        <li><a href="<?php echo $med_base; ?>radiology-imaging.php"><i class="fas fa-chevron-right"></i> Radiology Imaging</a></li>
+                        <li><a href="<?php echo $med_base; ?>medical-laboratory-services.php"><i class="fas fa-chevron-right"></i> Medical Laboratory Services</a></li>
+                        <li><a href="<?php echo $med_base; ?>superspeciality-opd.php"><i class="fas fa-chevron-right"></i> Superspeciality OPD</a></li>
+                        <li><a href="<?php echo $med_base; ?>health-packages.php"><i class="fas fa-chevron-right"></i> Health Packages</a></li>
                     </ul>
                 </div>
     
@@ -48,28 +50,27 @@
                     <ul class="contact-info">
                         <li>
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Milan Commercial Complex , Ground Floor , Near Vittal Mandir Road, Beside Federal Bank , Vijayapur ,586101</span>
+                            <span>Milan Commercial Complex, Ground Floor, Near Vittal Mandir Road, Beside Federal Bank, Vijayapur, 586101</span>
                         </li>
                         <li>
                             <i class="fas fa-phone"></i>
-                            <a  style="color:rgba(255, 255, 255, 0.7);" href="tel:+916360225347"  >+916360225347</a>
+                            <a style="color:rgba(255, 255, 255, 0.7);" href="tel:+916360225347">+91 63602 25347</a>
                         </li>
                         <li>
                             <i class="fas fa-envelope"></i>
-                            <a style="color:rgba(255, 255, 255, 0.7);"href="mailto:medchikitsa@gmail.com" >medchikitsa@gmail.com</a>
+                            <a style="color:rgba(255, 255, 255, 0.7);" href="mailto:medchikitsa@gmail.com">medchikitsa@gmail.com</a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 pt-3" style="color:rgba(255, 255, 255, 0.7);"> <b>Disclaimer : </b>The information provided by Medchikitsa is for general informational purposes only and should not be considered medical advice, diagnosis, or treatment. While we strive for accuracy and excellence, healthcare decisions should always be made in consultation with a qualified medical professional.</div>
+                <div class="col-12 pt-3" style="color:rgba(255, 255, 255, 0.7);">
+                    <b>Disclaimer : </b>The information provided by Medchikitsa is for general informational purposes only and should not be considered medical advice, diagnosis, or treatment. While we strive for accuracy and excellence, healthcare decisions should always be made in consultation with a qualified medical professional.
+                </div>
             </div> 
     
             <div class="footer-bottom">
-                <p>&copy; 2024 Medchikitsa. All rights reserved.  Made with <i class="fas fa-heart" style="color: #ffffff; margin: 0 5px;"></i> by 
-                    <a class="text-white" href="https://brandingpioneers.com/" target="_blank" >Branding Pioneers</a>
-                    
-                    <!--<a class="text-white" href="/sitemap.html" target="_blank" >HTML Sitemap</a>-->
-                    
-                </div></p>
+                <p>&copy; 2024 Medchikitsa. All rights reserved. Made with <i class="fas fa-heart" style="color: #ffffff; margin: 0 5px;"></i> by 
+                    <a class="text-white" href="https://brandingpioneers.com/" target="_blank">Branding Pioneers</a>
+                </p>
             </div>
         </div>
     </footer>
@@ -90,7 +91,7 @@
             </a>
 
             <!-- Contact Us Page Item -->
-            <a href="<?php echo (file_exists('contact-us.php') ? 'contact-us' : (file_exists('../contact-us.php') ? '../contact-us' : 'contact-us')); ?>" 
+            <a href="<?php echo $med_base; ?>contact-us.php" 
                class="floating-footer-item contact-item" 
                title="Contact Us Page">
                 <div class="floating-footer-icon">
@@ -110,4 +111,3 @@
             </a>
         </div>
     </div>
-
