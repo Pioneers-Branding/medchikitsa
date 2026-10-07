@@ -456,8 +456,23 @@
             }
         }
  
-       .lab-service-link{
-           display: list-item;; 
+       .lab-service-link {
+           display: inline-flex !important;
+           align-items: center;
+           text-decoration: none;
+       }
+       .lab-service-card a.lab-img-link {
+           display: block;
+           overflow: hidden;
+           height: 100%;
+       }
+       .lab-service-title a {
+           color: inherit;
+           text-decoration: none;
+           transition: color 0.2s ease;
+       }
+       .lab-service-title a:hover {
+           color: var(--med-secondary);
        }
      .rad-cta-section {
             padding: 6rem 0;
@@ -789,7 +804,7 @@
                     </p>
                     
                     <div class="lab-hero-actions">
-                        <a href="contact-us" class="lab-hero-btn lab-hero-btn-primary">
+                        <a href="contact-us.php" class="lab-hero-btn lab-hero-btn-primary">
                             Book an Appointment <i class="fas fa-arrow-right"></i>
                         </a>
                         <a href="#services" class="lab-hero-btn lab-hero-btn-secondary">
@@ -877,9 +892,12 @@
                             <span> Reports in 24-48 hours</span>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-start mt-2">
+                    <div class="d-flex flex-wrap justify-content-start mt-2" style="gap: 12px;">
                         <a href="https://wa.me/+916360225347?text=I'm%20interested%20in%20booking%20a%20home%20collection%20appointment" class="lab-service-link" target="_blank">
-                            <i class="fab fa-whatsapp me-2"></i> Book Now <i class="fas fa-arrow-right"></i>
+                            <i class="fab fa-whatsapp me-2"></i> WhatsApp Booking <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="home-visit-contact.php" class="lab-service-link" style="background-color: var(--med-secondary);">
+                            <i class="fas fa-home me-2"></i> Book Home Visit <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
@@ -890,16 +908,18 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="lab-service-card">
                         <div class="lab-service-image">
-                            <img src="assets/images/services/medical-laboratory-services/Pathology.webp" alt="Pathology services">
+                            <a href="pathology.php" class="lab-img-link" title="View Pathology Details">
+                                <img src="assets/images/services/medical-laboratory-services/Pathology.webp" alt="Pathology services">
+                            </a>
                         </div>
                         <div class="lab-service-content">
-                            <h3 class="lab-service-title">Pathology</h3>
+                            <h3 class="lab-service-title"><a href="pathology.php">Pathology</a></h3>
                             <p class="lab-service-desc">
                                 Comprehensive tests, including blood and urine analysis, to assess overall health. Helps detect diseases early for better treatment and prevention.
 
                             </p>
-                            <a href="contact-us" class="lab-service-link">
-                                <i class="fas fa-flask me-2"></i> Learn More <i class="fas fa-arrow-right"></i>
+                            <a href="pathology.php" class="lab-service-link">
+                                <i class="fas fa-flask me-2"></i> View Pathology <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
@@ -909,15 +929,17 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="lab-service-card">
                         <div class="lab-service-image">
-                            <img src="assets/images/services/medical-laboratory-services/Biochemistry.webp" alt="Biochemistry services">
+                            <a href="biochemistry.php" class="lab-img-link" title="View Biochemistry Details">
+                                <img src="assets/images/services/medical-laboratory-services/Biochemistry.webp" alt="Biochemistry services">
+                            </a>
                         </div>
                         <div class="lab-service-content">
-                            <h3 class="lab-service-title">Biochemistry</h3>
+                            <h3 class="lab-service-title"><a href="biochemistry.php">Biochemistry</a></h3>
                             <p class="lab-service-desc">
                                 Examines blood and body fluids to measure chemicals, enzymes, and hormones. Useful for diagnosing metabolic disorders and organ function issues.
                             </p>
-                            <a href="contact-us" class="lab-service-link">
-                                <i class="fas fa-microscope me-2"></i> Learn More <i class="fas fa-arrow-right"></i>
+                            <a href="biochemistry.php" class="lab-service-link">
+                                <i class="fas fa-microscope me-2"></i> View Biochemistry <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
@@ -927,15 +949,17 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="lab-service-card">
                         <div class="lab-service-image">
-                            <img src="assets/images/services/medical-laboratory-services/Microbiology.webp" alt="Microbiology services">
+                            <a href="microbiology.php" class="lab-img-link" title="View Microbiology Details">
+                                <img src="assets/images/services/medical-laboratory-services/Microbiology.webp" alt="Microbiology services">
+                            </a>
                         </div>
                         <div class="lab-service-content">
-                            <h3 class="lab-service-title">Microbiology</h3>
+                            <h3 class="lab-service-title"><a href="microbiology.php">Microbiology</a></h3>
                             <p class="lab-service-desc">
                                 Identifies bacteria, viruses, and fungi causing infections through lab tests.Essential for choosing the right treatment and antibiotics.
                             </p>
-                            <a href="contact-us" class="lab-service-link">
-                                <i class="fas fa-bacteria me-2"></i> Learn More <i class="fas fa-arrow-right"></i>
+                            <a href="microbiology.php" class="lab-service-link">
+                                <i class="fas fa-bacteria me-2"></i> View Microbiology <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
@@ -945,15 +969,17 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="lab-service-card">
                         <div class="lab-service-image">
-                            <img src="assets/images/services/medical-laboratory-services/Histopathology.webp" alt="Histopathology services">
+                            <a href="histopathology.php" class="lab-img-link" title="View Histopathology Details">
+                                <img src="assets/images/services/medical-laboratory-services/Histopathology.webp" alt="Histopathology services">
+                            </a>
                         </div>
                         <div class="lab-service-content">
-                            <h3 class="lab-service-title">Histopathology</h3>
+                            <h3 class="lab-service-title"><a href="histopathology.php">Histopathology</a></h3>
                             <p class="lab-service-desc">
                                Examines tissue samples under a microscope to detect diseases like cancer. Helps in understanding tumor characteristics for accurate diagnosis.
                             </p>
-                            <a href="contact-us" class="lab-service-link">
-                                <i class="fas fa-vial me-2"></i> Learn More <i class="fas fa-arrow-right"></i>
+                            <a href="histopathology.php" class="lab-service-link">
+                                <i class="fas fa-vial me-2"></i> View Histopathology <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
@@ -963,15 +989,17 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="lab-service-card">
                         <div class="lab-service-image">
-                            <img src="assets/images/services/medical-laboratory-services/Genetics.webp" alt="Genetics testing services">
+                            <a href="genetics.php" class="lab-img-link" title="View Genetics Details">
+                                <img src="assets/images/services/medical-laboratory-services/Genetics.webp" alt="Genetics testing services">
+                            </a>
                         </div>
                         <div class="lab-service-content">
-                            <h3 class="lab-service-title">Genetics</h3>
+                            <h3 class="lab-service-title"><a href="genetics.php">Genetics</a></h3>
                             <p class="lab-service-desc">
                                 Advanced testing to identify hereditary conditions and disease risks.Useful for family planning and personalized medical care.
                             </p>
-                            <a href="contact-us" class="lab-service-link">
-                                <i class="fas fa-dna me-2"></i> Learn More <i class="fas fa-arrow-right"></i>
+                            <a href="genetics.php" class="lab-service-link">
+                                <i class="fas fa-dna me-2"></i> View Genetics <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
@@ -981,15 +1009,17 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="lab-service-card">
                         <div class="lab-service-image">
-                            <img src="assets/images/services/medical-laboratory-services/Newborn-Screening.webp" alt="Newborn screening services">
+                            <a href="newborn-screening.php" class="lab-img-link" title="View Newborn Screening Details">
+                                <img src="assets/images/services/medical-laboratory-services/Newborn-Screening.webp" alt="Newborn screening services">
+                            </a>
                         </div>
                         <div class="lab-service-content">
-                            <h3 class="lab-service-title">Newborn Screening</h3>
+                            <h3 class="lab-service-title"><a href="newborn-screening.php">Newborn Screening</a></h3>
                             <p class="lab-service-desc">
                                 Early testing to detect rare genetic, metabolic, and hormonal disorders. Ensures timely intervention for a healthy future.
                             </p>
-                            <a href="contact-us" class="lab-service-link">
-                                <i class="fas fa-baby me-2"></i> Learn More <i class="fas fa-arrow-right"></i>
+                            <a href="newborn-screening.php" class="lab-service-link">
+                                <i class="fas fa-baby me-2"></i> View Newborn Screening <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
@@ -1016,7 +1046,7 @@
           </div><!-- /.col-xl-5 -->
           <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 offset-xl-1">
             <p class="heading-desc mb-20">To minimize wait times, complete your personal details on the form beforehand.
-              While most routine tests are covered by insurance, some may not be—stay informed..</p>
+              While most routine tests are covered by insurance, some may not bestay informed..</p>
             <p class="heading-desc mb-30">We prioritize direct patient communication to deliver timely and valuable health insights.
             </p>
             <ul class="features-list list-horizontal bg-transparent list-unstyled p-0 mb-60">
@@ -1046,10 +1076,10 @@
               <h4 class="process-title"> Choose a Service</h4>
               <p class="process-desc">Select the test you need from our wide range of diagnostic services tailored to your health concerns.
             .</p>
-              <div class="btn btn-primary btn-link" style="cursor: default; pointer-events: none; text-decoration: none;">
+              <a href="#services" class="btn btn-primary btn-link">
                 <i class="icon-arrow-right"></i>
-                <span>Contact Us</span>
-              </div>
+                <span>Choose Service</span>
+              </a>
             </div><!-- /.process-item -->
           </div><!-- /.col-lg-3-->
           <!-- process item #2 -->
@@ -1062,10 +1092,10 @@
               <h4 class="process-title">Schedule Your Visit</h4>
               <p class="process-desc">Book an appointment online or contact us to arrange a convenient time for your test.
                </p>
-              <div class="btn btn-primary btn-link" style="cursor: default; pointer-events: none; text-decoration: none;">
+              <a href="contact-us.php" class="btn btn-primary btn-link">
                 <i class="icon-arrow-right"></i>
                 <span>Set Up Appointment</span>
-              </div>
+              </a>
             </div><!-- /.process-item -->
           </div><!-- /.col-lg-3-->
           <!-- process item #3 -->
@@ -1079,10 +1109,10 @@
               <p class="process-desc">Provide your sample at our lab or use our home collection service for added convenience.
                
               </p>
-              <div class="btn btn-primary btn-link" style="cursor: default; pointer-events: none; text-decoration: none;">
+              <a href="home-visit-contact.php" class="btn btn-primary btn-link">
                 <i class="icon-arrow-right"></i>
                 <span>Request Home Collection</span>
-              </div>
+              </a>
             </div><!-- /.process-item -->
           </div><!-- /.col-lg-3-->
           <!-- process item #4 -->
@@ -1095,17 +1125,17 @@
               <h4 class="process-title">Receive Your Report</h4>
               <p class="process-desc">Get your results online within a few days, ensuring a quick and seamless experience.
               </p>
-              <div class="btn btn-primary btn-link" style="cursor: default; pointer-events: none; text-decoration: none;">
+              <a href="contact-us.php" class="btn btn-primary btn-link">
                 <i class="icon-arrow-right"></i>
                 <span>Check Reports</span>
-              </div>
+              </a>
             </div><!-- /.process-item -->
           </div><!-- /.col-lg-3-->
         </div><!-- /.row -->
         <div class="row">
           <div class="col-12 text-center">
-            <a href="about" class="btn btn-primary btn-xl">
-              <span>Accreditation & Licensing</span> <i class="icon-arrow-right"></i>
+            <a href="contact-us.php" class="btn btn-primary btn-xl">
+              <span>Book Laboratory Test Now</span> <i class="icon-arrow-right"></i>
             </a>
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
@@ -1132,7 +1162,7 @@
                </div>
                <div class="fancybox-body">
                  <h4 class="fancybox-title">Our Journey</h4>
-                 <p class="fancybox-desc">Over the years, we’ve steadily grown, expanding our services and technology through smart acquisitions. This growth has allowed us to make high-quality clinical lab services more accessible to all.</p>
+                 <p class="fancybox-desc">Over the years, weve steadily grown, expanding our services and technology through smart acquisitions. This growth has allowed us to make high-quality clinical lab services more accessible to all.</p>
                </div>
              </div>
            </div>
@@ -1193,7 +1223,7 @@
                </div><!-- /.fancybox-icon -->
                <div class="fancybox-body">
                  <h4 class="fancybox-title">Constant Innovation</h4>
-                 <p class="fancybox-desc">We’re always working on new tests, expanding our genetic research, and building strong partnerships to bring you the latest in diagnostic technology.
+                 <p class="fancybox-desc">Were always working on new tests, expanding our genetic research, and building strong partnerships to bring you the latest in diagnostic technology.
 </p>
                </div>
              </div>
@@ -1237,7 +1267,7 @@
                 </p>
                 
                 <div class="rad-cta-actions">
-                    <a href="https://wa.me/+916360225347?text=I'd%20like%20to%20schedule%20a%20radiology%20appointment" class="rad-cta-btn rad-cta-btn-primary" target="_blank">
+                    <a href="https://wa.me/+916360225347?text=I'd%20like%20to%20schedule%20a%20laboratory%20appointment" class="rad-cta-btn rad-cta-btn-primary" target="_blank">
                         <i class="fab fa-whatsapp"></i> Book Appointment
                     </a>
                     <a href="tel:+916360225347" class="rad-cta-btn rad-cta-btn-secondary">
@@ -1300,17 +1330,17 @@
                     </div><!-- /.accordion-item-header -->
                     <div id="collapse2" class="collapse" data-parent="#accordion1">
                       <div class="accordion-body">
-                        <p> Most routine test results are available within 24–48 hours, while specialized tests may take longer.</p>
+                        <p> Most routine test results are available within 2448 hours, while specialized tests may take longer.</p>
                       </div><!-- /.accordion-item-body -->
                     </div>
                   </div><!-- /.accordion-item -->
                   <div class="accordion-item ">
                     <div class="accordion-header" data-toggle="collapse" data-target="#collapse3">
-                      <a class="accordion-title" href="#">Do I need a doctor’s prescription for lab tests?</a>
+                      <a class="accordion-title" href="#">Do I need a doctors prescription for lab tests?</a>
                     </div><!-- /.accordion-item-header -->
                     <div id="collapse3" class="collapse " data-parent="#accordion1">
                       <div class="accordion-body">
-                        <p> Some tests require a doctor’s prescription, but many wellness screenings can be done without one.</p>
+                        <p> Some tests require a doctors prescription, but many wellness screenings can be done without one.</p>
                       </div><!-- /.accordion-item-body -->
                     </div>
                   </div>

@@ -644,7 +644,17 @@
                     <div class="form-wrapper p-5" style="background-color: white; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.04); height: 100%;">
                         <h3 class="h4 mb-4" style="color: var(--med-primary);">Send Us a Message</h3>
                         
+                        <?php if (!empty($_GET['doctor'])): ?>
+                            <div class="alert alert-info d-flex align-items-center gap-2 mb-4" style="background: #eef9fa; border: 1.5px solid #1eb6bd; color: #153a5b; border-radius: 12px; padding: 12px 18px;">
+                                <i class="fas fa-user-md fa-lg" style="color: #1eb6bd;"></i>
+                                <span style="font-size: 14.5px;">Consulting Specialist: <strong style="color: #153a5b;"><?php echo htmlspecialchars($_GET['doctor']); ?></strong></span>
+                            </div>
+                        <?php endif; ?>
+                        
                           <form class="contact-form" accept-charset='UTF-8' action='https://app.formester.com/forms/OwuroVfFc0m_/submissions' method='POST'>
+                            <?php if (!empty($_GET['doctor'])): ?>
+                                <input type="hidden" name="doctor_consultation" value="<?php echo htmlspecialchars($_GET['doctor']); ?>">
+                            <?php endif; ?>
                             <div class="row g-4">
                                 <div class="col-12">
                                     <div class="floating-label-group">

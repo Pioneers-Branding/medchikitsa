@@ -1088,23 +1088,6 @@
                 </div>
             </div>
 
-            <!-- Pharmacy -->
-            <div class="fac-item">
-                <div class="fac-icon-wrapper">
-                    <div class="fac-icon">
-                        <i class="fas fa-pills"></i>
-                    </div>
-                </div>
-                <div class="fac-content">
-                    <h3 class="fac-title">Pharmacy</h3>
-                    <div class="fac-features">
-                        <span class="fac-feature">Complete Stock</span>
-                        <span class="fac-feature">Expert Advice</span>
-                        <span class="fac-feature">24/7 Service</span>
-                    </div>
-                </div>
-            </div>
-
             <!-- Ambulance -->
             <div class="fac-item">
                 <div class="fac-icon-wrapper">
@@ -1113,7 +1096,7 @@
                     </div>
                 </div>
                 <div class="fac-content">
-                    <h3 class="fac-title">Ambulance Services</h3>
+                    <h3 class="fac-title">Free Ambulance Services</h3>
                     <div class="fac-features">
                         <span class="fac-feature">24/7 Emergency</span>
                         <span class="fac-feature">Quick Response</span>
@@ -1125,7 +1108,453 @@
     </div>
 </section>
 
+    <!-- ====================================================
+         DOCTORS & MEDICAL SPECIALISTS PROFILE SECTION
+         (1:1 Graphic Card Replica of clinic team credentials)
+    ========================================================= -->
+    <style>
+        .experts-section {
+            padding: 90px 0 100px;
+            background: #ffffff;
+            position: relative;
+        }
+        .experts-header {
+            text-align: center;
+            max-width: 760px;
+            margin: 0 auto 55px;
+        }
+        .experts-subtitle {
+            color: #1eb6bd;
+            font-size: 14px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            display: inline-block;
+            background: rgba(30, 182, 189, 0.1);
+            padding: 6px 20px;
+            border-radius: 50px;
+        }
+        .experts-title {
+            color: #153a5b;
+            font-size: 40px;
+            font-weight: 800;
+            line-height: 1.25;
+            margin-bottom: 14px;
+        }
+        .experts-desc {
+            color: #64748b;
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 0;
+        }
 
+        /* Replica of the Card Graphic */
+        .dr-graphic-card {
+            background: #ffffff;
+            border: 2.5px solid #1eb6bd;
+            border-radius: 28px;
+            padding: 30px 32px 32px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 18px rgba(30, 182, 189, 0.08);
+        }
+        .dr-graphic-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 14px 34px rgba(21, 58, 91, 0.12);
+        }
+        .dr-top-box {
+            display: flex;
+            align-items: flex-start;
+            gap: 22px;
+            margin-bottom: 18px;
+        }
+        .dr-avatar-frame {
+            width: 145px;
+            height: 145px;
+            min-width: 145px;
+            border: 2.5px solid #1eb6bd;
+            border-radius: 18px;
+            overflow: hidden;
+            background: #f8fafc;
+        }
+        .dr-avatar-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .dr-info-box {
+            flex-grow: 1;
+        }
+        .dr-badge {
+            display: inline-block;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 800;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+            padding: 6px 16px;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        .dr-badge.badge-teal {
+            background-color: #1eb6bd;
+        }
+        .dr-badge.badge-gold {
+            background-color: #c59b27;
+        }
+        .dr-name {
+            font-size: 25px;
+            font-weight: 900;
+            color: #153a5b;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin: 0 0 6px 0;
+            line-height: 1.2;
+        }
+        .dr-subhead {
+            color: #1eb6bd;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 1.4;
+            margin: 0;
+        }
+        .dr-highlights-heading {
+            color: #c59b27;
+            font-size: 15px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin: 10px 0 12px 0;
+        }
+        .dr-highlights-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            flex-grow: 1;
+        }
+        .dr-highlights-list li {
+            position: relative;
+            padding-left: 22px;
+            margin-bottom: 10px;
+            color: #24415c;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+        .dr-highlights-list li::before {
+            content: '';
+            position: absolute;
+            left: 2px;
+            top: 7px;
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background-color: #1eb6bd;
+        }
+        .dr-graphic-card.gold-dots .dr-highlights-list li::before {
+            background-color: #c59b27;
+        }
+
+        /* Specific styles for Dr. Vijayalaxmi Card */
+        .pathology-expert-title {
+            color: #153a5b;
+            font-size: 28px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        .pathology-col-title {
+            color: #1eb6bd;
+            font-size: 20px;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        .pathology-sub-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 22px 0;
+        }
+        .pathology-sub-list li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 8px;
+            color: #24415c;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .pathology-sub-list li::before {
+            content: '•';
+            position: absolute;
+            left: 2px;
+            top: -2px;
+            color: #24415c;
+            font-size: 20px;
+        }
+        /* Compact Replica of Doctor Cards */
+        .dr-graphic-card {
+            background: #ffffff;
+            border: 2.5px solid #1eb6bd;
+            border-radius: 28px;
+            padding: 30px 24px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 18px rgba(30, 182, 189, 0.08);
+        }
+        .dr-graphic-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 14px 34px rgba(21, 58, 91, 0.12);
+        }
+        .dr-avatar-frame {
+            width: 140px;
+            height: 140px;
+            border: 2.5px solid #1eb6bd;
+            border-radius: 20px;
+            overflow: hidden;
+            background: #f8fafc;
+            margin: 0 auto 16px;
+        }
+        .dr-avatar-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .dr-badge {
+            display: inline-block;
+            color: #ffffff;
+            font-size: 12.5px;
+            font-weight: 800;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+            padding: 6px 16px;
+            border-radius: 6px;
+            margin-bottom: 12px;
+        }
+        .dr-badge.badge-teal {
+            background-color: #1eb6bd;
+        }
+        .dr-badge.badge-gold {
+            background-color: #c59b27;
+        }
+        .dr-name {
+            font-size: 22px;
+            font-weight: 900;
+            color: #153a5b;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin: 0 0 8px 0;
+            line-height: 1.25;
+        }
+        .dr-subhead {
+            color: #1eb6bd;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 1.45;
+            margin: 0 0 18px 0;
+            min-height: 42px;
+        }
+        .dr-btn-actions {
+            margin-top: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding-top: 16px;
+            border-top: 1px dashed rgba(30, 182, 189, 0.35);
+        }
+        .dr-btn-visit {
+            width: 100%;
+            text-align: center;
+            background: #ffffff;
+            color: #153a5b !important;
+            border: 2px solid #1eb6bd;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 10px 16px;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        .dr-btn-visit:hover {
+            background: #1eb6bd;
+            color: #ffffff !important;
+            box-shadow: 0 4px 14px rgba(30, 182, 189, 0.28);
+        }
+        .dr-btn-book-now {
+            width: 100%;
+            text-align: center;
+            background: linear-gradient(135deg, #153a5b 0%, #1eb6bd 100%);
+            color: #ffffff !important;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 11px 16px;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            border: none;
+        }
+        .dr-btn-book-now:hover {
+            box-shadow: 0 6px 18px rgba(21, 58, 91, 0.3);
+            background: linear-gradient(135deg, #1eb6bd 0%, #153a5b 100%);
+        }
+        @media (max-width: 768px) {
+            .dr-name {
+                font-size: 20px;
+            }
+            .dr-graphic-card {
+                padding: 24px 18px;
+            }
+            .experts-title {
+                font-size: 28px;
+            }
+        }
+    </style>
+
+    <section class="experts-section" id="doctors-section">
+        <div class="container">
+            <div class="experts-header">
+                <span class="experts-subtitle">Our Medical Experts</span>
+                <h2 class="experts-title">Meet Our Medical & Diagnostic Team</h2>
+                <p class="experts-desc">Our esteemed team of doctors, laboratory heads, and specialists brings decades of clinical expertise, NABL accreditation excellence, and patient-centered diagnostic care.</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- ========================================================
+                     CARD 1: JEEVAN NAIK (CENTER HEAD)
+                     ======================================================== -->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                    <div class="dr-graphic-card">
+                        <div class="dr-avatar-frame">
+                            <img src="assets/images/team/jeevan-naik.png" alt="JEEVAN NAIK">
+                        </div>
+                        <span class="dr-badge badge-teal">CENTER HEAD</span>
+                        <h3 class="dr-name">JEEVAN NAIK</h3>
+                        <p class="dr-subhead">10+ Years Experience in NABL | Laboratory Quality & Operations</p>
+                        
+                        <div class="dr-btn-actions">
+                            <a href="doctor/jeevan-naik.php" class="dr-btn-visit">
+                                <i class="fas fa-user-circle"></i> Profile Visit
+                            </a>
+                            <a href="contact-us.php?doctor=Jeevan+Naik" class="dr-btn-book-now">
+                                <i class="fas fa-calendar-check"></i> Book Appointment
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ========================================================
+                     CARD 2: SAVITA PATIL (QUALITY CONTROL & SUPERVISOR)
+                     ======================================================== -->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                    <div class="dr-graphic-card">
+                        <div class="dr-avatar-frame">
+                            <img src="assets/images/team/savita-patil.png" alt="SAVITA PATIL">
+                        </div>
+                        <span class="dr-badge badge-gold">QUALITY CONTROL & SUPERVISOR</span>
+                        <h3 class="dr-name">SAVITA PATIL</h3>
+                        <p class="dr-subhead">20+ years of experience in laboratory quality and supervision.</p>
+                        
+                        <div class="dr-btn-actions">
+                            <a href="doctor/savita-patil.php" class="dr-btn-visit">
+                                <i class="fas fa-user-circle"></i> Profile Visit
+                            </a>
+                            <a href="contact-us.php?doctor=Savita+Patil" class="dr-btn-book-now">
+                                <i class="fas fa-calendar-check"></i> Book Appointment
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ========================================================
+                     CARD 3: DR. SANGMESH (BIOCHEMISTRY)
+                     ======================================================== -->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                    <div class="dr-graphic-card">
+                        <div class="dr-avatar-frame">
+                            <img src="assets/images/team/dr-sangmesh.png" alt="DR. SANGMESH">
+                        </div>
+                        <span class="dr-badge badge-teal">BIOCHEMISTRY</span>
+                        <h3 class="dr-name">DR. SANGMESH</h3>
+                        <p class="dr-subhead">Associate Professor | MD in Biochemistry | MBBS</p>
+                        
+                        <div class="dr-btn-actions">
+                            <a href="doctor/dr-sangmesh.php" class="dr-btn-visit">
+                                <i class="fas fa-user-circle"></i> Profile Visit
+                            </a>
+                            <a href="contact-us.php?doctor=Dr.+Sangmesh" class="dr-btn-book-now">
+                                <i class="fas fa-calendar-check"></i> Book Appointment
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ========================================================
+                     CARD 4: DR. IRFAN ITAGI (MICROBIOLOGY)
+                     ======================================================== -->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                    <div class="dr-graphic-card">
+                        <div class="dr-avatar-frame">
+                            <img src="assets/images/team/dr-irfan-itagi.png" alt="DR. IRFAN ITAGI">
+                        </div>
+                        <span class="dr-badge badge-gold">MICROBIOLOGY</span>
+                        <h3 class="dr-name">DR. IRFAN ITAGI</h3>
+                        <p class="dr-subhead">MBBS • 2005 | MD Microbiology • 2012</p>
+                        
+                        <div class="dr-btn-actions">
+                            <a href="doctor/dr-irfan-itagi.php" class="dr-btn-visit">
+                                <i class="fas fa-user-circle"></i> Profile Visit
+                            </a>
+                            <a href="contact-us.php?doctor=Dr.+Irfan+Itagi" class="dr-btn-book-now">
+                                <i class="fas fa-calendar-check"></i> Book Appointment
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ========================================================
+                     CARD 5: DR. VIJAYALAXMI S. PATIL (PATHOLOGIST)
+                     ======================================================== -->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                    <div class="dr-graphic-card">
+                        <div class="dr-avatar-frame">
+                            <img src="assets/images/team/dr-vijayalaxmi-patil.png" alt="DR. VIJAYALAXMI S. PATIL">
+                        </div>
+                        <span class="dr-badge badge-gold">PATHOLOGIST</span>
+                        <h3 class="dr-name">DR. VIJAYALAXMI S. PATIL</h3>
+                        <p class="dr-subhead">MD - PATHOLOGY • Professor of Pathology</p>
+                        
+                        <div class="dr-btn-actions">
+                            <a href="doctor/dr-vijayalaxmi-patil.php" class="dr-btn-visit">
+                                <i class="fas fa-user-circle"></i> Profile Visit
+                            </a>
+                            <a href="contact-us.php?doctor=Dr.+Vijayalaxmi+S.+Patil" class="dr-btn-book-now">
+                                <i class="fas fa-calendar-check"></i> Book Appointment
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
       <section class="ts-section pt-5">
         <div class="ts-pattern"></div>
