@@ -24,7 +24,7 @@
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="https://medchikitsa.com">
-            <img src="assets/images/logo/Logo-1.png" style="max-height: 60px; max-width: 100%; object-fit: contain;" class="logo-dark" alt="logo">
+            <img src="assets/images/logo/Logo-1.png" style="max-height: 90px; max-width: 100%; object-fit: contain; background: transparent;" class="logo-dark" alt="logo">
           </a>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
