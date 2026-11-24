@@ -249,7 +249,7 @@
         }
 
         .test-list li:before {
-            content: "�";
+            content: "";
             position: absolute;
             left: 0;
             color: var(--med-accent);
@@ -499,15 +499,60 @@
             <button class="filter-btn">Full Body Check Up</button>
             <button class="filter-btn">Diabetes</button>
             <button class="filter-btn">Heart</button>
+            <button class="filter-btn">Kidney</button>
+            <button class="filter-btn">Liver</button>
+            <button class="filter-btn">Lungs</button>
+            <button class="filter-btn">Fever</button>
+            <button class="filter-btn">Joint</button>
+            <button class="filter-btn">Mega Package</button>
             <button class="filter-btn">Cancer</button>
             <button class="filter-btn">Smokers</button>
             <button class="filter-btn">Vitamin</button>
-            <!-- <button class="filter-btn view-more">View More... <i class="fas fa-chevron-down"></i></button> -->
         </div>
 
         <!-- Health Packages -->
         <div class="row row-gap-3">
-            <!-- Package 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Mini Package</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">49 Tests</div>
+                        <ul class="test-list">
+                            <li>Complete Blood Count (CBC) & Urine Routine</li>
+                            <li>Blood Glucose, Calcium, Creatinine & TSH</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">Fasting / PP / Random</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-home"></i> Home</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹2,175/-</span>
+                                    <span class="discount">40% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹1,299/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Mini%20Package%20at%20%E2%82%B91%2C299.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
@@ -515,10 +560,215 @@
                         <div class="report-info">
                             <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
                         </div>
-                        <div class="test-count">59 Tests</div>
+                        <div class="test-count">83 Tests</div>
                         <ul class="test-list">
-                            <li>Complete Blood Count (CBC)</li>
-                            <li>Complete Urine Examination</li>
+                            <li>CBC, Blood Glucose & Urine Routine</li>
+                            <li>Lipid Profile, LFT, KFT & Thyroid (TSH)</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">Fasting / PP / Random</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-home"></i> Home</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹3,975/-</span>
+                                    <span class="discount">40% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹2,399/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Basic%20Package%20at%20%E2%82%B92%2C399.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Vitamin Package (with Vitamin D & B12)</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">89 Tests</div>
+                        <ul class="test-list">
+                            <li>Vitamin D, Vitamin B12 & Iron Studies</li>
+                            <li>All Basic Tests (CBC, Lipid, LFT, KFT, TSH)</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">Fasting / PP / Random</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-home"></i> Home</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹6,975/-</span>
+                                    <span class="discount">40% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹4,199/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Vitamin%20Package%20at%20%E2%82%B94%2C199.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Advanced Health Checkup</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">98 Tests</div>
+                        <ul class="test-list">
+                            <li>HbA1c, Electrolytes & Cardiac Risk Markers</li>
+                            <li>All Vitamin Tests, IgE & HOMA-IR</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">Fasting / PP / Random</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-home"></i> Home</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹10,025/-</span>
+                                    <span class="discount">40% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹5,999/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Advanced%20Package%20at%20%E2%82%B95%2C999.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Premium Package (Male)</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">106 Tests</div>
+                        <ul class="test-list">
+                            <li>PSA (Prostate), Testosterone & Male Hormones</li>
+                            <li>Urinary Bladder Cytology & Full Body Panel</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">Fasting / PP / Random</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-home"></i> Home</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹13,575/-</span>
+                                    <span class="discount">40% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹8,099/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Premium%20Package%20%28Male%29%20at%20%E2%82%B98%2C099.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Premium Package (Female)</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">107 Tests</div>
+                        <ul class="test-list">
+                            <li>Thyroid Total (T3, T4, TSH) & Female Hormones</li>
+                            <li>Urinary Bladder Cytology & Full Body Panel</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">Fasting / PP / Random</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-home"></i> Home</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹12,525/-</span>
+                                    <span class="discount">40% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹7,499/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Premium%20Package%20%28Female%29%20at%20%E2%82%B97%2C499.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Heart Package (Home)</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">32 Tests</div>
+                        <ul class="test-list">
+                            <li>CBC, Blood Glucose & HbA1c (3-month avg)</li>
+                            <li>Lipid Profile (HDL, LDL, TG) & hs-Troponin I</li>
                         </ul>
                         <div class="fasting-info">
                             <div>
@@ -533,35 +783,74 @@
                         <div class="price-section">
                             <div class="price-container">
                                 <div>
-                                    <span class="original-price">?2299/-</span>
-                                    <span class="discount">52% OFF</span>
+                                    <span class="original-price">₹2,925/-</span>
+                                    <span class="discount">38% OFF</span>
                                 </div>
                                 <div>
-                                    <span class="current-price">?1099/-</span>
+                                    <span class="current-price">₹1,799/-</span>
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
-                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Basic%20Health%20Checkup" class="whatsapp-btn" target="_blank">
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Heart%20Package%20%28Home%29%20at%20%E2%82%B91%2C799.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
                                 <i class="fab fa-whatsapp"></i> Buy
                             </a>
                         </div>
                     </div>
-                    <!-- Eligible bar removed -->
                 </div>
             </div>
 
-            <!-- Package 2 -->
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">medchikitsa Full body Health Checkup</h5>
+                        <h5 class="card-title">medchikitsa Heart Package 2 (Centre)</h5>
                         <div class="report-info">
                             <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
                         </div>
-                        <div class="test-count">81 Tests</div>
+                        <div class="test-count">41 Tests</div>
                         <ul class="test-list">
-                            <li>Thyroid & Lipid Profile</li>
-                            <li>Kidney & Liver function</li>
+                            <li>ECG, Digital Chest X-ray & Vitals at Centre</li>
+                            <li>Lipid Profile, HbA1c & hs-Troponin I</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">10 - 12 Hrs</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-hospital"></i> Centre</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹3,825/-</span>
+                                    <span class="discount">29% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹2,699/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Heart%20Package%202%20%28Centre%29%20at%20%E2%82%B92%2C699.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Kidney Package (Home)</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">63 Tests</div>
+                        <ul class="test-list">
+                            <li>CBC, Blood Glucose & HbA1c</li>
+                            <li>Kidney Function Test (KFT) & Urine Microalbumin</li>
                         </ul>
                         <div class="fasting-info">
                             <div>
@@ -576,35 +865,74 @@
                         <div class="price-section">
                             <div class="price-container">
                                 <div>
-                                    <span class="original-price">?2999/-</span>
-                                    <span class="discount">53% OFF</span>
+                                    <span class="original-price">₹2,900/-</span>
+                                    <span class="discount">41% OFF</span>
                                 </div>
                                 <div>
-                                    <span class="current-price">?1399/-</span>
+                                    <span class="current-price">₹1,699/-</span>
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
-                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Full%20body%20Health%20Checkup" class="whatsapp-btn" target="_blank">
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Kidney%20Package%20%28Home%29%20at%20%E2%82%B91%2C699.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
                                 <i class="fab fa-whatsapp"></i> Buy
                             </a>
                         </div>
                     </div>
-                    <!-- Eligible bar removed -->
                 </div>
             </div>
 
-            <!-- Package 3 -->
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Comprehensive full body checkup with Vitamin D & B12</h5>
+                        <h5 class="card-title">medchikitsa Kidney Package 2 (Centre)</h5>
                         <div class="report-info">
                             <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
                         </div>
-                        <div class="test-count">85 Tests</div>
+                        <div class="test-count">74 Tests</div>
                         <ul class="test-list">
-                            <li>Vitamin D & B12</li>
-                            <li>Thyroid & Lipid profile</li>
+                            <li>Ultrasound (USG) Abdomen & Pelvis at Centre</li>
+                            <li>KFT Advanced, Urine Microalbumin & ECG</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">10 - 12 Hrs</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-hospital"></i> Centre</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹5,700/-</span>
+                                    <span class="discount">30% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹3,999/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Kidney%20Package%202%20%28Centre%29%20at%20%E2%82%B93%2C999.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Liver Package (Home)</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">44 Tests</div>
+                        <ul class="test-list">
+                            <li>Liver Function Test (LFT) Advanced & PT-INR</li>
+                            <li>Lipid Profile & Viral Hepatitis Screening</li>
                         </ul>
                         <div class="fasting-info">
                             <div>
@@ -619,35 +947,33 @@
                         <div class="price-section">
                             <div class="price-container">
                                 <div>
-                                    <span class="original-price">?4999/-</span>
-                                    <span class="discount">50% OFF</span>
+                                    <span class="original-price">₹3,225/-</span>
+                                    <span class="discount">41% OFF</span>
                                 </div>
                                 <div>
-                                    <span class="current-price">?2499/-</span>
+                                    <span class="current-price">₹1,899/-</span>
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
-                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20Comprehensive%20full%20body%20checkup%20with%20Vitamin%20D%20%26%20B12" class="whatsapp-btn" target="_blank">
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Liver%20Package%20%28Home%29%20at%20%E2%82%B91%2C899.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
                                 <i class="fab fa-whatsapp"></i> Buy
                             </a>
                         </div>
                     </div>
-                    <!-- Eligible bar removed -->
                 </div>
             </div>
 
-            <!-- Package 4 -->
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">medchikitsa Healthy Advance Package with Vitamin D</h5>
+                        <h5 class="card-title">medchikitsa Liver Package 2 (Centre)</h5>
                         <div class="report-info">
                             <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
                         </div>
-                        <div class="test-count">64 Tests</div>
+                        <div class="test-count">52 Tests</div>
                         <ul class="test-list">
-                            <li>Complete Blood Count (CBC)</li>
-                            <li>Glycosylated Hemoglobin</li>
+                            <li>USG Abdomen & Pelvis Screening at Centre</li>
+                            <li>LFT Advanced, PT-INR & Vitals</li>
                         </ul>
                         <div class="fasting-info">
                             <div>
@@ -656,41 +982,39 @@
                             </div>
                             <div>
                                 <span class="fasting-label">Available at:</span>
-                                <span class="location"><i class="fas fa-home"></i> Home</span>
+                                <span class="location"><i class="fas fa-hospital"></i> Centre</span>
                             </div>
                         </div>
                         <div class="price-section">
                             <div class="price-container">
                                 <div>
-                                    <span class="original-price">?5072/-</span>
-                                    <span class="discount">4% OFF</span>
+                                    <span class="original-price">₹4,725/-</span>
+                                    <span class="discount">30% OFF</span>
                                 </div>
                                 <div>
-                                    <span class="current-price">?4830/-</span>
+                                    <span class="current-price">₹3,299/-</span>
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
-                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Healthy%20Advance%20Package%20with%20Vitamin%20D" class="whatsapp-btn" target="_blank">
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Liver%20Package%202%20%28Centre%29%20at%20%E2%82%B93%2C299.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
                                 <i class="fab fa-whatsapp"></i> Buy
                             </a>
                         </div>
                     </div>
-                    <!-- Eligible bar removed -->
                 </div>
             </div>
 
-            <!-- Package 5 -->
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">medchikitsa Full Body Essential Checkup</h5>
+                        <h5 class="card-title">medchikitsa Lung Package (Home)</h5>
                         <div class="report-info">
                             <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
                         </div>
-                        <div class="test-count">64 Tests</div>
+                        <div class="test-count">26 Tests</div>
                         <ul class="test-list">
-                            <li>Urine Examination</li>
-                            <li>Kidney & Liver Function</li>
+                            <li>CBC & Erythrocyte Sedimentation Rate (ESR)</li>
+                            <li>Total IgE (Allergy) & C-Reactive Protein (CRP)</li>
                         </ul>
                         <div class="fasting-info">
                             <div>
@@ -705,35 +1029,74 @@
                         <div class="price-section">
                             <div class="price-container">
                                 <div>
-                                    <span class="original-price">?4199/-</span>
-                                    <span class="discount">4% OFF</span>
+                                    <span class="original-price">₹3,150/-</span>
+                                    <span class="discount">40% OFF</span>
                                 </div>
                                 <div>
-                                    <span class="current-price">?3999/-</span>
+                                    <span class="current-price">₹1,899/-</span>
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
-                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Full%20Body%20Essential%20Checkup" class="whatsapp-btn" target="_blank">
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Lung%20Package%20%28Home%29%20at%20%E2%82%B91%2C899.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
                                 <i class="fab fa-whatsapp"></i> Buy
                             </a>
                         </div>
                     </div>
-                    <!-- Eligible bar removed -->
                 </div>
             </div>
 
-            <!-- Package 6 -->
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">medchikitsa Fit health check-up</h5>
+                        <h5 class="card-title">medchikitsa Lung Package 2 (Centre)</h5>
                         <div class="report-info">
                             <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
                         </div>
-                        <div class="test-count">85 Tests</div>
+                        <div class="test-count">35 Tests</div>
                         <ul class="test-list">
-                            <li>Iron Studies</li>
-                            <li>HBA1C</li>
+                            <li>Digital Chest X-Ray & Spirometry (PFT)</li>
+                            <li>Total IgE, CRP, ESR & Vitals at Centre</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">Not Required</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-hospital"></i> Centre</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹5,150/-</span>
+                                    <span class="discount">30% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹3,599/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Lung%20Package%202%20%28Centre%29%20at%20%E2%82%B93%2C599.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Diabetes Package (Home)</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">63 Tests</div>
+                        <ul class="test-list">
+                            <li>Glucose Fasting (FBS) & Post Prandial (PPBS)</li>
+                            <li>HbA1c (Glycosylated Hemoglobin) & Lipid Profile</li>
                         </ul>
                         <div class="fasting-info">
                             <div>
@@ -748,11 +1111,462 @@
                         <div class="price-section">
                             <div class="price-container">
                                 <div>
-                                    <span class="original-price">?5247/-</span>
+                                    <span class="original-price">₹2,900/-</span>
+                                    <span class="discount">41% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹1,699/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Diabetes%20Package%20%28Home%29%20at%20%E2%82%B91%2C699.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Diabetes Package 2 (Centre)</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">74 Tests</div>
+                        <ul class="test-list">
+                            <li>Fasting Insulin, HOMA-IR & ECG at Centre</li>
+                            <li>HbA1c, KFT, Lipid Profile & Diet Consultation</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">10 - 12 Hrs</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-hospital"></i> Centre</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹6,875/-</span>
+                                    <span class="discount">30% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹4,799/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Diabetes%20Package%202%20%28Centre%29%20at%20%E2%82%B94%2C799.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Fever Package (Home)</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">50 Tests</div>
+                        <ul class="test-list">
+                            <li>Dengue NS1/IgM/IgG, Malaria & Typhoid (Widal)</li>
+                            <li>CBC, CRP Infection Marker & Liver Enzymes</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">Not Required</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-home"></i> Home</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹3,350/-</span>
+                                    <span class="discount">40% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹1,999/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Fever%20Package%20%28Home%29%20at%20%E2%82%B91%2C999.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Fever Package 2 (Centre)</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">56 Tests</div>
+                        <ul class="test-list">
+                            <li>Digital Chest X-Ray & Blood Culture at Centre</li>
+                            <li>Dengue, Typhoid, Malaria Smear & CRP</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">Not Required</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-hospital"></i> Centre</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹5,450/-</span>
+                                    <span class="discount">30% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹3,799/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Fever%20Package%202%20%28Centre%29%20at%20%E2%82%B93%2C799.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Joint Package (Home)</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">50 Tests</div>
+                        <ul class="test-list">
+                            <li>Rheumatoid Factor (RA), Anti-CCP & Uric Acid</li>
+                            <li>C-Reactive Protein (CRP), Calcium & Vitamin D</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">10 - 12 Hrs</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-home"></i> Home</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹5,200/-</span>
+                                    <span class="discount">40% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹3,099/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Joint%20Package%20%28Home%29%20at%20%E2%82%B93%2C099.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Joint Package 2 (Centre)</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">56 Tests</div>
+                        <ul class="test-list">
+                            <li>Digital Joint X-Ray & DEXA (Bone Mineral Density)</li>
+                            <li>Rheumatoid Factor, Anti-CCP & Ortho Consult</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">10 - 12 Hrs</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-hospital"></i> Centre</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹11,800/-</span>
+                                    <span class="discount">25% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹8,899/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Joint%20Package%202%20%28Centre%29%20at%20%E2%82%B98%2C899.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Mega Package — All 5 Organs (Home)</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">94 Tests</div>
+                        <ul class="test-list">
+                            <li>Heart, Lungs, Liver, Kidney & Diabetes Profiles</li>
+                            <li>CBC, HbA1c, hs-Troponin I, LFT, KFT & Lipid</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">10 - 12 Hrs</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-home"></i> Home</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹9,725/-</span>
+                                    <span class="discount">40% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹5,799/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Mega%20Package%20%E2%80%94%20All%205%20Organs%20Package%20%28Home%29%20at%20%E2%82%B95%2C799.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Mega Package — All 5 Organs 2 (Centre)</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">131 Tests</div>
+                        <ul class="test-list">
+                            <li>Full 5 Organs Panel + ECG, Chest X-Ray & USG Abdomen</li>
+                            <li>2D Echo, Pulmonary Function Test & Cytology</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">10 - 12 Hrs</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-hospital"></i> Centre</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹19,100/-</span>
+                                    <span class="discount">30% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹13,399/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Mega%20Package%20%E2%80%94%20All%205%20Organs%20Package%202%20%28Centre%29%20at%20%E2%82%B913%2C399.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Basic Health Checkup for Two (1+1)</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">83 Tests</div>
+                        <ul class="test-list">
+                            <li>Complete Blood Count (CBC) & Urine Examination</li>
+                            <li>Kidney & Liver Function Test for 2 Persons</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">10 - 12 Hrs</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-home"></i> Home</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹7,950/-</span>
+                                    <span class="discount">46% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹4,299/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=Hello%20Medchikitsa%2C%20I%20want%20to%20book%20the%20Basic%20Package%20for%20Two%20%281%2B1%20Offer%29%20at%20%E2%82%B94%2C299.%20Please%20share%20available%20slots." class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa 360 Health Check-up</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">81 Tests</div>
+                        <ul class="test-list">
+                            <li>Vitamin B12 & Vitamin D3</li>
+                            <li>Glucose Fasting (FBS) & Lipid Profile</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">8 - 10 Hrs</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-home"></i> Home</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹3,499/-</span>
+                                    <span class="discount">37% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹2,199/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20360%20Health%20Check-up" class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Swasth Health Check-up</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">77 Tests</div>
+                        <ul class="test-list">
+                            <li>Complete Urine Examination & ESR</li>
+                            <li>Liver & Kidney Profile with Lipid Screen</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">10 - 12 Hrs</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-home"></i> Home</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹4,857/-</span>
                                     <span class="discount">4% OFF</span>
                                 </div>
                                 <div>
-                                    <span class="current-price">?4997/-</span>
+                                    <span class="current-price">₹4,663/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Swasth%20Health%20Check-up" class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Fit health check-up</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">85 Tests</div>
+                        <ul class="test-list">
+                            <li>Iron Studies & Glycosylated Hemoglobin (HbA1c)</li>
+                            <li>Complete Metabolic, Liver & Renal Profile</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">10 - 12 Hrs</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-home"></i> Home</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹5,247/-</span>
+                                    <span class="discount">5% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹4,997/-</span>
                                     <span class="onwards">Onwards</span>
                                 </div>
                             </div>
@@ -763,508 +1577,170 @@
                     </div>
                 </div>
             </div>
-            <!-- medchikitsa 360 Health Check-up -->
-<div class="col-md-4">
-  <div class="card">
-      <div class="card-body">
-          <h5 class="card-title">medchikitsa 360 Health Check-up</h5>
-          <div class="report-info">
-              <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
-          </div>
-          <div class="test-count">81 Tests</div>
-          <ul class="test-list">
-              <li>Vitamin B12 & D</li>
-              <li>Glucose Fasting (FBS)</li>
-          </ul>
-          <div class="fasting-info">
-              <div>
-                  <span class="fasting-label">Fasting:</span>
-                  <span class="fasting-time">8 - 10 Hrs</span>
-              </div>
-              <div>
-                  <span class="fasting-label">Available at:</span>
-                  <span class="location"><i class="fas fa-home"></i> Home</span>
-              </div>
-          </div>
-          <div class="price-section">
-              <div class="price-container">
-                  <div>
-                      <span class="original-price">?3499/-</span>
-                      <span class="discount">37% OFF</span>
-                  </div>
-                  <div>
-                      <span class="current-price">?2199/-</span>
-                      <span class="onwards">Onwards</span>
-                  </div>
-              </div>
-              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20360%20Health%20Check-up" class="whatsapp-btn" target="_blank">
-                  <i class="fab fa-whatsapp"></i> Buy
-              </a>
-          </div>
-      </div>
-  </div>
-</div>
 
-<!-- medchikitsa Swasth Health Check-up -->
-<div class="col-md-4">
-  <div class="card">
-      <div class="card-body">
-          <h5 class="card-title">medchikitsa Swasth Health Check-up</h5>
-          <div class="report-info">
-              <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
-          </div>
-          <div class="test-count">77 Tests</div>
-          <ul class="test-list">
-              <li>Complete Urine</li>
-              <li>ESR - EDTA whole blood</li>
-          </ul>
-          <div class="fasting-info">
-              <div>
-                  <span class="fasting-label">Fasting:</span>
-                  <span class="fasting-time">10 - 12 Hrs</span>
-              </div>
-              <div>
-                  <span class="fasting-label">Available at:</span>
-                  <span class="location"><i class="fas fa-home"></i> Home</span>
-              </div>
-          </div>
-          <div class="price-section">
-              <div class="price-container">
-                  <div>
-                      <span class="original-price">?4857/-</span>
-                      <span class="discount">4% OFF</span>
-                  </div>
-                  <div>
-                      <span class="current-price">?4663/-</span>
-                      <span class="onwards">Onwards</span>
-                  </div>
-              </div>
-              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Swasth%20Health%20Check-up" class="whatsapp-btn" target="_blank">
-                  <i class="fab fa-whatsapp"></i> Buy
-              </a>
-          </div>
-      </div>
-  </div>
-</div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Full Body Essential Checkup</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">64 Tests</div>
+                        <ul class="test-list">
+                            <li>Complete Urine Examination</li>
+                            <li>Kidney & Liver Function Screen</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">Not Required</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-home"></i> Home</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹4,199/-</span>
+                                    <span class="discount">5% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹3,999/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Full%20Body%20Essential%20Checkup" class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-<!-- medchikitsa Basic Health Checkup for Two -->
-<div class="col-md-4">
-  <div class="card">
-      <div class="card-body">
-          <h5 class="card-title">medchikitsa Basic Health Checkup for Two</h5>
-          <div class="report-info">
-              <i class="fas fa-file-medical"></i> Reports in 10 - 12 Hrs
-          </div>
-          <div class="test-count">59 Tests</div>
-          <ul class="test-list">
-              <li>Complete Blood Count</li>
-              <li>Kidney Function test (KFT)</li>
-          </ul>
-          <div class="fasting-info">
-              <div>
-                  <span class="fasting-label">Fasting:</span>
-                  <span class="fasting-time">10 - 12 Hrs</span>
-              </div>
-              <div>
-                  <span class="fasting-label">Available at:</span>
-                  <span class="location"><i class="fas fa-home"></i> Home</span>
-              </div>
-          </div>
-          <div class="price-section">
-              <div class="price-container">
-                  <div>
-                      <span class="original-price">?2299/-</span>
-                      <span class="discount">17% OFF</span>
-                  </div>
-                  <div>
-                      <span class="current-price">?1899/-</span>
-                      <span class="onwards">Onwards</span>
-                  </div>
-              </div>
-              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Basic%20Health%20Checkup%20for%20Two" class="whatsapp-btn" target="_blank">
-                  <i class="fab fa-whatsapp"></i> Buy
-              </a>
-          </div>
-      </div>
-  </div>
-</div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa General Supreme Health Check - MB Pack 1</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">46 Tests</div>
+                        <ul class="test-list">
+                            <li>2D Echo / Doppler Study & Ultrasound</li>
+                            <li>Electrocardiogram (ECG) & Chest Evaluation</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">10 - 12 Hrs</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-hospital"></i> Centre</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹3,354/-</span>
+                                    <span class="discount">23% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹2,580/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20General%20Supreme%20Health%20Check%20-%20MB%20Pack%201" class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-<!-- medchikitsa complete health check-up -->
-<div class="col-md-4">
-  <div class="card">
-      <div class="card-body">
-          <h5 class="card-title">medchikitsa complete health check-up</h5>
-          <div class="report-info">
-              <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
-          </div>
-          <div class="test-count">96 Tests</div>
-          <ul class="test-list">
-              <li>Vitamin D & B12</li>
-              <li>Iron Studies</li>
-          </ul>
-          <div class="fasting-info">
-              <div>
-                  <span class="fasting-label">Fasting:</span>
-                  <span class="fasting-time">10 - 12 Hrs</span>
-              </div>
-              <div>
-                  <span class="fasting-label">Available at:</span>
-                  <span class="location"><i class="fas fa-home"></i> Home</span>
-              </div>
-          </div>
-          <div class="price-section">
-              <div class="price-container">
-                  <div>
-                      <span class="original-price">?4999/-</span>
-                      <span class="discount">30% OFF</span>
-                  </div>
-                  <div>
-                      <span class="current-price">?3499/-</span>
-                      <span class="onwards">Onwards</span>
-                  </div>
-              </div>
-              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20complete%20health%20check-up" class="whatsapp-btn" target="_blank">
-                  <i class="fab fa-whatsapp"></i> Buy
-              </a>
-          </div>
-      </div>
-  </div>
-</div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa complete health check-up</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">96 Tests</div>
+                        <ul class="test-list">
+                            <li>Vitamin D & B12 Levels</li>
+                            <li>Complete Iron Studies, Lipid & Metabolic Profile</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">10 - 12 Hrs</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-home"></i> Home</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹4,999/-</span>
+                                    <span class="discount">30% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹3,499/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20complete%20health%20check-up" class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-<!-- medchikitsa Swift Health Checkup -->
-<div class="col-md-4">
-  <div class="card">
-      <div class="card-body">
-          <h5 class="card-title">medchikitsa Swift Health Checkup</h5>
-          <div class="report-info">
-              <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
-          </div>
-          <div class="test-count">44 Tests</div>
-          <ul class="test-list">
-              <li>Complete Blood Count (CBC)</li>
-              <li>Complete Urine Examination</li>
-          </ul>
-          <div class="fasting-info">
-              <div>
-                  <span class="fasting-label">Fasting:</span>
-                  <span class="fasting-time">6 - 8 Hrs</span>
-              </div>
-              <div>
-                  <span class="fasting-label">Available at:</span>
-                  <span class="location"><i class="fas fa-home"></i> Home</span>
-              </div>
-          </div>
-          <div class="price-section">
-              <div class="price-container">
-                  <div>
-                      <span class="original-price">?1999/-</span>
-                      <span class="discount">50% OFF</span>
-                  </div>
-                  <div>
-                      <span class="current-price">?999/-</span>
-                      <span class="onwards">Onwards</span>
-                  </div>
-              </div>
-              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Swift%20Health%20Checkup" class="whatsapp-btn" target="_blank">
-                  <i class="fab fa-whatsapp"></i> Buy
-              </a>
-          </div>
-      </div>
-  </div>
-</div>
-
-<!-- Women's Primary Prevention Health Checkup -->
-<div class="col-md-4">
-  <div class="card">
-      <div class="card-body">
-          <h5 class="card-title">Women's Primary Prevention Health Checkup</h5>
-          <div class="report-info">
-              <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
-          </div>
-          <div class="test-count">88 Tests</div>
-          <ul class="test-list">
-              <li>Iron Urea Uric Acid - Serum</li>
-              <li>Vitamin D & B12</li>
-          </ul>
-          <div class="fasting-info">
-              <div>
-                  <span class="fasting-label">Fasting:</span>
-                  <span class="fasting-time">10 - 12 Hrs</span>
-              </div>
-              <div>
-                  <span class="fasting-label">Available at:</span>
-                  <span class="location"><i class="fas fa-home"></i> Home</span>
-              </div>
-          </div>
-          <div class="price-section">
-              <div class="price-container">
-                  <div>
-                      <span class="original-price">?4599/-</span>
-                      <span class="discount">50% OFF</span>
-                  </div>
-                  <div>
-                      <span class="current-price">?2299/-</span>
-                      <span class="onwards">Onwards</span>
-                  </div>
-              </div>
-              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20Women's%20Primary%20Prevention%20Health%20Checkup" class="whatsapp-btn" target="_blank">
-                  <i class="fab fa-whatsapp"></i> Buy
-              </a>
-          </div>
-      </div>
-  </div>
-</div>
-    <!-- medchikitsa General Supreme Health Check - MB Pack 1 -->
-<div class="col-md-4">
-  <div class="card">
-      <div class="card-body">
-          <h5 class="card-title">medchikitsa General Supreme Health Check - MB Pack 1</h5>
-          <div class="report-info">
-              <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
-          </div>
-          <div class="test-count">46 Tests</div>
-          <ul class="test-list">
-              <li>2D Echo/Doppler Study</li>
-              <li>Ultrasound & ECG</li>
-          </ul>
-          <div class="fasting-info">
-              <div>
-                  <span class="fasting-label">Fasting:</span>
-                  <span class="fasting-time">10 - 12 Hrs</span>
-              </div>
-              <div>
-                  <span class="fasting-label">Available at:</span>
-                  <span class="location"><i class="fas fa-hospital"></i> Center</span>
-              </div>
-          </div>
-          <div class="price-section">
-              <div class="price-container">
-                  <div>
-                      <span class="original-price">?3354/-</span>
-                      <span class="discount">23% OFF</span>
-                  </div>
-                  <div>
-                      <span class="current-price">?2580/-</span>
-                      <span class="onwards">Onwards</span>
-                  </div>
-              </div>
-              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20General%20Supreme%20Health%20Check%20-%20MB%20Pack%201" class="whatsapp-btn" target="_blank">
-                  <i class="fab fa-whatsapp"></i> Buy
-              </a>
-          </div>
-      </div>
-  </div>
-</div>
-
-<!-- medchikitsa Advance Health Checkup -->
-<div class="col-md-4">
-  <div class="card">
-      <div class="card-body">
-          <h5 class="card-title">medchikitsa Advance Health Checkup</h5>
-          <div class="report-info">
-              <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
-          </div>
-          <div class="test-count">82 Tests</div>
-          <ul class="test-list">
-              <li>Calcium Phosphorus - Serum</li>
-              <li>Glycosylated Hemoglobin</li>
-          </ul>
-          <div class="fasting-info">
-              <div>
-                  <span class="fasting-label">Fasting:</span>
-                  <span class="fasting-time">6 - 8 Hrs</span>
-              </div>
-              <div>
-                  <span class="fasting-label">Available at:</span>
-                  <span class="location"><i class="fas fa-home"></i> Home</span>
-              </div>
-          </div>
-          <div class="price-section">
-              <div class="price-container">
-                  <div>
-                      <span class="original-price">?3499/-</span>
-                      <span class="discount">48% OFF</span>
-                  </div>
-                  <div>
-                      <span class="current-price">?1799/-</span>
-                      <span class="onwards">Onwards</span>
-                  </div>
-              </div>
-              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Advance%20Health%20Checkup" class="whatsapp-btn" target="_blank">
-                  <i class="fab fa-whatsapp"></i> Buy
-              </a>
-          </div>
-      </div>
-  </div>
-</div>
-
-<!-- medchikitsa Diabetes Screening -->
-<div class="col-md-4">
-  <div class="card">
-      <div class="card-body">
-          <h5 class="card-title">medchikitsa Diabetes Screening</h5>
-          <div class="report-info">
-              <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
-          </div>
-          <div class="test-count">54 Tests</div>
-          <ul class="test-list">
-              <li>Glucose Fasting (FBS)</li>
-              <li>Triglycerides - Serum</li>
-          </ul>
-          <div class="fasting-info">
-              <div>
-                  <span class="fasting-label">Fasting:</span>
-                  <span class="fasting-time">10 - 12 Hrs</span>
-              </div>
-              <div>
-                  <span class="fasting-label">Available at:</span>
-                  <span class="location"><i class="fas fa-home"></i> Home</span>
-              </div>
-          </div>
-          <div class="price-section">
-              <div class="price-container">
-                  <div>
-                      <span class="original-price">?2699/-</span>
-                      <span class="discount">51% OFF</span>
-                  </div>
-                  <div>
-                      <span class="current-price">?1299/-</span>
-                      <span class="onwards">Onwards</span>
-                  </div>
-              </div>
-              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Diabetes%20Screening" class="whatsapp-btn" target="_blank">
-                  <i class="fab fa-whatsapp"></i> Buy
-              </a>
-          </div>
-      </div>
-  </div>
-</div>
-
-<!-- medchikitsa Young Male Health Checkup -->
-<div class="col-md-4">
-  <div class="card">
-      <div class="card-body">
-          <h5 class="card-title">medchikitsa Young Male Health Checkup</h5>
-          <div class="report-info">
-              <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
-          </div>
-          <div class="test-count">92 Tests</div>
-          <ul class="test-list">
-              <li>Complete Blood Count (CBC)</li>
-              <li>Complete Urine Examination</li>
-          </ul>
-          <div class="fasting-info">
-              <div>
-                  <span class="fasting-label">Fasting:</span>
-                  <span class="fasting-time">10 - 12 Hrs</span>
-              </div>
-              <div>
-                  <span class="fasting-label">Available at:</span>
-                  <span class="location"><i class="fas fa-home"></i> Home</span>
-              </div>
-          </div>
-          <div class="price-section">
-              <div class="price-container">
-                  <div>
-                      <span class="original-price">?6999/-</span>
-                      <span class="discount">50% OFF</span>
-                  </div>
-                  <div>
-                      <span class="current-price">?3499/-</span>
-                      <span class="onwards">Onwards</span>
-                  </div>
-              </div>
-              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Young%20Male%20Health%20Checkup" class="whatsapp-btn" target="_blank">
-                  <i class="fab fa-whatsapp"></i> Buy
-              </a>
-          </div>
-      </div>
-  </div>
-</div>
-
-<!-- medchikitsa Prime Comprehensive Health Checkup -->
-<div class="col-md-4">
-  <div class="card">
-      <div class="card-body">
-          <h5 class="card-title">medchikitsa Prime Comprehensive Health Checkup</h5>
-          <div class="report-info">
-              <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
-          </div>
-          <div class="test-count">85 Tests</div>
-          <ul class="test-list">
-              <li>Complete Blood Count (CBC)</li>
-              <li>Complete Urine Examination</li>
-          </ul>
-          <div class="fasting-info">
-              <div>
-                  <span class="fasting-label">Fasting:</span>
-                  <span class="fasting-time">10 - 12 Hrs</span>
-              </div>
-              <div>
-                  <span class="fasting-label">Available at:</span>
-                  <span class="location"><i class="fas fa-home"></i> Home</span>
-              </div>
-          </div>
-          <div class="price-section">
-              <div class="price-container">
-                  <div>
-                      <span class="original-price">?4599/-</span>
-                      <span class="discount">50% OFF</span>
-                  </div>
-                  <div>
-                      <span class="current-price">?2299/-</span>
-                      <span class="onwards">Onwards</span>
-                  </div>
-              </div>
-              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Prime%20Comprehensive%20Health%20Checkup" class="whatsapp-btn" target="_blank">
-                  <i class="fab fa-whatsapp"></i> Buy
-              </a>
-          </div>
-      </div>
-  </div>
-</div>
-
-<!-- medchikitsa Smart Health Checkup -->
-<div class="col-md-4">
-  <div class="card">
-      <div class="card-body">
-          <h5 class="card-title">medchikitsa Smart Health Checkup</h5>
-          <div class="report-info">
-              <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
-          </div>
-          <div class="test-count">44 Tests</div>
-          <ul class="test-list">
-              <li>Complete Blood Count (CBC)</li>
-              <li>Complete Urine Examination</li>
-          </ul>
-          <div class="fasting-info">
-              <div>
-                  <span class="fasting-label">Fasting:</span>
-                  <span class="fasting-time">6 - 8 Hrs</span>
-              </div>
-              <div>
-                  <span class="fasting-label">Available at:</span>
-                  <span class="location"><i class="fas fa-home"></i> Home</span>
-              </div>
-          </div>
-          <div class="price-section">
-              <div class="price-container">
-                  <div>
-                      <span class="original-price">?1999/-</span>
-                      <span class="discount">35% OFF</span>
-                  </div>
-                  <div>
-                      <span class="current-price">?1299/-</span>
-                      <span class="onwards">Onwards</span>
-                  </div>
-              </div>
-              <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Smart%20Health%20Checkup" class="whatsapp-btn" target="_blank">
-                  <i class="fab fa-whatsapp"></i> Buy
-              </a>
-          </div>
-      </div>
-  </div>
-</div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">medchikitsa Prime Comprehensive Health Checkup</h5>
+                        <div class="report-info">
+                            <i class="fas fa-file-medical"></i> Reports in 24 - 48 Hrs
+                        </div>
+                        <div class="test-count">85 Tests</div>
+                        <ul class="test-list">
+                            <li>Complete Blood Count (CBC) & Urine Examination</li>
+                            <li>Comprehensive Organ Function & Vital Screening</li>
+                        </ul>
+                        <div class="fasting-info">
+                            <div>
+                                <span class="fasting-label">Fasting:</span>
+                                <span class="fasting-time">10 - 12 Hrs</span>
+                            </div>
+                            <div>
+                                <span class="fasting-label">Available at:</span>
+                                <span class="location"><i class="fas fa-home"></i> Home</span>
+                            </div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-container">
+                                <div>
+                                    <span class="original-price">₹4,599/-</span>
+                                    <span class="discount">50% OFF</span>
+                                </div>
+                                <div>
+                                    <span class="current-price">₹2,299/-</span>
+                                    <span class="onwards">Onwards</span>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/916360225347?text=I%20want%20to%20buy%20this%20medchikitsa%20Prime%20Comprehensive%20Health%20Checkup" class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Compare Button -->
@@ -1396,44 +1872,81 @@
             // Get all packages
             const packages = document.querySelectorAll('.col-md-4');
             
-            // Set default state - all packages visible and "Popular" filter active
+            // Set default state - all packages visible and 'Popular' filter active
             packages.forEach(function(pkg) {
                 pkg.classList.add('category', 'Popular');
                 pkg.style.display = 'block'; // Ensure all are visible by default
             });
             
-            // Add other categories based on package titles
+            // Add categories based on package titles, location, and test inclusions
             packages.forEach(function(pkg) {
-                const title = pkg.querySelector('.card-title').textContent.toLowerCase();
+                const titleEl = pkg.querySelector('.card-title');
+                const title = titleEl ? titleEl.textContent.toLowerCase() : '';
+                const bodyText = pkg.textContent.toLowerCase();
+                const locEl = pkg.querySelector('.location');
+                const loc = locEl ? locEl.textContent.toLowerCase() : '';
                 
-                if (title.includes('full body')) {
-                    pkg.classList.add('Full-Body-Check-Up');
-                }
-                
-                if (title.includes('vitamin')) {
-                    pkg.classList.add('Vitamin');
-                }
-                
-                // Add more category mappings as needed
-                // These are examples - you can expand based on your needs
-                if (title.includes('basic')) {
+                // Centre Visit
+                if (loc.includes('centre') || loc.includes('center') || title.includes('centre') || title.includes('center') || title.includes('mb pack')) {
                     pkg.classList.add('Centre-Visit');
                 }
                 
-                if (title.includes('comprehensive')) {
+                // Full Body Check Up
+                if (title.includes('full body') || title.includes('basic') || title.includes('mini') || 
+                    title.includes('advance') || title.includes('premium') || title.includes('complete') || 
+                    title.includes('360') || title.includes('swasth') || title.includes('prime') || 
+                    title.includes('smart') || title.includes('essential')) {
+                    pkg.classList.add('Full-Body-Check-Up');
+                }
+                
+                // Diabetes
+                if (title.includes('diabetes') || bodyText.includes('glucose') || bodyText.includes('hba1c') || bodyText.includes('sugar') || bodyText.includes('insulin')) {
                     pkg.classList.add('Diabetes');
                 }
                 
-                if (title.includes('advance')) {
+                // Heart
+                if (title.includes('heart') || bodyText.includes('cardiac') || bodyText.includes('ecg') || bodyText.includes('troponin') || bodyText.includes('lipid')) {
                     pkg.classList.add('Heart');
                 }
                 
-                if (title.includes('essential')) {
-                    pkg.classList.add('Cancer');
+                // Kidney
+                if (title.includes('kidney') || bodyText.includes('renal') || bodyText.includes('kft') || bodyText.includes('creatinine') || bodyText.includes('microalbumin')) {
+                    pkg.classList.add('Kidney');
                 }
                 
-                if (title.includes('fit')) {
-                    pkg.classList.add('Smokers');
+                // Liver
+                if (title.includes('liver') || bodyText.includes('lft') || bodyText.includes('sgot') || bodyText.includes('sgpt') || bodyText.includes('hepatic') || bodyText.includes('hepatitis')) {
+                    pkg.classList.add('Liver');
+                }
+                
+                // Lungs & Smokers
+                if (title.includes('lung') || title.includes('smoker') || bodyText.includes('spirometry') || bodyText.includes('pft') || bodyText.includes('respiratory') || bodyText.includes('ige')) {
+                    pkg.classList.add('Smokers', 'Lungs');
+                }
+                
+                // Fever
+                if (title.includes('fever') || bodyText.includes('dengue') || bodyText.includes('malaria') || bodyText.includes('typhoid') || bodyText.includes('infection')) {
+                    pkg.classList.add('Fever');
+                }
+                
+                // Joint
+                if (title.includes('joint') || bodyText.includes('arthritis') || bodyText.includes('uric acid') || bodyText.includes('rheumatoid') || bodyText.includes('dexa') || bodyText.includes('bone')) {
+                    pkg.classList.add('Joint');
+                }
+                
+                // Mega Package
+                if (title.includes('mega') || title.includes('all 5 organ')) {
+                    pkg.classList.add('Mega-Package');
+                }
+                
+                // Vitamin
+                if (title.includes('vitamin') || bodyText.includes('vitamin d') || bodyText.includes('vitamin b12')) {
+                    pkg.classList.add('Vitamin');
+                }
+                
+                // Cancer
+                if (title.includes('cancer') || bodyText.includes('cytology') || bodyText.includes('psa') || bodyText.includes('malignant')) {
+                    pkg.classList.add('Cancer');
                 }
             });
             
@@ -1508,16 +2021,15 @@
             
             // Trash icon functionality
             const trashIcons = document.querySelectorAll('.trash-icon');
-            
             trashIcons.forEach(function(icon) {
                 icon.addEventListener('click', function() {
-                    // Find the parent card and remove it
                     const card = icon.closest('.col-md-4');
-                    card.style.display = 'none';
+                    if (card) {
+                        card.style.display = 'none';
+                    }
                 });
             });
-        });
-    </script>
+        });</script>
     
    
     
